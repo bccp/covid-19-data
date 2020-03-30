@@ -20,7 +20,7 @@ def scrape():
     for key in translate:
         try:    df.rename(columns = {key:translate[key]}, inplace=True)
         except: pass
-    df.to_csv('../data/Italy/province_daily.tsv', sep='\t', encoding='utf-8')
+    df.to_csv('../data/Italy/covid-19-data/province_daily.tsv', sep='\t', encoding='utf-8')
     dfs.append(df)
 
     s=requests.get(url_regional).json()
@@ -28,7 +28,7 @@ def scrape():
     for key in translate:
         try:    df.rename(columns = {key:translate[key]}, inplace=True)
         except: pass
-    df.to_csv('../data/Italy/regional_daily.tsv', sep='\t', encoding='utf-8')
+    df.to_csv('../data/Italy/covid-19-data/regional_daily.tsv', sep='\t', encoding='utf-8')
     dfs.append(df)
 
     s=requests.get(url_national).json()
@@ -36,7 +36,7 @@ def scrape():
     for key in translate:
         try:    df.rename(columns = {key:translate[key]}, inplace=True)
         except: pass
-    df.to_csv('../data/Italy/national_daily.tsv', sep='\t', encoding='utf-8')
+    df.to_csv('../data/Italy/covid-19-data/national_daily.tsv', sep='\t', encoding='utf-8')
     dfs.append(df)
 
     return dfs
