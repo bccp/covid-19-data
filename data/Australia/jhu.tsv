@@ -1,0 +1,545 @@
+	date	state	confirmed	death	recovered
+0	1/22/20	Australian Capital Territory	0.0	0.0	0.0
+1	1/23/20	Australian Capital Territory	0.0	0.0	0.0
+2	1/24/20	Australian Capital Territory	0.0	0.0	0.0
+3	1/25/20	Australian Capital Territory	0.0	0.0	0.0
+4	1/26/20	Australian Capital Territory	0.0	0.0	0.0
+5	1/27/20	Australian Capital Territory	0.0	0.0	0.0
+6	1/28/20	Australian Capital Territory	0.0	0.0	0.0
+7	1/29/20	Australian Capital Territory	0.0	0.0	0.0
+8	1/30/20	Australian Capital Territory	0.0	0.0	0.0
+9	1/31/20	Australian Capital Territory	0.0	0.0	0.0
+10	2/1/20	Australian Capital Territory	0.0	0.0	0.0
+11	2/2/20	Australian Capital Territory	0.0	0.0	0.0
+12	2/3/20	Australian Capital Territory	0.0	0.0	0.0
+13	2/4/20	Australian Capital Territory	0.0	0.0	0.0
+14	2/5/20	Australian Capital Territory	0.0	0.0	0.0
+15	2/6/20	Australian Capital Territory	0.0	0.0	0.0
+16	2/7/20	Australian Capital Territory	0.0	0.0	0.0
+17	2/8/20	Australian Capital Territory	0.0	0.0	0.0
+18	2/9/20	Australian Capital Territory	0.0	0.0	0.0
+19	2/10/20	Australian Capital Territory	0.0	0.0	0.0
+20	2/11/20	Australian Capital Territory	0.0	0.0	0.0
+21	2/12/20	Australian Capital Territory	0.0	0.0	0.0
+22	2/13/20	Australian Capital Territory	0.0	0.0	0.0
+23	2/14/20	Australian Capital Territory	0.0	0.0	0.0
+24	2/15/20	Australian Capital Territory	0.0	0.0	0.0
+25	2/16/20	Australian Capital Territory	0.0	0.0	0.0
+26	2/17/20	Australian Capital Territory	0.0	0.0	0.0
+27	2/18/20	Australian Capital Territory	0.0	0.0	0.0
+28	2/19/20	Australian Capital Territory	0.0	0.0	0.0
+29	2/20/20	Australian Capital Territory	0.0	0.0	0.0
+30	2/21/20	Australian Capital Territory	0.0	0.0	0.0
+31	2/22/20	Australian Capital Territory	0.0	0.0	0.0
+32	2/23/20	Australian Capital Territory	0.0	0.0	0.0
+33	2/24/20	Australian Capital Territory	0.0	0.0	0.0
+34	2/25/20	Australian Capital Territory	0.0	0.0	0.0
+35	2/26/20	Australian Capital Territory	0.0	0.0	0.0
+36	2/27/20	Australian Capital Territory	0.0	0.0	0.0
+37	2/28/20	Australian Capital Territory	0.0	0.0	0.0
+38	2/29/20	Australian Capital Territory	0.0	0.0	0.0
+39	3/1/20	Australian Capital Territory	0.0	0.0	0.0
+40	3/2/20	Australian Capital Territory	0.0	0.0	0.0
+41	3/3/20	Australian Capital Territory	0.0	0.0	0.0
+42	3/4/20	Australian Capital Territory	0.0	0.0	0.0
+43	3/5/20	Australian Capital Territory	0.0	0.0	0.0
+44	3/6/20	Australian Capital Territory	0.0	0.0	0.0
+45	3/7/20	Australian Capital Territory	0.0	0.0	0.0
+46	3/8/20	Australian Capital Territory	0.0	0.0	0.0
+47	3/9/20	Australian Capital Territory	0.0	0.0	0.0
+48	3/10/20	Australian Capital Territory	0.0	0.0	0.0
+49	3/11/20	Australian Capital Territory	0.0	0.0	0.0
+50	3/12/20	Australian Capital Territory	0.0	0.0	0.0
+51	3/13/20	Australian Capital Territory	1.0	0.0	0.0
+52	3/14/20	Australian Capital Territory	1.0	0.0	0.0
+53	3/15/20	Australian Capital Territory	1.0	0.0	0.0
+54	3/16/20	Australian Capital Territory	2.0	0.0	0.0
+55	3/17/20	Australian Capital Territory	2.0	0.0	0.0
+56	3/18/20	Australian Capital Territory	3.0	0.0	0.0
+57	3/19/20	Australian Capital Territory	4.0	0.0	0.0
+58	3/20/20	Australian Capital Territory	6.0	0.0	0.0
+59	3/21/20	Australian Capital Territory	9.0	0.0	0.0
+60	3/22/20	Australian Capital Territory	19.0	0.0	0.0
+61	3/23/20	Australian Capital Territory	32.0	0.0	0.0
+62	3/24/20	Australian Capital Territory	39.0	0.0	0.0
+63	3/25/20	Australian Capital Territory	39.0	0.0	0.0
+64	3/26/20	Australian Capital Territory	53.0	0.0	1.0
+65	3/27/20	Australian Capital Territory	62.0	0.0	1.0
+66	3/28/20	Australian Capital Territory	71.0	0.0	2.0
+67	3/29/20	Australian Capital Territory	77.0	0.0	2.0
+68	1/22/20	New South Wales	0.0	0.0	0.0
+69	1/23/20	New South Wales	0.0	0.0	0.0
+70	1/24/20	New South Wales	0.0	0.0	0.0
+71	1/25/20	New South Wales	0.0	0.0	0.0
+72	1/26/20	New South Wales	3.0	0.0	0.0
+73	1/27/20	New South Wales	4.0	0.0	0.0
+74	1/28/20	New South Wales	4.0	0.0	0.0
+75	1/29/20	New South Wales	4.0	0.0	0.0
+76	1/30/20	New South Wales	4.0	0.0	2.0
+77	1/31/20	New South Wales	4.0	0.0	2.0
+78	2/1/20	New South Wales	4.0	0.0	2.0
+79	2/2/20	New South Wales	4.0	0.0	2.0
+80	2/3/20	New South Wales	4.0	0.0	2.0
+81	2/4/20	New South Wales	4.0	0.0	2.0
+82	2/5/20	New South Wales	4.0	0.0	2.0
+83	2/6/20	New South Wales	4.0	0.0	2.0
+84	2/7/20	New South Wales	4.0	0.0	2.0
+85	2/8/20	New South Wales	4.0	0.0	2.0
+86	2/9/20	New South Wales	4.0	0.0	2.0
+87	2/10/20	New South Wales	4.0	0.0	2.0
+88	2/11/20	New South Wales	4.0	0.0	2.0
+89	2/12/20	New South Wales	4.0	0.0	2.0
+90	2/13/20	New South Wales	4.0	0.0	4.0
+91	2/14/20	New South Wales	4.0	0.0	4.0
+92	2/15/20	New South Wales	4.0	0.0	4.0
+93	2/16/20	New South Wales	4.0	0.0	4.0
+94	2/17/20	New South Wales	4.0	0.0	4.0
+95	2/18/20	New South Wales	4.0	0.0	4.0
+96	2/19/20	New South Wales	4.0	0.0	4.0
+97	2/20/20	New South Wales	4.0	0.0	4.0
+98	2/21/20	New South Wales	4.0	0.0	4.0
+99	2/22/20	New South Wales	4.0	0.0	4.0
+100	2/23/20	New South Wales	4.0	0.0	4.0
+101	2/24/20	New South Wales	4.0	0.0	4.0
+102	2/25/20	New South Wales	4.0	0.0	4.0
+103	2/26/20	New South Wales	4.0	0.0	4.0
+104	2/27/20	New South Wales	4.0	0.0	4.0
+105	2/28/20	New South Wales	4.0	0.0	4.0
+106	2/29/20	New South Wales	4.0	0.0	4.0
+107	3/1/20	New South Wales	6.0	0.0	4.0
+108	3/2/20	New South Wales	6.0	0.0	4.0
+109	3/3/20	New South Wales	13.0	0.0	4.0
+110	3/4/20	New South Wales	22.0	1.0	4.0
+111	3/5/20	New South Wales	22.0	1.0	4.0
+112	3/6/20	New South Wales	26.0	1.0	4.0
+113	3/7/20	New South Wales	28.0	1.0	4.0
+114	3/8/20	New South Wales	38.0	2.0	4.0
+115	3/9/20	New South Wales	48.0	2.0	4.0
+116	3/10/20	New South Wales	55.0	2.0	4.0
+117	3/11/20	New South Wales	65.0	2.0	4.0
+118	3/12/20	New South Wales	65.0	2.0	4.0
+119	3/13/20	New South Wales	92.0	2.0	4.0
+120	3/14/20	New South Wales	112.0	2.0	4.0
+121	3/15/20	New South Wales	134.0	2.0	4.0
+122	3/16/20	New South Wales	171.0	2.0	4.0
+123	3/17/20	New South Wales	210.0	4.0	4.0
+124	3/18/20	New South Wales	267.0	5.0	4.0
+125	3/19/20	New South Wales	307.0	5.0	4.0
+126	3/20/20	New South Wales	353.0	6.0	4.0
+127	3/21/20	New South Wales	436.0	6.0	4.0
+128	3/22/20	New South Wales	669.0	6.0	4.0
+129	3/23/20	New South Wales	669.0	6.0	4.0
+130	3/24/20	New South Wales	818.0	7.0	4.0
+131	3/25/20	New South Wales	1029.0	7.0	4.0
+132	3/26/20	New South Wales	1219.0	7.0	4.0
+133	3/27/20	New South Wales	1405.0	7.0	4.0
+134	3/28/20	New South Wales	1617.0	8.0	4.0
+135	3/29/20	New South Wales	1791.0	8.0	4.0
+136	1/22/20	Northern Territory	0.0	0.0	0.0
+137	1/23/20	Northern Territory	0.0	0.0	0.0
+138	1/24/20	Northern Territory	0.0	0.0	0.0
+139	1/25/20	Northern Territory	0.0	0.0	0.0
+140	1/26/20	Northern Territory	0.0	0.0	0.0
+141	1/27/20	Northern Territory	0.0	0.0	0.0
+142	1/28/20	Northern Territory	0.0	0.0	0.0
+143	1/29/20	Northern Territory	0.0	0.0	0.0
+144	1/30/20	Northern Territory	0.0	0.0	0.0
+145	1/31/20	Northern Territory	0.0	0.0	0.0
+146	2/1/20	Northern Territory	0.0	0.0	0.0
+147	2/2/20	Northern Territory	0.0	0.0	0.0
+148	2/3/20	Northern Territory	0.0	0.0	0.0
+149	2/4/20	Northern Territory	0.0	0.0	0.0
+150	2/5/20	Northern Territory	0.0	0.0	0.0
+151	2/6/20	Northern Territory	0.0	0.0	0.0
+152	2/7/20	Northern Territory	0.0	0.0	0.0
+153	2/8/20	Northern Territory	0.0	0.0	0.0
+154	2/9/20	Northern Territory	0.0	0.0	0.0
+155	2/10/20	Northern Territory	0.0	0.0	0.0
+156	2/11/20	Northern Territory	0.0	0.0	0.0
+157	2/12/20	Northern Territory	0.0	0.0	0.0
+158	2/13/20	Northern Territory	0.0	0.0	0.0
+159	2/14/20	Northern Territory	0.0	0.0	0.0
+160	2/15/20	Northern Territory	0.0	0.0	0.0
+161	2/16/20	Northern Territory	0.0	0.0	0.0
+162	2/17/20	Northern Territory	0.0	0.0	0.0
+163	2/18/20	Northern Territory	0.0	0.0	0.0
+164	2/19/20	Northern Territory	0.0	0.0	0.0
+165	2/20/20	Northern Territory	0.0	0.0	0.0
+166	2/21/20	Northern Territory	0.0	0.0	0.0
+167	2/22/20	Northern Territory	0.0	0.0	0.0
+168	2/23/20	Northern Territory	0.0	0.0	0.0
+169	2/24/20	Northern Territory	0.0	0.0	0.0
+170	2/25/20	Northern Territory	0.0	0.0	0.0
+171	2/26/20	Northern Territory	0.0	0.0	0.0
+172	2/27/20	Northern Territory	0.0	0.0	0.0
+173	2/28/20	Northern Territory	0.0	0.0	0.0
+174	2/29/20	Northern Territory	0.0	0.0	0.0
+175	3/1/20	Northern Territory	0.0	0.0	0.0
+176	3/2/20	Northern Territory	0.0	0.0	0.0
+177	3/3/20	Northern Territory	0.0	0.0	0.0
+178	3/4/20	Northern Territory	1.0	0.0	0.0
+179	3/5/20	Northern Territory	1.0	0.0	0.0
+180	3/6/20	Northern Territory	0.0	0.0	0.0
+181	3/7/20	Northern Territory	0.0	0.0	0.0
+182	3/8/20	Northern Territory	0.0	0.0	0.0
+183	3/9/20	Northern Territory	0.0	0.0	0.0
+184	3/10/20	Northern Territory	1.0	0.0	0.0
+185	3/11/20	Northern Territory	1.0	0.0	0.0
+186	3/12/20	Northern Territory	1.0	0.0	0.0
+187	3/13/20	Northern Territory	1.0	0.0	0.0
+188	3/14/20	Northern Territory	1.0	0.0	0.0
+189	3/15/20	Northern Territory	1.0	0.0	0.0
+190	3/16/20	Northern Territory	1.0	0.0	0.0
+191	3/17/20	Northern Territory	1.0	0.0	0.0
+192	3/18/20	Northern Territory	1.0	0.0	0.0
+193	3/19/20	Northern Territory	1.0	0.0	0.0
+194	3/20/20	Northern Territory	3.0	0.0	0.0
+195	3/21/20	Northern Territory	3.0	0.0	0.0
+196	3/22/20	Northern Territory	5.0	0.0	0.0
+197	3/23/20	Northern Territory	5.0	0.0	0.0
+198	3/24/20	Northern Territory	6.0	0.0	0.0
+199	3/25/20	Northern Territory	6.0	0.0	0.0
+200	3/26/20	Northern Territory	12.0	0.0	0.0
+201	3/27/20	Northern Territory	12.0	0.0	0.0
+202	3/28/20	Northern Territory	15.0	0.0	0.0
+203	3/29/20	Northern Territory	15.0	0.0	0.0
+204	1/22/20	Queensland	0.0	0.0	0.0
+205	1/23/20	Queensland	0.0	0.0	0.0
+206	1/24/20	Queensland	0.0	0.0	0.0
+207	1/25/20	Queensland	0.0	0.0	0.0
+208	1/26/20	Queensland	0.0	0.0	0.0
+209	1/27/20	Queensland	0.0	0.0	0.0
+210	1/28/20	Queensland	0.0	0.0	0.0
+211	1/29/20	Queensland	1.0	0.0	0.0
+212	1/30/20	Queensland	3.0	0.0	0.0
+213	1/31/20	Queensland	2.0	0.0	0.0
+214	2/1/20	Queensland	3.0	0.0	0.0
+215	2/2/20	Queensland	2.0	0.0	0.0
+216	2/3/20	Queensland	2.0	0.0	0.0
+217	2/4/20	Queensland	3.0	0.0	0.0
+218	2/5/20	Queensland	3.0	0.0	0.0
+219	2/6/20	Queensland	4.0	0.0	0.0
+220	2/7/20	Queensland	5.0	0.0	0.0
+221	2/8/20	Queensland	5.0	0.0	0.0
+222	2/9/20	Queensland	5.0	0.0	0.0
+223	2/10/20	Queensland	5.0	0.0	0.0
+224	2/11/20	Queensland	5.0	0.0	0.0
+225	2/12/20	Queensland	5.0	0.0	0.0
+226	2/13/20	Queensland	5.0	0.0	0.0
+227	2/14/20	Queensland	5.0	0.0	0.0
+228	2/15/20	Queensland	5.0	0.0	0.0
+229	2/16/20	Queensland	5.0	0.0	0.0
+230	2/17/20	Queensland	5.0	0.0	0.0
+231	2/18/20	Queensland	5.0	0.0	0.0
+232	2/19/20	Queensland	5.0	0.0	0.0
+233	2/20/20	Queensland	5.0	0.0	0.0
+234	2/21/20	Queensland	5.0	0.0	1.0
+235	2/22/20	Queensland	5.0	0.0	1.0
+236	2/23/20	Queensland	5.0	0.0	1.0
+237	2/24/20	Queensland	5.0	0.0	1.0
+238	2/25/20	Queensland	5.0	0.0	1.0
+239	2/26/20	Queensland	5.0	0.0	1.0
+240	2/27/20	Queensland	5.0	0.0	1.0
+241	2/28/20	Queensland	5.0	0.0	1.0
+242	2/29/20	Queensland	9.0	0.0	1.0
+243	3/1/20	Queensland	9.0	0.0	1.0
+244	3/2/20	Queensland	9.0	0.0	1.0
+245	3/3/20	Queensland	11.0	0.0	1.0
+246	3/4/20	Queensland	11.0	0.0	1.0
+247	3/5/20	Queensland	13.0	0.0	8.0
+248	3/6/20	Queensland	13.0	0.0	8.0
+249	3/7/20	Queensland	13.0	0.0	8.0
+250	3/8/20	Queensland	15.0	0.0	8.0
+251	3/9/20	Queensland	15.0	0.0	8.0
+252	3/10/20	Queensland	18.0	0.0	8.0
+253	3/11/20	Queensland	20.0	0.0	8.0
+254	3/12/20	Queensland	20.0	0.0	8.0
+255	3/13/20	Queensland	35.0	0.0	8.0
+256	3/14/20	Queensland	46.0	0.0	8.0
+257	3/15/20	Queensland	61.0	0.0	8.0
+258	3/16/20	Queensland	68.0	0.0	8.0
+259	3/17/20	Queensland	78.0	0.0	8.0
+260	3/18/20	Queensland	94.0	0.0	8.0
+261	3/19/20	Queensland	144.0	0.0	8.0
+262	3/20/20	Queensland	184.0	0.0	8.0
+263	3/21/20	Queensland	221.0	0.0	8.0
+264	3/22/20	Queensland	259.0	0.0	8.0
+265	3/23/20	Queensland	319.0	0.0	8.0
+266	3/24/20	Queensland	397.0	0.0	8.0
+267	3/25/20	Queensland	443.0	0.0	8.0
+268	3/26/20	Queensland	493.0	1.0	8.0
+269	3/27/20	Queensland	555.0	1.0	8.0
+270	3/28/20	Queensland	625.0	1.0	8.0
+271	3/29/20	Queensland	656.0	2.0	8.0
+272	1/22/20	South Australia	0.0	0.0	0.0
+273	1/23/20	South Australia	0.0	0.0	0.0
+274	1/24/20	South Australia	0.0	0.0	0.0
+275	1/25/20	South Australia	0.0	0.0	0.0
+276	1/26/20	South Australia	0.0	0.0	0.0
+277	1/27/20	South Australia	0.0	0.0	0.0
+278	1/28/20	South Australia	0.0	0.0	0.0
+279	1/29/20	South Australia	0.0	0.0	0.0
+280	1/30/20	South Australia	0.0	0.0	0.0
+281	1/31/20	South Australia	0.0	0.0	0.0
+282	2/1/20	South Australia	1.0	0.0	0.0
+283	2/2/20	South Australia	2.0	0.0	0.0
+284	2/3/20	South Australia	2.0	0.0	0.0
+285	2/4/20	South Australia	2.0	0.0	0.0
+286	2/5/20	South Australia	2.0	0.0	0.0
+287	2/6/20	South Australia	2.0	0.0	0.0
+288	2/7/20	South Australia	2.0	0.0	0.0
+289	2/8/20	South Australia	2.0	0.0	0.0
+290	2/9/20	South Australia	2.0	0.0	0.0
+291	2/10/20	South Australia	2.0	0.0	0.0
+292	2/11/20	South Australia	2.0	0.0	0.0
+293	2/12/20	South Australia	2.0	0.0	0.0
+294	2/13/20	South Australia	2.0	0.0	0.0
+295	2/14/20	South Australia	2.0	0.0	0.0
+296	2/15/20	South Australia	2.0	0.0	0.0
+297	2/16/20	South Australia	2.0	0.0	0.0
+298	2/17/20	South Australia	2.0	0.0	2.0
+299	2/18/20	South Australia	2.0	0.0	2.0
+300	2/19/20	South Australia	2.0	0.0	2.0
+301	2/20/20	South Australia	2.0	0.0	2.0
+302	2/21/20	South Australia	2.0	0.0	2.0
+303	2/22/20	South Australia	2.0	0.0	2.0
+304	2/23/20	South Australia	2.0	0.0	2.0
+305	2/24/20	South Australia	2.0	0.0	2.0
+306	2/25/20	South Australia	2.0	0.0	2.0
+307	2/26/20	South Australia	2.0	0.0	2.0
+308	2/27/20	South Australia	2.0	0.0	2.0
+309	2/28/20	South Australia	2.0	0.0	2.0
+310	2/29/20	South Australia	3.0	0.0	2.0
+311	3/1/20	South Australia	3.0	0.0	2.0
+312	3/2/20	South Australia	3.0	0.0	2.0
+313	3/3/20	South Australia	3.0	0.0	2.0
+314	3/4/20	South Australia	5.0	0.0	2.0
+315	3/5/20	South Australia	5.0	0.0	2.0
+316	3/6/20	South Australia	7.0	0.0	2.0
+317	3/7/20	South Australia	7.0	0.0	2.0
+318	3/8/20	South Australia	7.0	0.0	2.0
+319	3/9/20	South Australia	7.0	0.0	2.0
+320	3/10/20	South Australia	7.0	0.0	2.0
+321	3/11/20	South Australia	9.0	0.0	2.0
+322	3/12/20	South Australia	9.0	0.0	2.0
+323	3/13/20	South Australia	16.0	0.0	3.0
+324	3/14/20	South Australia	19.0	0.0	3.0
+325	3/15/20	South Australia	20.0	0.0	3.0
+326	3/16/20	South Australia	29.0	0.0	3.0
+327	3/17/20	South Australia	29.0	0.0	3.0
+328	3/18/20	South Australia	37.0	0.0	3.0
+329	3/19/20	South Australia	42.0	0.0	3.0
+330	3/20/20	South Australia	50.0	0.0	3.0
+331	3/21/20	South Australia	67.0	0.0	3.0
+332	3/22/20	South Australia	100.0	0.0	3.0
+333	3/23/20	South Australia	134.0	0.0	3.0
+334	3/24/20	South Australia	170.0	0.0	3.0
+335	3/25/20	South Australia	170.0	0.0	6.0
+336	3/26/20	South Australia	235.0	0.0	6.0
+337	3/27/20	South Australia	257.0	0.0	6.0
+338	3/28/20	South Australia	287.0	0.0	6.0
+339	3/29/20	South Australia	299.0	0.0	6.0
+340	1/22/20	Tasmania	0.0	0.0	0.0
+341	1/23/20	Tasmania	0.0	0.0	0.0
+342	1/24/20	Tasmania	0.0	0.0	0.0
+343	1/25/20	Tasmania	0.0	0.0	0.0
+344	1/26/20	Tasmania	0.0	0.0	0.0
+345	1/27/20	Tasmania	0.0	0.0	0.0
+346	1/28/20	Tasmania	0.0	0.0	0.0
+347	1/29/20	Tasmania	0.0	0.0	0.0
+348	1/30/20	Tasmania	0.0	0.0	0.0
+349	1/31/20	Tasmania	0.0	0.0	0.0
+350	2/1/20	Tasmania	0.0	0.0	0.0
+351	2/2/20	Tasmania	0.0	0.0	0.0
+352	2/3/20	Tasmania	0.0	0.0	0.0
+353	2/4/20	Tasmania	0.0	0.0	0.0
+354	2/5/20	Tasmania	0.0	0.0	0.0
+355	2/6/20	Tasmania	0.0	0.0	0.0
+356	2/7/20	Tasmania	0.0	0.0	0.0
+357	2/8/20	Tasmania	0.0	0.0	0.0
+358	2/9/20	Tasmania	0.0	0.0	0.0
+359	2/10/20	Tasmania	0.0	0.0	0.0
+360	2/11/20	Tasmania	0.0	0.0	0.0
+361	2/12/20	Tasmania	0.0	0.0	0.0
+362	2/13/20	Tasmania	0.0	0.0	0.0
+363	2/14/20	Tasmania	0.0	0.0	0.0
+364	2/15/20	Tasmania	0.0	0.0	0.0
+365	2/16/20	Tasmania	0.0	0.0	0.0
+366	2/17/20	Tasmania	0.0	0.0	0.0
+367	2/18/20	Tasmania	0.0	0.0	0.0
+368	2/19/20	Tasmania	0.0	0.0	0.0
+369	2/20/20	Tasmania	0.0	0.0	0.0
+370	2/21/20	Tasmania	0.0	0.0	0.0
+371	2/22/20	Tasmania	0.0	0.0	0.0
+372	2/23/20	Tasmania	0.0	0.0	0.0
+373	2/24/20	Tasmania	0.0	0.0	0.0
+374	2/25/20	Tasmania	0.0	0.0	0.0
+375	2/26/20	Tasmania	0.0	0.0	0.0
+376	2/27/20	Tasmania	0.0	0.0	0.0
+377	2/28/20	Tasmania	0.0	0.0	0.0
+378	2/29/20	Tasmania	0.0	0.0	0.0
+379	3/1/20	Tasmania	0.0	0.0	0.0
+380	3/2/20	Tasmania	1.0	0.0	0.0
+381	3/3/20	Tasmania	1.0	0.0	0.0
+382	3/4/20	Tasmania	1.0	0.0	0.0
+383	3/5/20	Tasmania	1.0	0.0	0.0
+384	3/6/20	Tasmania	1.0	0.0	0.0
+385	3/7/20	Tasmania	1.0	0.0	0.0
+386	3/8/20	Tasmania	2.0	0.0	0.0
+387	3/9/20	Tasmania	2.0	0.0	0.0
+388	3/10/20	Tasmania	2.0	0.0	0.0
+389	3/11/20	Tasmania	3.0	0.0	0.0
+390	3/12/20	Tasmania	3.0	0.0	0.0
+391	3/13/20	Tasmania	5.0	0.0	0.0
+392	3/14/20	Tasmania	5.0	0.0	0.0
+393	3/15/20	Tasmania	6.0	0.0	0.0
+394	3/16/20	Tasmania	7.0	0.0	0.0
+395	3/17/20	Tasmania	7.0	0.0	0.0
+396	3/18/20	Tasmania	10.0	0.0	0.0
+397	3/19/20	Tasmania	10.0	0.0	3.0
+398	3/20/20	Tasmania	10.0	0.0	3.0
+399	3/21/20	Tasmania	16.0	0.0	3.0
+400	3/22/20	Tasmania	22.0	0.0	3.0
+401	3/23/20	Tasmania	28.0	0.0	3.0
+402	3/24/20	Tasmania	28.0	0.0	3.0
+403	3/25/20	Tasmania	36.0	0.0	3.0
+404	3/26/20	Tasmania	47.0	0.0	3.0
+405	3/27/20	Tasmania	47.0	0.0	3.0
+406	3/28/20	Tasmania	62.0	0.0	5.0
+407	3/29/20	Tasmania	66.0	0.0	5.0
+408	1/22/20	Victoria	0.0	0.0	0.0
+409	1/23/20	Victoria	0.0	0.0	0.0
+410	1/24/20	Victoria	0.0	0.0	0.0
+411	1/25/20	Victoria	0.0	0.0	0.0
+412	1/26/20	Victoria	1.0	0.0	0.0
+413	1/27/20	Victoria	1.0	0.0	0.0
+414	1/28/20	Victoria	1.0	0.0	0.0
+415	1/29/20	Victoria	1.0	0.0	0.0
+416	1/30/20	Victoria	2.0	0.0	0.0
+417	1/31/20	Victoria	3.0	0.0	0.0
+418	2/1/20	Victoria	4.0	0.0	0.0
+419	2/2/20	Victoria	4.0	0.0	0.0
+420	2/3/20	Victoria	4.0	0.0	0.0
+421	2/4/20	Victoria	4.0	0.0	0.0
+422	2/5/20	Victoria	4.0	0.0	0.0
+423	2/6/20	Victoria	4.0	0.0	0.0
+424	2/7/20	Victoria	4.0	0.0	0.0
+425	2/8/20	Victoria	4.0	0.0	0.0
+426	2/9/20	Victoria	4.0	0.0	0.0
+427	2/10/20	Victoria	4.0	0.0	0.0
+428	2/11/20	Victoria	4.0	0.0	0.0
+429	2/12/20	Victoria	4.0	0.0	0.0
+430	2/13/20	Victoria	4.0	0.0	4.0
+431	2/14/20	Victoria	4.0	0.0	4.0
+432	2/15/20	Victoria	4.0	0.0	4.0
+433	2/16/20	Victoria	4.0	0.0	4.0
+434	2/17/20	Victoria	4.0	0.0	4.0
+435	2/18/20	Victoria	4.0	0.0	4.0
+436	2/19/20	Victoria	4.0	0.0	4.0
+437	2/20/20	Victoria	4.0	0.0	4.0
+438	2/21/20	Victoria	4.0	0.0	4.0
+439	2/22/20	Victoria	4.0	0.0	4.0
+440	2/23/20	Victoria	4.0	0.0	4.0
+441	2/24/20	Victoria	4.0	0.0	4.0
+442	2/25/20	Victoria	4.0	0.0	4.0
+443	2/26/20	Victoria	4.0	0.0	4.0
+444	2/27/20	Victoria	4.0	0.0	4.0
+445	2/28/20	Victoria	4.0	0.0	4.0
+446	2/29/20	Victoria	7.0	0.0	4.0
+447	3/1/20	Victoria	7.0	0.0	4.0
+448	3/2/20	Victoria	9.0	0.0	4.0
+449	3/3/20	Victoria	9.0	0.0	4.0
+450	3/4/20	Victoria	10.0	0.0	4.0
+451	3/5/20	Victoria	10.0	0.0	7.0
+452	3/6/20	Victoria	10.0	0.0	7.0
+453	3/7/20	Victoria	11.0	0.0	7.0
+454	3/8/20	Victoria	11.0	0.0	7.0
+455	3/9/20	Victoria	15.0	0.0	7.0
+456	3/10/20	Victoria	18.0	0.0	7.0
+457	3/11/20	Victoria	21.0	0.0	7.0
+458	3/12/20	Victoria	21.0	0.0	7.0
+459	3/13/20	Victoria	36.0	0.0	8.0
+460	3/14/20	Victoria	49.0	0.0	8.0
+461	3/15/20	Victoria	57.0	0.0	8.0
+462	3/16/20	Victoria	71.0	0.0	8.0
+463	3/17/20	Victoria	94.0	0.0	8.0
+464	3/18/20	Victoria	121.0	0.0	8.0
+465	3/19/20	Victoria	121.0	0.0	8.0
+466	3/20/20	Victoria	121.0	0.0	8.0
+467	3/21/20	Victoria	229.0	0.0	8.0
+468	3/22/20	Victoria	355.0	0.0	70.0
+469	3/23/20	Victoria	355.0	0.0	70.0
+470	3/24/20	Victoria	411.0	0.0	97.0
+471	3/25/20	Victoria	466.0	0.0	97.0
+472	3/26/20	Victoria	520.0	3.0	149.0
+473	3/27/20	Victoria	574.0	3.0	171.0
+474	3/28/20	Victoria	685.0	3.0	191.0
+475	3/29/20	Victoria	769.0	4.0	191.0
+476	1/22/20	Western Australia	0.0	0.0	0.0
+477	1/23/20	Western Australia	0.0	0.0	0.0
+478	1/24/20	Western Australia	0.0	0.0	0.0
+479	1/25/20	Western Australia	0.0	0.0	0.0
+480	1/26/20	Western Australia	0.0	0.0	0.0
+481	1/27/20	Western Australia	0.0	0.0	0.0
+482	1/28/20	Western Australia	0.0	0.0	0.0
+483	1/29/20	Western Australia	0.0	0.0	0.0
+484	1/30/20	Western Australia	0.0	0.0	0.0
+485	1/31/20	Western Australia	0.0	0.0	0.0
+486	2/1/20	Western Australia	0.0	0.0	0.0
+487	2/2/20	Western Australia	0.0	0.0	0.0
+488	2/3/20	Western Australia	0.0	0.0	0.0
+489	2/4/20	Western Australia	0.0	0.0	0.0
+490	2/5/20	Western Australia	0.0	0.0	0.0
+491	2/6/20	Western Australia	0.0	0.0	0.0
+492	2/7/20	Western Australia	0.0	0.0	0.0
+493	2/8/20	Western Australia	0.0	0.0	0.0
+494	2/9/20	Western Australia	0.0	0.0	0.0
+495	2/10/20	Western Australia	0.0	0.0	0.0
+496	2/11/20	Western Australia	0.0	0.0	0.0
+497	2/12/20	Western Australia	0.0	0.0	0.0
+498	2/13/20	Western Australia	0.0	0.0	0.0
+499	2/14/20	Western Australia	0.0	0.0	0.0
+500	2/15/20	Western Australia	0.0	0.0	0.0
+501	2/16/20	Western Australia	0.0	0.0	0.0
+502	2/17/20	Western Australia	0.0	0.0	0.0
+503	2/18/20	Western Australia	0.0	0.0	0.0
+504	2/19/20	Western Australia	0.0	0.0	0.0
+505	2/20/20	Western Australia	0.0	0.0	0.0
+506	2/21/20	Western Australia	0.0	0.0	0.0
+507	2/22/20	Western Australia	0.0	0.0	0.0
+508	2/23/20	Western Australia	0.0	0.0	0.0
+509	2/24/20	Western Australia	0.0	0.0	0.0
+510	2/25/20	Western Australia	0.0	0.0	0.0
+511	2/26/20	Western Australia	0.0	0.0	0.0
+512	2/27/20	Western Australia	0.0	0.0	0.0
+513	2/28/20	Western Australia	0.0	0.0	0.0
+514	2/29/20	Western Australia	2.0	0.0	0.0
+515	3/1/20	Western Australia	2.0	1.0	0.0
+516	3/2/20	Western Australia	2.0	1.0	0.0
+517	3/3/20	Western Australia	2.0	1.0	0.0
+518	3/4/20	Western Australia	2.0	1.0	0.0
+519	3/5/20	Western Australia	3.0	1.0	0.0
+520	3/6/20	Western Australia	3.0	1.0	0.0
+521	3/7/20	Western Australia	3.0	1.0	0.0
+522	3/8/20	Western Australia	3.0	1.0	0.0
+523	3/9/20	Western Australia	4.0	1.0	0.0
+524	3/10/20	Western Australia	6.0	1.0	0.0
+525	3/11/20	Western Australia	9.0	1.0	0.0
+526	3/12/20	Western Australia	9.0	1.0	0.0
+527	3/13/20	Western Australia	14.0	1.0	0.0
+528	3/14/20	Western Australia	17.0	1.0	0.0
+529	3/15/20	Western Australia	17.0	1.0	0.0
+530	3/16/20	Western Australia	28.0	1.0	0.0
+531	3/17/20	Western Australia	31.0	1.0	0.0
+532	3/18/20	Western Australia	35.0	1.0	0.0
+533	3/19/20	Western Australia	52.0	1.0	0.0
+534	3/20/20	Western Australia	64.0	1.0	0.0
+535	3/21/20	Western Australia	90.0	1.0	0.0
+536	3/22/20	Western Australia	120.0	1.0	0.0
+537	3/23/20	Western Australia	140.0	1.0	0.0
+538	3/24/20	Western Australia	175.0	1.0	0.0
+539	3/25/20	Western Australia	175.0	1.0	1.0
+540	3/26/20	Western Australia	231.0	2.0	1.0
+541	3/27/20	Western Australia	231.0	2.0	1.0
+542	3/28/20	Western Australia	278.0	2.0	28.0
+543	3/29/20	Western Australia	311.0	2.0	28.0
