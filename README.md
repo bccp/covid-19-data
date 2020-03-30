@@ -8,5 +8,8 @@ We welcome new data. Please get in touch at BCCPcovid19@gmail.com
 * Italy
 * Germany
 * USA
+* China
+* Canada
+* Australia
 * World population statistics
 
