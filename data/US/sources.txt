@@ -1,0 +1,6 @@
+US county population data is from
+https://www.census.gov/data/datasets/time-series/demo/popest/2010s-counties-total.html
+
+US county area data is from 
+https://factfinder.census.gov/faces/tableservices/jsf/pages/productview.xhtml?src=bkmk
+
