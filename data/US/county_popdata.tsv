@@ -1,4 +1,4 @@
-	state	county_name	fips	population_2010	housing_units	total_area_sqmiles	land_area_sqmiles	population_denisty	housing_denisty	population_2010_est	population_2019_est
+	state	county_name	fips	population_2010	housing_units	total_area_sqmiles	land_area_sqmiles	population_density	housing_density	population_2010_est	population_2019_est
 0	Alabama	Autauga County	1001.0	54571	22135	604.39	594.44	91.8	37.2	54597	55869
 1	Alabama	Baldwin County	1003.0	182265	104061	2027.31	1589.78	114.6	65.5	182265	223234
 2	Alabama	Barbour County	1005.0	27457	11829	904.52	884.88	31.0	13.4	27455	24686
