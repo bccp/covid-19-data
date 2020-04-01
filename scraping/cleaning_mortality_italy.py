@@ -30,7 +30,7 @@ def province():
     for key in translate:
         try:    dfsave.rename(columns = {key:translate[key]}, inplace=True)
         except: pass
-    dfsave.to_csv('../data/Italy/province_historical_mortality.tsv', sep='\t', encoding='utf-8')
+    dfsave.to_csv('../data/Italy/province_historic_mortality.tsv', sep='\t', encoding='utf-8')
 
 def regional():
 
@@ -50,11 +50,68 @@ def regional():
     for key in translate:
         try:    dfsave.rename(columns = {key:translate[key]}, inplace=True)
         except: pass
-    dfsave.to_csv('../data/Italy/regional_historical_mortality.tsv', sep='\t', encoding='utf-8')
+    dfsave.to_csv('../data/Italy/regional_historic_mortality.tsv', sep='\t', encoding='utf-8')
+
+    
+def province_new():
+    df = pd.read_excel('/home/chirag/Research/Projects/covid-19-data/data/Italy/new_total_deaths_2015_2020/raw_mortality_data/dati-comunali-settimanali-ANPR-1/comuni_settimana.xlsx')
+    weeks = df['SETTIMANA'][:11]
+    ages = np.unique(df['CLASSE_DI_ETA'])
+    provinces = np.unique(df['NOME_PROVINCIA'].values)
+
+    colsave = ['week', 'province', 'region', 'age_group', 'male', 'female', 'total']
+    years = [2015, 2016, 2017, 2018, 2019, 2020]
+
+    dfsave = pd.DataFrame(columns=colsave)
+
+    for province in provinces:
+        tmp0 = df[df['NOME_PROVINCIA'] == province]
+        region = tmp0['NOME_REGIONE'].values[0]
+
+        for ia, age in enumerate(ages):
+
+            for year in years:
+                cols = ['MASCHI_%d'%year, 'FEMMINE_%d'%year, 'TOTALE_%d'%year]            
+                weeklabel = [i[:5] + '/%d'%year + i[5:10]+ '/%d'%year for i in weeks]
+                for iw, week in enumerate(weeks):
+                    deaths = tmp0[(tmp0['CLASSE_DI_ETA'] == age) & (tmp0['SETTIMANA'] == week)][cols].sum().tolist()
+                    entry = np.array([weeklabel[iw], province, region, ia] + deaths).reshape(1, -1)
+                    dfsave = dfsave.append(pd.DataFrame(entry, columns=colsave), ignore_index=True)
+
+    dfsave.to_csv('/home/chirag/Research/Projects/covid-19-data/data/Italy/new_total_deaths_2015_2020/province_historic_mortality.tsv', sep='\t', encoding='utf-8')
 
 
+    
+def regional_new():
+    df = pd.read_excel('/home/chirag/Research/Projects/covid-19-data/data/Italy/new_total_deaths_2015_2020/raw_mortality_data/dati-comunali-settimanali-ANPR-1/comuni_settimana.xlsx')
+    weeks = df['SETTIMANA'][:11]
+    ages = np.unique(df['CLASSE_DI_ETA'])
+    regions = np.unique(df['NOME_REGIONE'].values)
 
+
+    colsave = ['week', 'region', 'age_group', 'male', 'female', 'total']
+    years = [2015, 2016, 2017, 2018, 2019, 2020]
+
+    dfsave = pd.DataFrame(columns=colsave)
+
+    for region in regions:
+        tmp0 = df[df['NOME_REGIONE'] == region]
+
+        for ia, age in enumerate(ages):
+
+            for year in years:
+                cols = ['MASCHI_%d'%year, 'FEMMINE_%d'%year, 'TOTALE_%d'%year]            
+                weeklabel = [i[:5] + '/%d'%year + i[5:10]+ '/%d'%year for i in weeks]
+                for iw, week in enumerate(weeks):
+                    deaths = tmp0[(tmp0['CLASSE_DI_ETA'] == age) & (tmp0['SETTIMANA'] == week)][cols].sum().tolist()
+                    entry = np.array([weeklabel[iw], region, ia] + deaths).reshape(1, -1)
+                    dfsave = dfsave.append(pd.DataFrame(entry, columns=colsave), ignore_index=True)
+
+    dfsave.to_csv('/home/chirag/Research/Projects/covid-19-data/data/Italy/new_total_deaths_2015_2020/regional_historic_mortality.tsv', sep='\t', encoding='utf-8')
+    
 if __name__=="__main__":
 
-    province()
-    regional()
+    #province()
+    #regional()
+    #province_new()
+    regional_new()
