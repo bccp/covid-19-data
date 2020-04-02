@@ -72,11 +72,15 @@ def province_new():
 
             for year in years:
                 cols = ['MASCHI_%d'%year, 'FEMMINE_%d'%year, 'TOTALE_%d'%year]            
-                weeklabel = [i[:5] + '/%d'%year + i[5:10]+ '/%d'%year for i in weeks]
+                weeklabel = [i[:5] + '/%d'%year + i[5:11]+ '/%d'%year for i in weeks]
                 for iw, week in enumerate(weeks):
-                    deaths = tmp0[(tmp0['CLASSE_DI_ETA'] == age) & (tmp0['SETTIMANA'] == week)][cols].sum().tolist()
+                    deaths = tmp0[(tmp0['CLASSE_DI_ETA'] == age) & (tmp0['SETTIMANA'] == week)][cols].sum().astype(float).tolist()
                     entry = np.array([weeklabel[iw], province, region, ia] + deaths).reshape(1, -1)
                     dfsave = dfsave.append(pd.DataFrame(entry, columns=colsave), ignore_index=True)
+
+    dfsave = dfsave.replace('Emilia-Romagna', 'Emilia Romagna')
+    dfsave = dfsave.replace('Friuli-Venezia Giulia', 'Friuli Venezia Giulia')
+    dfsave = dfsave.replace("Valle d'Aosta/Vallée d'Aoste", "Valle d'Aosta")
 
     dfsave.to_csv('/home/chirag/Research/Projects/covid-19-data/data/Italy/new_total_deaths_2015_2020/province_historic_mortality.tsv', sep='\t', encoding='utf-8')
 
@@ -101,11 +105,15 @@ def regional_new():
 
             for year in years:
                 cols = ['MASCHI_%d'%year, 'FEMMINE_%d'%year, 'TOTALE_%d'%year]            
-                weeklabel = [i[:5] + '/%d'%year + i[5:10]+ '/%d'%year for i in weeks]
+                weeklabel = [i[:5] + '/%d'%year + i[5:11]+ '/%d'%year for i in weeks]
                 for iw, week in enumerate(weeks):
-                    deaths = tmp0[(tmp0['CLASSE_DI_ETA'] == age) & (tmp0['SETTIMANA'] == week)][cols].sum().tolist()
+                    deaths = tmp0[(tmp0['CLASSE_DI_ETA'] == age) & (tmp0['SETTIMANA'] == week)][cols].sum().astype(float).tolist()
                     entry = np.array([weeklabel[iw], region, ia] + deaths).reshape(1, -1)
                     dfsave = dfsave.append(pd.DataFrame(entry, columns=colsave), ignore_index=True)
+
+    dfsave = dfsave.replace('Emilia-Romagna', 'Emilia Romagna')
+    dfsave = dfsave.replace('Friuli-Venezia Giulia', 'Friuli Venezia Giulia')
+    dfsave = dfsave.replace("Valle d'Aosta/Vallée d'Aoste", "Valle d'Aosta")
 
     dfsave.to_csv('/home/chirag/Research/Projects/covid-19-data/data/Italy/new_total_deaths_2015_2020/regional_historic_mortality.tsv', sep='\t', encoding='utf-8')
     
@@ -113,5 +121,5 @@ if __name__=="__main__":
 
     #province()
     #regional()
-    #province_new()
+    province_new()
     regional_new()
