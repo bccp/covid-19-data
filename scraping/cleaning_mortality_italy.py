@@ -146,10 +146,13 @@ def pop_ratio():
     savecols = ['REG', 'region', 'total_commune', 'mortality_commune', 'total_population', 'mortality_population']
     dfsave = pd.DataFrame(columns=savecols)
     
-    for ir, region in enumerate(regions):
-        print(region)
-        tmp = df[df['REG'] == ir+1]
-        tmp2 = df2[df2['Codice Regione'] == ir+1]
+    regcodes = {}
+    for i in range(1, 21): regcodes[df[df['REG'] == i]['NOME_REGIONE'].values[0]] = i
+    
+    for _, region in enumerate(regions):
+        ir = regcodes[region]
+        tmp = df[df['REG'] == ir]
+        tmp2 = df2[df2['Codice Regione'] == ir]
         total_pop = tmp2.sum()['population']
         ccode2 = np.unique(tmp2['commune_code'].values)
         popdict = dict(tmp2[['commune_code', 'population']].values)
