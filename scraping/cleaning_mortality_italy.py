@@ -78,7 +78,7 @@ def province_new():
                     entry = np.array([weeklabel[iw], province, region, ia] + deaths).reshape(1, -1)
                     dfsave = dfsave.append(pd.DataFrame(entry, columns=colsave), ignore_index=True)
 
-    dfsave = dfsave.replace('Emilia-Romagna', 'Emilia Romagna')
+    #dfsave = dfsave.replace('Emilia-Romagna', 'Emilia Romagna')
     dfsave = dfsave.replace('Friuli-Venezia Giulia', 'Friuli Venezia Giulia')
     dfsave = dfsave.replace("Valle d'Aosta/Vallée d'Aoste", "Valle d'Aosta")
 
@@ -111,15 +111,67 @@ def regional_new():
                     entry = np.array([weeklabel[iw], region, ia] + deaths).reshape(1, -1)
                     dfsave = dfsave.append(pd.DataFrame(entry, columns=colsave), ignore_index=True)
 
-    dfsave = dfsave.replace('Emilia-Romagna', 'Emilia Romagna')
+    #dfsave = dfsave.replace('Emilia-Romagna', 'Emilia Romagna')
     dfsave = dfsave.replace('Friuli-Venezia Giulia', 'Friuli Venezia Giulia')
     dfsave = dfsave.replace("Valle d'Aosta/Vallée d'Aoste", "Valle d'Aosta")
 
     dfsave.to_csv('/home/chirag/Research/Projects/covid-19-data/data/Italy/new_total_deaths_2015_2020/regional_historic_mortality.tsv', sep='\t', encoding='utf-8')
+
+
+def region_deaths():
+    df = pd.read_csv('../../covid-19-data/data/Italy/regional_deaths_2018_raw.csv')
+    df = df[4:][['Unnamed: 1', 'Unnamed: 2']]
+    df = pd.DataFrame(df.values, columns=['region', 'deaths_2018'])
+    #df = df.replace('Emilia-Romagna', 'Emilia Romagna')
+    df = df.replace('Friuli-Venezia Giulia', 'Friuli Venezia Giulia')
+    df = df.replace('Trentino-South Tyrol', 'Trentino-Alto Adige/Südtirol')
+    df = df.replace('Aosta Valley', "Valle d'Aosta")
+    df = df.replace('Lombardy', "Lombardia")
+    df = df.replace('Tuscany', "Toscana")
+    df = df.replace('Sardinia', "Sardegna")
+    df = df.replace('Sicily', "Sicilia")
+    df = df.replace('Apulia', "Puglia")
+    df = df.replace('Piedmont', 'Piemonte')
+
+    df.to_csv('/home/chirag/Research/Projects/covid-19-data/data/Italy/regional_deaths_2018.tsv', sep='\t', encoding='utf-8')
+
+
+def pop_ratio():
+    df = pd.read_excel('/home/chirag/Research/Projects/covid-19-data/data/Italy/new_total_deaths_2015_2020/raw_mortality_data/dati-comunali-settimanali-ANPR-1/comuni_settimana.xlsx', encoding='latin1')
+    df2 = pd.read_excel('/home/chirag/Research/Projects/covid-19-data/data/Italy/Elenco-comuni-italiani.xls', encoding='latin1')
+    df2 = df2.rename(columns={'Popolazione legale 2011 (09/10/2011)':'population'})
+    df2 = df2.rename(columns={'Codice Comune formato alfanumerico':'commune_code'})
+    regions = np.unique(df['NOME_REGIONE'].values)
     
+    savecols = ['REG', 'region', 'total_commune', 'mortality_commune', 'total_population', 'mortality_population']
+    dfsave = pd.DataFrame(columns=savecols)
+    
+    for ir, region in enumerate(regions):
+        print(region)
+        tmp = df[df['REG'] == ir+1]
+        tmp2 = df2[df2['Codice Regione'] == ir+1]
+        total_pop = tmp2.sum()['population']
+        ccode2 = np.unique(tmp2['commune_code'].values)
+        popdict = dict(tmp2[['commune_code', 'population']].values)
+
+        ccode = np.unique(tmp['COD_PROVCOM'].values)
+        pop = 0
+        for cc in ccode: 
+            pop += popdict[cc]
+
+        tosave = np.array([ir+1, region, ccode2.size, ccode.size, total_pop, pop]).reshape(1, -1)
+        dfsave = dfsave.append(pd.DataFrame(tosave, columns=savecols))
+        
+    dfsave = dfsave.replace('Friuli-Venezia Giulia', 'Friuli Venezia Giulia')
+    dfsave = dfsave.replace("Valle d'Aosta/Vallée d'Aoste", "Valle d'Aosta")
+    dfsave.to_csv('/home/chirag/Research/Projects/covid-19-data/data/Italy/new_total_deaths_2015_2020/regional_population_fraction.tsv', sep='\t', encoding='utf-8')
+
 if __name__=="__main__":
 
     #province()
     #regional()
-    province_new()
-    regional_new()
+    #regional_new()
+    #region_deaths()
+    #province_new()
+    pop_ratio()
+    
