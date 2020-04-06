@@ -82,7 +82,7 @@ def province_new():
     dfsave = dfsave.replace('Friuli-Venezia Giulia', 'Friuli Venezia Giulia')
     dfsave = dfsave.replace("Valle d'Aosta/Vallée d'Aoste", "Valle d'Aosta")
 
-    dfsave.to_csv('/home/chirag/Research/Projects/covid-19-data/data/Italy/new_total_deaths_2015_2020/province_historic_mortality.tsv', sep='\t', encoding='utf-8')
+    dfsave.to_csv('../data/Italy/new_total_deaths_2015_2020/province_historic_mortality.tsv', sep='\t', encoding='utf-8')
 
 
     
@@ -133,7 +133,7 @@ def region_deaths():
     df = df.replace('Apulia', "Puglia")
     df = df.replace('Piedmont', 'Piemonte')
 
-    df.to_csv('/home/chirag/Research/Projects/covid-19-data/data/Italy/regional_deaths_2018.tsv', sep='\t', encoding='utf-8')
+    df.to_csv('../data/Italy/regional_deaths_2018.tsv', sep='\t', encoding='utf-8')
 
 
 def pop_ratio():
@@ -167,7 +167,33 @@ def pop_ratio():
         
     dfsave = dfsave.replace('Friuli-Venezia Giulia', 'Friuli Venezia Giulia')
     dfsave = dfsave.replace("Valle d'Aosta/Vallée d'Aoste", "Valle d'Aosta")
-    dfsave.to_csv('/home/chirag/Research/Projects/covid-19-data/data/Italy/new_total_deaths_2015_2020/regional_population_fraction.tsv', sep='\t', encoding='utf-8')
+    dfsave.to_csv('../data/Italy/new_total_deaths_2015_2020/regional_population_fraction.tsv', sep='\t', encoding='utf-8')
+
+
+def pop_dist():
+    dfpopage = pd.read_excel('../../covid-19-data/data/Italy/covid-19-data/population-in-by-age-group.xlsx', sheet_name='Data')
+    v1, v2 = dfpopage['Unnamed: 2'][-2:].values
+    ratio = v1/(v1+v2)
+
+    dfagedist = pd.read_excel('../../covid-19-data/data/Italy/covid-19-data/age-distribution--by-region.xlsx', sheet_name='Data')
+    tosave = dfagedist.values[4:, 1:-1]
+    old = tosave[:, -1]
+    old = np.array([old*ratio, old*(1-ratio)]).T
+    tosave = np.hstack([tosave[:, :-1], old])
+    colsave = ['region', 'age_0', 'age_1', 'age_2', 'age_3']
+    df = pd.DataFrame(tosave, columns=colsave)
+    df = df.replace('Friuli-Venezia Giulia', 'Friuli Venezia Giulia')
+    df = df.replace('Trentino-South Tyrol', 'Trentino-Alto Adige/Südtirol')
+    df = df.replace('Aosta Valley', "Valle d'Aosta")
+    df = df.replace('Lombardy', "Lombardia")
+    df = df.replace('Tuscany', "Toscana")
+    df = df.replace('Sardinia', "Sardegna")
+    df = df.replace('Sicily', "Sicilia")
+    df = df.replace('Apulia', "Puglia")
+    df = df.replace('Piedmont', 'Piemonte')
+    df.to_csv('../data/Italy/regional_pop_dist.tsv', sep='\t', encoding='utf-8')
+    
+
 
 if __name__=="__main__":
 
@@ -176,5 +202,6 @@ if __name__=="__main__":
     #regional_new()
     #region_deaths()
     #province_new()
-    pop_ratio()
+    #pop_ratio()
+    pop_dist()
     
