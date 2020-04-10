@@ -69,983 +69,1118 @@
 67	3/29/20	Alberta	621.0	2.0	0.0
 68	3/30/20	Alberta	661.0	3.0	0.0
 69	3/31/20	Alberta	690.0	8.0	0.0
-70	1/22/20	British Columbia	0.0	0.0	0.0
-71	1/23/20	British Columbia	0.0	0.0	0.0
-72	1/24/20	British Columbia	0.0	0.0	0.0
-73	1/25/20	British Columbia	0.0	0.0	0.0
-74	1/26/20	British Columbia	0.0	0.0	0.0
-75	1/27/20	British Columbia	0.0	0.0	0.0
-76	1/28/20	British Columbia	1.0	0.0	0.0
-77	1/29/20	British Columbia	1.0	0.0	0.0
-78	1/30/20	British Columbia	1.0	0.0	0.0
-79	1/31/20	British Columbia	1.0	0.0	0.0
-80	2/1/20	British Columbia	1.0	0.0	0.0
-81	2/2/20	British Columbia	1.0	0.0	0.0
-82	2/3/20	British Columbia	1.0	0.0	0.0
-83	2/4/20	British Columbia	1.0	0.0	0.0
-84	2/5/20	British Columbia	2.0	0.0	0.0
-85	2/6/20	British Columbia	2.0	0.0	0.0
-86	2/7/20	British Columbia	4.0	0.0	0.0
-87	2/8/20	British Columbia	4.0	0.0	0.0
-88	2/9/20	British Columbia	4.0	0.0	0.0
-89	2/10/20	British Columbia	4.0	0.0	0.0
-90	2/11/20	British Columbia	4.0	0.0	0.0
-91	2/12/20	British Columbia	4.0	0.0	0.0
-92	2/13/20	British Columbia	4.0	0.0	0.0
-93	2/14/20	British Columbia	4.0	0.0	0.0
-94	2/15/20	British Columbia	4.0	0.0	0.0
-95	2/16/20	British Columbia	4.0	0.0	0.0
-96	2/17/20	British Columbia	5.0	0.0	0.0
-97	2/18/20	British Columbia	5.0	0.0	0.0
-98	2/19/20	British Columbia	5.0	0.0	0.0
-99	2/20/20	British Columbia	5.0	0.0	0.0
-100	2/21/20	British Columbia	6.0	0.0	0.0
-101	2/22/20	British Columbia	6.0	0.0	0.0
-102	2/23/20	British Columbia	6.0	0.0	0.0
-103	2/24/20	British Columbia	6.0	0.0	0.0
-104	2/25/20	British Columbia	7.0	0.0	0.0
-105	2/26/20	British Columbia	7.0	0.0	0.0
-106	2/27/20	British Columbia	7.0	0.0	0.0
-107	2/28/20	British Columbia	7.0	0.0	0.0
-108	2/29/20	British Columbia	8.0	0.0	0.0
-109	3/1/20	British Columbia	8.0	0.0	0.0
-110	3/2/20	British Columbia	8.0	0.0	0.0
-111	3/3/20	British Columbia	9.0	0.0	0.0
-112	3/4/20	British Columbia	12.0	0.0	0.0
-113	3/5/20	British Columbia	13.0	0.0	0.0
-114	3/6/20	British Columbia	21.0	0.0	0.0
-115	3/7/20	British Columbia	21.0	0.0	0.0
-116	3/8/20	British Columbia	27.0	0.0	0.0
-117	3/9/20	British Columbia	32.0	1.0	0.0
-118	3/10/20	British Columbia	32.0	1.0	0.0
-119	3/11/20	British Columbia	39.0	1.0	0.0
-120	3/12/20	British Columbia	46.0	1.0	0.0
-121	3/13/20	British Columbia	64.0	1.0	0.0
-122	3/14/20	British Columbia	64.0	1.0	0.0
-123	3/15/20	British Columbia	73.0	1.0	0.0
-124	3/16/20	British Columbia	103.0	4.0	0.0
-125	3/17/20	British Columbia	103.0	4.0	0.0
-126	3/18/20	British Columbia	186.0	7.0	0.0
-127	3/19/20	British Columbia	231.0	7.0	0.0
-128	3/20/20	British Columbia	271.0	8.0	0.0
-129	3/21/20	British Columbia	424.0	10.0	0.0
-130	3/22/20	British Columbia	424.0	10.0	0.0
-131	3/23/20	British Columbia	472.0	13.0	0.0
-132	3/24/20	British Columbia	617.0	13.0	0.0
-133	3/25/20	British Columbia	617.0	13.0	0.0
-134	3/26/20	British Columbia	725.0	14.0	0.0
-135	3/27/20	British Columbia	725.0	14.0	0.0
-136	3/28/20	British Columbia	884.0	17.0	0.0
-137	3/29/20	British Columbia	884.0	17.0	0.0
-138	3/30/20	British Columbia	970.0	19.0	0.0
-139	3/31/20	British Columbia	1013.0	24.0	0.0
-140	1/22/20	Diamond Princess	0.0	0.0	0.0
-141	1/23/20	Diamond Princess	0.0	0.0	0.0
-142	1/24/20	Diamond Princess	0.0	0.0	0.0
-143	1/25/20	Diamond Princess	0.0	0.0	0.0
-144	1/26/20	Diamond Princess	0.0	0.0	0.0
-145	1/27/20	Diamond Princess	0.0	0.0	0.0
-146	1/28/20	Diamond Princess	0.0	0.0	0.0
-147	1/29/20	Diamond Princess	0.0	0.0	0.0
-148	1/30/20	Diamond Princess	0.0	0.0	0.0
-149	1/31/20	Diamond Princess	0.0	0.0	0.0
-150	2/1/20	Diamond Princess	0.0	0.0	0.0
-151	2/2/20	Diamond Princess	0.0	0.0	0.0
-152	2/3/20	Diamond Princess	0.0	0.0	0.0
-153	2/4/20	Diamond Princess	0.0	0.0	0.0
-154	2/5/20	Diamond Princess	0.0	0.0	0.0
-155	2/6/20	Diamond Princess	0.0	0.0	0.0
-156	2/7/20	Diamond Princess	0.0	0.0	0.0
-157	2/8/20	Diamond Princess	0.0	0.0	0.0
-158	2/9/20	Diamond Princess	0.0	0.0	0.0
-159	2/10/20	Diamond Princess	0.0	0.0	0.0
-160	2/11/20	Diamond Princess	0.0	0.0	0.0
-161	2/12/20	Diamond Princess	0.0	0.0	0.0
-162	2/13/20	Diamond Princess	0.0	0.0	0.0
-163	2/14/20	Diamond Princess	0.0	0.0	0.0
-164	2/15/20	Diamond Princess	0.0	0.0	0.0
-165	2/16/20	Diamond Princess	0.0	0.0	0.0
-166	2/17/20	Diamond Princess	0.0	0.0	0.0
-167	2/18/20	Diamond Princess	0.0	0.0	0.0
-168	2/19/20	Diamond Princess	0.0	0.0	0.0
-169	2/20/20	Diamond Princess	0.0	0.0	0.0
-170	2/21/20	Diamond Princess	0.0	0.0	0.0
-171	2/22/20	Diamond Princess	0.0	0.0	0.0
-172	2/23/20	Diamond Princess	0.0	0.0	0.0
-173	2/24/20	Diamond Princess	0.0	0.0	0.0
-174	2/25/20	Diamond Princess	0.0	0.0	0.0
-175	2/26/20	Diamond Princess	0.0	0.0	0.0
-176	2/27/20	Diamond Princess	0.0	0.0	0.0
-177	2/28/20	Diamond Princess	0.0	0.0	0.0
-178	2/29/20	Diamond Princess	0.0	0.0	0.0
-179	3/1/20	Diamond Princess	0.0	0.0	0.0
-180	3/2/20	Diamond Princess	0.0	0.0	0.0
-181	3/3/20	Diamond Princess	0.0	0.0	0.0
-182	3/4/20	Diamond Princess	0.0	0.0	0.0
-183	3/5/20	Diamond Princess	0.0	0.0	0.0
-184	3/6/20	Diamond Princess	0.0	0.0	0.0
-185	3/7/20	Diamond Princess	0.0	0.0	0.0
-186	3/8/20	Diamond Princess	0.0	0.0	0.0
-187	3/9/20	Diamond Princess	0.0	0.0	0.0
-188	3/10/20	Diamond Princess	0.0	0.0	0.0
-189	3/11/20	Diamond Princess	0.0	0.0	0.0
-190	3/12/20	Diamond Princess	0.0	0.0	0.0
-191	3/13/20	Diamond Princess	0.0	0.0	0.0
-192	3/14/20	Diamond Princess	0.0	0.0	0.0
-193	3/15/20	Diamond Princess	0.0	0.0	0.0
-194	3/16/20	Diamond Princess	0.0	0.0	0.0
-195	3/17/20	Diamond Princess	0.0	0.0	0.0
-196	3/18/20	Diamond Princess	0.0	0.0	0.0
-197	3/19/20	Diamond Princess	0.0	0.0	0.0
-198	3/20/20	Diamond Princess	0.0	0.0	0.0
-199	3/21/20	Diamond Princess	0.0	0.0	0.0
-200	3/22/20	Diamond Princess	0.0	1.0	0.0
-201	3/23/20	Diamond Princess	0.0	1.0	0.0
-202	3/24/20	Diamond Princess	0.0	1.0	0.0
-203	3/25/20	Diamond Princess	0.0	1.0	0.0
-204	3/26/20	Diamond Princess	0.0	1.0	0.0
-205	3/27/20	Diamond Princess	0.0	1.0	0.0
-206	3/28/20	Diamond Princess	0.0	1.0	0.0
-207	3/29/20	Diamond Princess	0.0	1.0	0.0
-208	3/30/20	Diamond Princess	0.0	1.0	0.0
-209	3/31/20	Diamond Princess	0.0	1.0	0.0
-210	1/22/20	Grand Princess	0.0	0.0	0.0
-211	1/23/20	Grand Princess	0.0	0.0	0.0
-212	1/24/20	Grand Princess	0.0	0.0	0.0
-213	1/25/20	Grand Princess	0.0	0.0	0.0
-214	1/26/20	Grand Princess	0.0	0.0	0.0
-215	1/27/20	Grand Princess	0.0	0.0	0.0
-216	1/28/20	Grand Princess	0.0	0.0	0.0
-217	1/29/20	Grand Princess	0.0	0.0	0.0
-218	1/30/20	Grand Princess	0.0	0.0	0.0
-219	1/31/20	Grand Princess	0.0	0.0	0.0
-220	2/1/20	Grand Princess	0.0	0.0	0.0
-221	2/2/20	Grand Princess	0.0	0.0	0.0
-222	2/3/20	Grand Princess	0.0	0.0	0.0
-223	2/4/20	Grand Princess	0.0	0.0	0.0
-224	2/5/20	Grand Princess	0.0	0.0	0.0
-225	2/6/20	Grand Princess	0.0	0.0	0.0
-226	2/7/20	Grand Princess	0.0	0.0	0.0
-227	2/8/20	Grand Princess	0.0	0.0	0.0
-228	2/9/20	Grand Princess	0.0	0.0	0.0
-229	2/10/20	Grand Princess	0.0	0.0	0.0
-230	2/11/20	Grand Princess	0.0	0.0	0.0
-231	2/12/20	Grand Princess	0.0	0.0	0.0
-232	2/13/20	Grand Princess	0.0	0.0	0.0
-233	2/14/20	Grand Princess	0.0	0.0	0.0
-234	2/15/20	Grand Princess	0.0	0.0	0.0
-235	2/16/20	Grand Princess	0.0	0.0	0.0
-236	2/17/20	Grand Princess	0.0	0.0	0.0
-237	2/18/20	Grand Princess	0.0	0.0	0.0
-238	2/19/20	Grand Princess	0.0	0.0	0.0
-239	2/20/20	Grand Princess	0.0	0.0	0.0
-240	2/21/20	Grand Princess	0.0	0.0	0.0
-241	2/22/20	Grand Princess	0.0	0.0	0.0
-242	2/23/20	Grand Princess	0.0	0.0	0.0
-243	2/24/20	Grand Princess	0.0	0.0	0.0
-244	2/25/20	Grand Princess	0.0	0.0	0.0
-245	2/26/20	Grand Princess	0.0	0.0	0.0
-246	2/27/20	Grand Princess	0.0	0.0	0.0
-247	2/28/20	Grand Princess	0.0	0.0	0.0
-248	2/29/20	Grand Princess	0.0	0.0	0.0
-249	3/1/20	Grand Princess	0.0	0.0	0.0
-250	3/2/20	Grand Princess	0.0	0.0	0.0
-251	3/3/20	Grand Princess	0.0	0.0	0.0
-252	3/4/20	Grand Princess	0.0	0.0	0.0
-253	3/5/20	Grand Princess	0.0	0.0	0.0
-254	3/6/20	Grand Princess	0.0	0.0	0.0
-255	3/7/20	Grand Princess	0.0	0.0	0.0
-256	3/8/20	Grand Princess	0.0	0.0	0.0
-257	3/9/20	Grand Princess	0.0	0.0	0.0
-258	3/10/20	Grand Princess	0.0	0.0	0.0
-259	3/11/20	Grand Princess	0.0	0.0	0.0
-260	3/12/20	Grand Princess	0.0	0.0	0.0
-261	3/13/20	Grand Princess	2.0	0.0	0.0
-262	3/14/20	Grand Princess	2.0	0.0	0.0
-263	3/15/20	Grand Princess	2.0	0.0	0.0
-264	3/16/20	Grand Princess	2.0	0.0	0.0
-265	3/17/20	Grand Princess	8.0	0.0	0.0
-266	3/18/20	Grand Princess	9.0	0.0	0.0
-267	3/19/20	Grand Princess	9.0	0.0	0.0
-268	3/20/20	Grand Princess	10.0	0.0	0.0
-269	3/21/20	Grand Princess	10.0	0.0	0.0
-270	3/22/20	Grand Princess	13.0	0.0	0.0
-271	3/23/20	Grand Princess	13.0	0.0	0.0
-272	3/24/20	Grand Princess	13.0	0.0	0.0
-273	3/25/20	Grand Princess	13.0	0.0	0.0
-274	3/26/20	Grand Princess	13.0	0.0	0.0
-275	3/27/20	Grand Princess	13.0	0.0	0.0
-276	3/28/20	Grand Princess	13.0	0.0	0.0
-277	3/29/20	Grand Princess	13.0	0.0	0.0
-278	3/30/20	Grand Princess	13.0	0.0	0.0
-279	3/31/20	Grand Princess	13.0	0.0	0.0
-280	1/22/20	Manitoba	0.0	0.0	0.0
-281	1/23/20	Manitoba	0.0	0.0	0.0
-282	1/24/20	Manitoba	0.0	0.0	0.0
-283	1/25/20	Manitoba	0.0	0.0	0.0
-284	1/26/20	Manitoba	0.0	0.0	0.0
-285	1/27/20	Manitoba	0.0	0.0	0.0
-286	1/28/20	Manitoba	0.0	0.0	0.0
-287	1/29/20	Manitoba	0.0	0.0	0.0
-288	1/30/20	Manitoba	0.0	0.0	0.0
-289	1/31/20	Manitoba	0.0	0.0	0.0
-290	2/1/20	Manitoba	0.0	0.0	0.0
-291	2/2/20	Manitoba	0.0	0.0	0.0
-292	2/3/20	Manitoba	0.0	0.0	0.0
-293	2/4/20	Manitoba	0.0	0.0	0.0
-294	2/5/20	Manitoba	0.0	0.0	0.0
-295	2/6/20	Manitoba	0.0	0.0	0.0
-296	2/7/20	Manitoba	0.0	0.0	0.0
-297	2/8/20	Manitoba	0.0	0.0	0.0
-298	2/9/20	Manitoba	0.0	0.0	0.0
-299	2/10/20	Manitoba	0.0	0.0	0.0
-300	2/11/20	Manitoba	0.0	0.0	0.0
-301	2/12/20	Manitoba	0.0	0.0	0.0
-302	2/13/20	Manitoba	0.0	0.0	0.0
-303	2/14/20	Manitoba	0.0	0.0	0.0
-304	2/15/20	Manitoba	0.0	0.0	0.0
-305	2/16/20	Manitoba	0.0	0.0	0.0
-306	2/17/20	Manitoba	0.0	0.0	0.0
-307	2/18/20	Manitoba	0.0	0.0	0.0
-308	2/19/20	Manitoba	0.0	0.0	0.0
-309	2/20/20	Manitoba	0.0	0.0	0.0
-310	2/21/20	Manitoba	0.0	0.0	0.0
-311	2/22/20	Manitoba	0.0	0.0	0.0
-312	2/23/20	Manitoba	0.0	0.0	0.0
-313	2/24/20	Manitoba	0.0	0.0	0.0
-314	2/25/20	Manitoba	0.0	0.0	0.0
-315	2/26/20	Manitoba	0.0	0.0	0.0
-316	2/27/20	Manitoba	0.0	0.0	0.0
-317	2/28/20	Manitoba	0.0	0.0	0.0
-318	2/29/20	Manitoba	0.0	0.0	0.0
-319	3/1/20	Manitoba	0.0	0.0	0.0
-320	3/2/20	Manitoba	0.0	0.0	0.0
-321	3/3/20	Manitoba	0.0	0.0	0.0
-322	3/4/20	Manitoba	0.0	0.0	0.0
-323	3/5/20	Manitoba	0.0	0.0	0.0
-324	3/6/20	Manitoba	0.0	0.0	0.0
-325	3/7/20	Manitoba	0.0	0.0	0.0
-326	3/8/20	Manitoba	0.0	0.0	0.0
-327	3/9/20	Manitoba	0.0	0.0	0.0
-328	3/10/20	Manitoba	0.0	0.0	0.0
-329	3/11/20	Manitoba	0.0	0.0	0.0
-330	3/12/20	Manitoba	0.0	0.0	0.0
-331	3/13/20	Manitoba	4.0	0.0	0.0
-332	3/14/20	Manitoba	4.0	0.0	0.0
-333	3/15/20	Manitoba	4.0	0.0	0.0
-334	3/16/20	Manitoba	7.0	0.0	0.0
-335	3/17/20	Manitoba	8.0	0.0	0.0
-336	3/18/20	Manitoba	15.0	0.0	0.0
-337	3/19/20	Manitoba	17.0	0.0	0.0
-338	3/20/20	Manitoba	17.0	0.0	0.0
-339	3/21/20	Manitoba	18.0	0.0	0.0
-340	3/22/20	Manitoba	20.0	0.0	0.0
-341	3/23/20	Manitoba	20.0	0.0	0.0
-342	3/24/20	Manitoba	21.0	0.0	0.0
-343	3/25/20	Manitoba	35.0	0.0	0.0
-344	3/26/20	Manitoba	36.0	0.0	0.0
-345	3/27/20	Manitoba	39.0	1.0	0.0
-346	3/28/20	Manitoba	64.0	1.0	0.0
-347	3/29/20	Manitoba	72.0	1.0	0.0
-348	3/30/20	Manitoba	96.0	1.0	0.0
-349	3/31/20	Manitoba	103.0	1.0	0.0
-350	1/22/20	New Brunswick	0.0	0.0	0.0
-351	1/23/20	New Brunswick	0.0	0.0	0.0
-352	1/24/20	New Brunswick	0.0	0.0	0.0
-353	1/25/20	New Brunswick	0.0	0.0	0.0
-354	1/26/20	New Brunswick	0.0	0.0	0.0
-355	1/27/20	New Brunswick	0.0	0.0	0.0
-356	1/28/20	New Brunswick	0.0	0.0	0.0
-357	1/29/20	New Brunswick	0.0	0.0	0.0
-358	1/30/20	New Brunswick	0.0	0.0	0.0
-359	1/31/20	New Brunswick	0.0	0.0	0.0
-360	2/1/20	New Brunswick	0.0	0.0	0.0
-361	2/2/20	New Brunswick	0.0	0.0	0.0
-362	2/3/20	New Brunswick	0.0	0.0	0.0
-363	2/4/20	New Brunswick	0.0	0.0	0.0
-364	2/5/20	New Brunswick	0.0	0.0	0.0
-365	2/6/20	New Brunswick	0.0	0.0	0.0
-366	2/7/20	New Brunswick	0.0	0.0	0.0
-367	2/8/20	New Brunswick	0.0	0.0	0.0
-368	2/9/20	New Brunswick	0.0	0.0	0.0
-369	2/10/20	New Brunswick	0.0	0.0	0.0
-370	2/11/20	New Brunswick	0.0	0.0	0.0
-371	2/12/20	New Brunswick	0.0	0.0	0.0
-372	2/13/20	New Brunswick	0.0	0.0	0.0
-373	2/14/20	New Brunswick	0.0	0.0	0.0
-374	2/15/20	New Brunswick	0.0	0.0	0.0
-375	2/16/20	New Brunswick	0.0	0.0	0.0
-376	2/17/20	New Brunswick	0.0	0.0	0.0
-377	2/18/20	New Brunswick	0.0	0.0	0.0
-378	2/19/20	New Brunswick	0.0	0.0	0.0
-379	2/20/20	New Brunswick	0.0	0.0	0.0
-380	2/21/20	New Brunswick	0.0	0.0	0.0
-381	2/22/20	New Brunswick	0.0	0.0	0.0
-382	2/23/20	New Brunswick	0.0	0.0	0.0
-383	2/24/20	New Brunswick	0.0	0.0	0.0
-384	2/25/20	New Brunswick	0.0	0.0	0.0
-385	2/26/20	New Brunswick	0.0	0.0	0.0
-386	2/27/20	New Brunswick	0.0	0.0	0.0
-387	2/28/20	New Brunswick	0.0	0.0	0.0
-388	2/29/20	New Brunswick	0.0	0.0	0.0
-389	3/1/20	New Brunswick	0.0	0.0	0.0
-390	3/2/20	New Brunswick	0.0	0.0	0.0
-391	3/3/20	New Brunswick	0.0	0.0	0.0
-392	3/4/20	New Brunswick	0.0	0.0	0.0
-393	3/5/20	New Brunswick	0.0	0.0	0.0
-394	3/6/20	New Brunswick	0.0	0.0	0.0
-395	3/7/20	New Brunswick	0.0	0.0	0.0
-396	3/8/20	New Brunswick	0.0	0.0	0.0
-397	3/9/20	New Brunswick	0.0	0.0	0.0
-398	3/10/20	New Brunswick	0.0	0.0	0.0
-399	3/11/20	New Brunswick	1.0	0.0	0.0
-400	3/12/20	New Brunswick	1.0	0.0	0.0
-401	3/13/20	New Brunswick	1.0	0.0	0.0
-402	3/14/20	New Brunswick	1.0	0.0	0.0
-403	3/15/20	New Brunswick	2.0	0.0	0.0
-404	3/16/20	New Brunswick	6.0	0.0	0.0
-405	3/17/20	New Brunswick	8.0	0.0	0.0
-406	3/18/20	New Brunswick	11.0	0.0	0.0
-407	3/19/20	New Brunswick	11.0	0.0	0.0
-408	3/20/20	New Brunswick	11.0	0.0	0.0
-409	3/21/20	New Brunswick	17.0	0.0	0.0
-410	3/22/20	New Brunswick	17.0	0.0	0.0
-411	3/23/20	New Brunswick	17.0	0.0	0.0
-412	3/24/20	New Brunswick	18.0	0.0	0.0
-413	3/25/20	New Brunswick	18.0	0.0	0.0
-414	3/26/20	New Brunswick	33.0	0.0	0.0
-415	3/27/20	New Brunswick	45.0	0.0	0.0
-416	3/28/20	New Brunswick	51.0	0.0	0.0
-417	3/29/20	New Brunswick	66.0	0.0	0.0
-418	3/30/20	New Brunswick	68.0	0.0	0.0
-419	3/31/20	New Brunswick	70.0	0.0	0.0
-420	1/22/20	Newfoundland and Labrador	0.0	0.0	0.0
-421	1/23/20	Newfoundland and Labrador	0.0	0.0	0.0
-422	1/24/20	Newfoundland and Labrador	0.0	0.0	0.0
-423	1/25/20	Newfoundland and Labrador	0.0	0.0	0.0
-424	1/26/20	Newfoundland and Labrador	0.0	0.0	0.0
-425	1/27/20	Newfoundland and Labrador	0.0	0.0	0.0
-426	1/28/20	Newfoundland and Labrador	0.0	0.0	0.0
-427	1/29/20	Newfoundland and Labrador	0.0	0.0	0.0
-428	1/30/20	Newfoundland and Labrador	0.0	0.0	0.0
-429	1/31/20	Newfoundland and Labrador	0.0	0.0	0.0
-430	2/1/20	Newfoundland and Labrador	0.0	0.0	0.0
-431	2/2/20	Newfoundland and Labrador	0.0	0.0	0.0
-432	2/3/20	Newfoundland and Labrador	0.0	0.0	0.0
-433	2/4/20	Newfoundland and Labrador	0.0	0.0	0.0
-434	2/5/20	Newfoundland and Labrador	0.0	0.0	0.0
-435	2/6/20	Newfoundland and Labrador	0.0	0.0	0.0
-436	2/7/20	Newfoundland and Labrador	0.0	0.0	0.0
-437	2/8/20	Newfoundland and Labrador	0.0	0.0	0.0
-438	2/9/20	Newfoundland and Labrador	0.0	0.0	0.0
-439	2/10/20	Newfoundland and Labrador	0.0	0.0	0.0
-440	2/11/20	Newfoundland and Labrador	0.0	0.0	0.0
-441	2/12/20	Newfoundland and Labrador	0.0	0.0	0.0
-442	2/13/20	Newfoundland and Labrador	0.0	0.0	0.0
-443	2/14/20	Newfoundland and Labrador	0.0	0.0	0.0
-444	2/15/20	Newfoundland and Labrador	0.0	0.0	0.0
-445	2/16/20	Newfoundland and Labrador	0.0	0.0	0.0
-446	2/17/20	Newfoundland and Labrador	0.0	0.0	0.0
-447	2/18/20	Newfoundland and Labrador	0.0	0.0	0.0
-448	2/19/20	Newfoundland and Labrador	0.0	0.0	0.0
-449	2/20/20	Newfoundland and Labrador	0.0	0.0	0.0
-450	2/21/20	Newfoundland and Labrador	0.0	0.0	0.0
-451	2/22/20	Newfoundland and Labrador	0.0	0.0	0.0
-452	2/23/20	Newfoundland and Labrador	0.0	0.0	0.0
-453	2/24/20	Newfoundland and Labrador	0.0	0.0	0.0
-454	2/25/20	Newfoundland and Labrador	0.0	0.0	0.0
-455	2/26/20	Newfoundland and Labrador	0.0	0.0	0.0
-456	2/27/20	Newfoundland and Labrador	0.0	0.0	0.0
-457	2/28/20	Newfoundland and Labrador	0.0	0.0	0.0
-458	2/29/20	Newfoundland and Labrador	0.0	0.0	0.0
-459	3/1/20	Newfoundland and Labrador	0.0	0.0	0.0
-460	3/2/20	Newfoundland and Labrador	0.0	0.0	0.0
-461	3/3/20	Newfoundland and Labrador	0.0	0.0	0.0
-462	3/4/20	Newfoundland and Labrador	0.0	0.0	0.0
-463	3/5/20	Newfoundland and Labrador	0.0	0.0	0.0
-464	3/6/20	Newfoundland and Labrador	0.0	0.0	0.0
-465	3/7/20	Newfoundland and Labrador	0.0	0.0	0.0
-466	3/8/20	Newfoundland and Labrador	0.0	0.0	0.0
-467	3/9/20	Newfoundland and Labrador	0.0	0.0	0.0
-468	3/10/20	Newfoundland and Labrador	0.0	0.0	0.0
-469	3/11/20	Newfoundland and Labrador	0.0	0.0	0.0
-470	3/12/20	Newfoundland and Labrador	0.0	0.0	0.0
-471	3/13/20	Newfoundland and Labrador	0.0	0.0	0.0
-472	3/14/20	Newfoundland and Labrador	0.0	0.0	0.0
-473	3/15/20	Newfoundland and Labrador	1.0	0.0	0.0
-474	3/16/20	Newfoundland and Labrador	1.0	0.0	0.0
-475	3/17/20	Newfoundland and Labrador	3.0	0.0	0.0
-476	3/18/20	Newfoundland and Labrador	3.0	0.0	0.0
-477	3/19/20	Newfoundland and Labrador	3.0	0.0	0.0
-478	3/20/20	Newfoundland and Labrador	4.0	0.0	0.0
-479	3/21/20	Newfoundland and Labrador	6.0	0.0	0.0
-480	3/22/20	Newfoundland and Labrador	9.0	0.0	0.0
-481	3/23/20	Newfoundland and Labrador	24.0	0.0	0.0
-482	3/24/20	Newfoundland and Labrador	35.0	0.0	0.0
-483	3/25/20	Newfoundland and Labrador	35.0	0.0	0.0
-484	3/26/20	Newfoundland and Labrador	82.0	0.0	0.0
-485	3/27/20	Newfoundland and Labrador	102.0	0.0	0.0
-486	3/28/20	Newfoundland and Labrador	120.0	0.0	0.0
-487	3/29/20	Newfoundland and Labrador	135.0	0.0	0.0
-488	3/30/20	Newfoundland and Labrador	148.0	1.0	0.0
-489	3/31/20	Newfoundland and Labrador	152.0	1.0	0.0
-490	1/22/20	Northwest Territories	0.0	0.0	0.0
-491	1/23/20	Northwest Territories	0.0	0.0	0.0
-492	1/24/20	Northwest Territories	0.0	0.0	0.0
-493	1/25/20	Northwest Territories	0.0	0.0	0.0
-494	1/26/20	Northwest Territories	0.0	0.0	0.0
-495	1/27/20	Northwest Territories	0.0	0.0	0.0
-496	1/28/20	Northwest Territories	0.0	0.0	0.0
-497	1/29/20	Northwest Territories	0.0	0.0	0.0
-498	1/30/20	Northwest Territories	0.0	0.0	0.0
-499	1/31/20	Northwest Territories	0.0	0.0	0.0
-500	2/1/20	Northwest Territories	0.0	0.0	0.0
-501	2/2/20	Northwest Territories	0.0	0.0	0.0
-502	2/3/20	Northwest Territories	0.0	0.0	0.0
-503	2/4/20	Northwest Territories	0.0	0.0	0.0
-504	2/5/20	Northwest Territories	0.0	0.0	0.0
-505	2/6/20	Northwest Territories	0.0	0.0	0.0
-506	2/7/20	Northwest Territories	0.0	0.0	0.0
-507	2/8/20	Northwest Territories	0.0	0.0	0.0
-508	2/9/20	Northwest Territories	0.0	0.0	0.0
-509	2/10/20	Northwest Territories	0.0	0.0	0.0
-510	2/11/20	Northwest Territories	0.0	0.0	0.0
-511	2/12/20	Northwest Territories	0.0	0.0	0.0
-512	2/13/20	Northwest Territories	0.0	0.0	0.0
-513	2/14/20	Northwest Territories	0.0	0.0	0.0
-514	2/15/20	Northwest Territories	0.0	0.0	0.0
-515	2/16/20	Northwest Territories	0.0	0.0	0.0
-516	2/17/20	Northwest Territories	0.0	0.0	0.0
-517	2/18/20	Northwest Territories	0.0	0.0	0.0
-518	2/19/20	Northwest Territories	0.0	0.0	0.0
-519	2/20/20	Northwest Territories	0.0	0.0	0.0
-520	2/21/20	Northwest Territories	0.0	0.0	0.0
-521	2/22/20	Northwest Territories	0.0	0.0	0.0
-522	2/23/20	Northwest Territories	0.0	0.0	0.0
-523	2/24/20	Northwest Territories	0.0	0.0	0.0
-524	2/25/20	Northwest Territories	0.0	0.0	0.0
-525	2/26/20	Northwest Territories	0.0	0.0	0.0
-526	2/27/20	Northwest Territories	0.0	0.0	0.0
-527	2/28/20	Northwest Territories	0.0	0.0	0.0
-528	2/29/20	Northwest Territories	0.0	0.0	0.0
-529	3/1/20	Northwest Territories	0.0	0.0	0.0
-530	3/2/20	Northwest Territories	0.0	0.0	0.0
-531	3/3/20	Northwest Territories	0.0	0.0	0.0
-532	3/4/20	Northwest Territories	0.0	0.0	0.0
-533	3/5/20	Northwest Territories	0.0	0.0	0.0
-534	3/6/20	Northwest Territories	0.0	0.0	0.0
-535	3/7/20	Northwest Territories	0.0	0.0	0.0
-536	3/8/20	Northwest Territories	0.0	0.0	0.0
-537	3/9/20	Northwest Territories	0.0	0.0	0.0
-538	3/10/20	Northwest Territories	0.0	0.0	0.0
-539	3/11/20	Northwest Territories	0.0	0.0	0.0
-540	3/12/20	Northwest Territories	0.0	0.0	0.0
-541	3/13/20	Northwest Territories	0.0	0.0	0.0
-542	3/14/20	Northwest Territories	0.0	0.0	0.0
-543	3/15/20	Northwest Territories	0.0	0.0	0.0
-544	3/16/20	Northwest Territories	0.0	0.0	0.0
-545	3/17/20	Northwest Territories	0.0	0.0	0.0
-546	3/18/20	Northwest Territories	0.0	0.0	0.0
-547	3/19/20	Northwest Territories	0.0	0.0	0.0
-548	3/20/20	Northwest Territories	0.0	0.0	0.0
-549	3/21/20	Northwest Territories	0.0	0.0	0.0
-550	3/22/20	Northwest Territories	0.0	0.0	0.0
-551	3/23/20	Northwest Territories	0.0	0.0	0.0
-552	3/24/20	Northwest Territories	0.0	0.0	0.0
-553	3/25/20	Northwest Territories	0.0	0.0	0.0
-554	3/26/20	Northwest Territories	1.0	0.0	0.0
-555	3/27/20	Northwest Territories	1.0	0.0	0.0
-556	3/28/20	Northwest Territories	1.0	0.0	0.0
-557	3/29/20	Northwest Territories	1.0	0.0	0.0
-558	3/30/20	Northwest Territories	1.0	0.0	0.0
-559	3/31/20	Northwest Territories	1.0	0.0	0.0
-560	1/22/20	Nova Scotia	0.0	0.0	0.0
-561	1/23/20	Nova Scotia	0.0	0.0	0.0
-562	1/24/20	Nova Scotia	0.0	0.0	0.0
-563	1/25/20	Nova Scotia	0.0	0.0	0.0
-564	1/26/20	Nova Scotia	0.0	0.0	0.0
-565	1/27/20	Nova Scotia	0.0	0.0	0.0
-566	1/28/20	Nova Scotia	0.0	0.0	0.0
-567	1/29/20	Nova Scotia	0.0	0.0	0.0
-568	1/30/20	Nova Scotia	0.0	0.0	0.0
-569	1/31/20	Nova Scotia	0.0	0.0	0.0
-570	2/1/20	Nova Scotia	0.0	0.0	0.0
-571	2/2/20	Nova Scotia	0.0	0.0	0.0
-572	2/3/20	Nova Scotia	0.0	0.0	0.0
-573	2/4/20	Nova Scotia	0.0	0.0	0.0
-574	2/5/20	Nova Scotia	0.0	0.0	0.0
-575	2/6/20	Nova Scotia	0.0	0.0	0.0
-576	2/7/20	Nova Scotia	0.0	0.0	0.0
-577	2/8/20	Nova Scotia	0.0	0.0	0.0
-578	2/9/20	Nova Scotia	0.0	0.0	0.0
-579	2/10/20	Nova Scotia	0.0	0.0	0.0
-580	2/11/20	Nova Scotia	0.0	0.0	0.0
-581	2/12/20	Nova Scotia	0.0	0.0	0.0
-582	2/13/20	Nova Scotia	0.0	0.0	0.0
-583	2/14/20	Nova Scotia	0.0	0.0	0.0
-584	2/15/20	Nova Scotia	0.0	0.0	0.0
-585	2/16/20	Nova Scotia	0.0	0.0	0.0
-586	2/17/20	Nova Scotia	0.0	0.0	0.0
-587	2/18/20	Nova Scotia	0.0	0.0	0.0
-588	2/19/20	Nova Scotia	0.0	0.0	0.0
-589	2/20/20	Nova Scotia	0.0	0.0	0.0
-590	2/21/20	Nova Scotia	0.0	0.0	0.0
-591	2/22/20	Nova Scotia	0.0	0.0	0.0
-592	2/23/20	Nova Scotia	0.0	0.0	0.0
-593	2/24/20	Nova Scotia	0.0	0.0	0.0
-594	2/25/20	Nova Scotia	0.0	0.0	0.0
-595	2/26/20	Nova Scotia	0.0	0.0	0.0
-596	2/27/20	Nova Scotia	0.0	0.0	0.0
-597	2/28/20	Nova Scotia	0.0	0.0	0.0
-598	2/29/20	Nova Scotia	0.0	0.0	0.0
-599	3/1/20	Nova Scotia	0.0	0.0	0.0
-600	3/2/20	Nova Scotia	0.0	0.0	0.0
-601	3/3/20	Nova Scotia	0.0	0.0	0.0
-602	3/4/20	Nova Scotia	0.0	0.0	0.0
-603	3/5/20	Nova Scotia	0.0	0.0	0.0
-604	3/6/20	Nova Scotia	0.0	0.0	0.0
-605	3/7/20	Nova Scotia	0.0	0.0	0.0
-606	3/8/20	Nova Scotia	0.0	0.0	0.0
-607	3/9/20	Nova Scotia	0.0	0.0	0.0
-608	3/10/20	Nova Scotia	0.0	0.0	0.0
-609	3/11/20	Nova Scotia	0.0	0.0	0.0
-610	3/12/20	Nova Scotia	0.0	0.0	0.0
-611	3/13/20	Nova Scotia	0.0	0.0	0.0
-612	3/14/20	Nova Scotia	0.0	0.0	0.0
-613	3/15/20	Nova Scotia	0.0	0.0	0.0
-614	3/16/20	Nova Scotia	5.0	0.0	0.0
-615	3/17/20	Nova Scotia	7.0	0.0	0.0
-616	3/18/20	Nova Scotia	12.0	0.0	0.0
-617	3/19/20	Nova Scotia	14.0	0.0	0.0
-618	3/20/20	Nova Scotia	15.0	0.0	0.0
-619	3/21/20	Nova Scotia	21.0	0.0	0.0
-620	3/22/20	Nova Scotia	28.0	0.0	0.0
-621	3/23/20	Nova Scotia	41.0	0.0	0.0
-622	3/24/20	Nova Scotia	51.0	0.0	0.0
-623	3/25/20	Nova Scotia	68.0	0.0	0.0
-624	3/26/20	Nova Scotia	73.0	0.0	0.0
-625	3/27/20	Nova Scotia	90.0	0.0	0.0
-626	3/28/20	Nova Scotia	110.0	0.0	0.0
-627	3/29/20	Nova Scotia	122.0	0.0	0.0
-628	3/30/20	Nova Scotia	127.0	0.0	0.0
-629	3/31/20	Nova Scotia	147.0	0.0	0.0
-630	1/22/20	Ontario	0.0	0.0	0.0
-631	1/23/20	Ontario	0.0	0.0	0.0
-632	1/24/20	Ontario	0.0	0.0	0.0
-633	1/25/20	Ontario	0.0	0.0	0.0
-634	1/26/20	Ontario	1.0	0.0	0.0
-635	1/27/20	Ontario	1.0	0.0	0.0
-636	1/28/20	Ontario	1.0	0.0	0.0
-637	1/29/20	Ontario	1.0	0.0	0.0
-638	1/30/20	Ontario	1.0	0.0	0.0
-639	1/31/20	Ontario	3.0	0.0	0.0
-640	2/1/20	Ontario	3.0	0.0	0.0
-641	2/2/20	Ontario	3.0	0.0	0.0
-642	2/3/20	Ontario	3.0	0.0	0.0
-643	2/4/20	Ontario	3.0	0.0	0.0
-644	2/5/20	Ontario	3.0	0.0	0.0
-645	2/6/20	Ontario	3.0	0.0	0.0
-646	2/7/20	Ontario	3.0	0.0	0.0
-647	2/8/20	Ontario	3.0	0.0	0.0
-648	2/9/20	Ontario	3.0	0.0	0.0
-649	2/10/20	Ontario	3.0	0.0	0.0
-650	2/11/20	Ontario	3.0	0.0	0.0
-651	2/12/20	Ontario	3.0	0.0	0.0
-652	2/13/20	Ontario	3.0	0.0	0.0
-653	2/14/20	Ontario	3.0	0.0	0.0
-654	2/15/20	Ontario	3.0	0.0	0.0
-655	2/16/20	Ontario	3.0	0.0	0.0
-656	2/17/20	Ontario	3.0	0.0	0.0
-657	2/18/20	Ontario	3.0	0.0	0.0
-658	2/19/20	Ontario	3.0	0.0	0.0
-659	2/20/20	Ontario	3.0	0.0	0.0
-660	2/21/20	Ontario	3.0	0.0	0.0
-661	2/22/20	Ontario	3.0	0.0	0.0
-662	2/23/20	Ontario	3.0	0.0	0.0
-663	2/24/20	Ontario	4.0	0.0	0.0
-664	2/25/20	Ontario	4.0	0.0	0.0
-665	2/26/20	Ontario	4.0	0.0	0.0
-666	2/27/20	Ontario	6.0	0.0	0.0
-667	2/28/20	Ontario	6.0	0.0	0.0
-668	2/29/20	Ontario	11.0	0.0	0.0
-669	3/1/20	Ontario	15.0	0.0	0.0
-670	3/2/20	Ontario	18.0	0.0	0.0
-671	3/3/20	Ontario	20.0	0.0	0.0
-672	3/4/20	Ontario	20.0	0.0	0.0
-673	3/5/20	Ontario	22.0	0.0	0.0
-674	3/6/20	Ontario	25.0	0.0	0.0
-675	3/7/20	Ontario	28.0	0.0	0.0
-676	3/8/20	Ontario	29.0	0.0	0.0
-677	3/9/20	Ontario	34.0	0.0	0.0
-678	3/10/20	Ontario	36.0	0.0	0.0
-679	3/11/20	Ontario	41.0	0.0	0.0
-680	3/12/20	Ontario	42.0	0.0	0.0
-681	3/13/20	Ontario	74.0	0.0	0.0
-682	3/14/20	Ontario	79.0	0.0	0.0
-683	3/15/20	Ontario	104.0	0.0	0.0
-684	3/16/20	Ontario	177.0	0.0	0.0
-685	3/17/20	Ontario	185.0	1.0	0.0
-686	3/18/20	Ontario	221.0	1.0	0.0
-687	3/19/20	Ontario	257.0	1.0	0.0
-688	3/20/20	Ontario	308.0	2.0	0.0
-689	3/21/20	Ontario	377.0	3.0	0.0
-690	3/22/20	Ontario	425.0	5.0	0.0
-691	3/23/20	Ontario	503.0	6.0	0.0
-692	3/24/20	Ontario	588.0	7.0	0.0
-693	3/25/20	Ontario	688.0	8.0	0.0
-694	3/26/20	Ontario	858.0	13.0	0.0
-695	3/27/20	Ontario	994.0	18.0	0.0
-696	3/28/20	Ontario	1144.0	18.0	0.0
-697	3/29/20	Ontario	1355.0	21.0	0.0
-698	3/30/20	Ontario	1706.0	31.0	0.0
-699	3/31/20	Ontario	1966.0	33.0	0.0
-700	1/22/20	Prince Edward Island	0.0	0.0	0.0
-701	1/23/20	Prince Edward Island	0.0	0.0	0.0
-702	1/24/20	Prince Edward Island	0.0	0.0	0.0
-703	1/25/20	Prince Edward Island	0.0	0.0	0.0
-704	1/26/20	Prince Edward Island	0.0	0.0	0.0
-705	1/27/20	Prince Edward Island	0.0	0.0	0.0
-706	1/28/20	Prince Edward Island	0.0	0.0	0.0
-707	1/29/20	Prince Edward Island	0.0	0.0	0.0
-708	1/30/20	Prince Edward Island	0.0	0.0	0.0
-709	1/31/20	Prince Edward Island	0.0	0.0	0.0
-710	2/1/20	Prince Edward Island	0.0	0.0	0.0
-711	2/2/20	Prince Edward Island	0.0	0.0	0.0
-712	2/3/20	Prince Edward Island	0.0	0.0	0.0
-713	2/4/20	Prince Edward Island	0.0	0.0	0.0
-714	2/5/20	Prince Edward Island	0.0	0.0	0.0
-715	2/6/20	Prince Edward Island	0.0	0.0	0.0
-716	2/7/20	Prince Edward Island	0.0	0.0	0.0
-717	2/8/20	Prince Edward Island	0.0	0.0	0.0
-718	2/9/20	Prince Edward Island	0.0	0.0	0.0
-719	2/10/20	Prince Edward Island	0.0	0.0	0.0
-720	2/11/20	Prince Edward Island	0.0	0.0	0.0
-721	2/12/20	Prince Edward Island	0.0	0.0	0.0
-722	2/13/20	Prince Edward Island	0.0	0.0	0.0
-723	2/14/20	Prince Edward Island	0.0	0.0	0.0
-724	2/15/20	Prince Edward Island	0.0	0.0	0.0
-725	2/16/20	Prince Edward Island	0.0	0.0	0.0
-726	2/17/20	Prince Edward Island	0.0	0.0	0.0
-727	2/18/20	Prince Edward Island	0.0	0.0	0.0
-728	2/19/20	Prince Edward Island	0.0	0.0	0.0
-729	2/20/20	Prince Edward Island	0.0	0.0	0.0
-730	2/21/20	Prince Edward Island	0.0	0.0	0.0
-731	2/22/20	Prince Edward Island	0.0	0.0	0.0
-732	2/23/20	Prince Edward Island	0.0	0.0	0.0
-733	2/24/20	Prince Edward Island	0.0	0.0	0.0
-734	2/25/20	Prince Edward Island	0.0	0.0	0.0
-735	2/26/20	Prince Edward Island	0.0	0.0	0.0
-736	2/27/20	Prince Edward Island	0.0	0.0	0.0
-737	2/28/20	Prince Edward Island	0.0	0.0	0.0
-738	2/29/20	Prince Edward Island	0.0	0.0	0.0
-739	3/1/20	Prince Edward Island	0.0	0.0	0.0
-740	3/2/20	Prince Edward Island	0.0	0.0	0.0
-741	3/3/20	Prince Edward Island	0.0	0.0	0.0
-742	3/4/20	Prince Edward Island	0.0	0.0	0.0
-743	3/5/20	Prince Edward Island	0.0	0.0	0.0
-744	3/6/20	Prince Edward Island	0.0	0.0	0.0
-745	3/7/20	Prince Edward Island	0.0	0.0	0.0
-746	3/8/20	Prince Edward Island	0.0	0.0	0.0
-747	3/9/20	Prince Edward Island	0.0	0.0	0.0
-748	3/10/20	Prince Edward Island	0.0	0.0	0.0
-749	3/11/20	Prince Edward Island	0.0	0.0	0.0
-750	3/12/20	Prince Edward Island	0.0	0.0	0.0
-751	3/13/20	Prince Edward Island	0.0	0.0	0.0
-752	3/14/20	Prince Edward Island	0.0	0.0	0.0
-753	3/15/20	Prince Edward Island	1.0	0.0	0.0
-754	3/16/20	Prince Edward Island	1.0	0.0	0.0
-755	3/17/20	Prince Edward Island	1.0	0.0	0.0
-756	3/18/20	Prince Edward Island	1.0	0.0	0.0
-757	3/19/20	Prince Edward Island	2.0	0.0	0.0
-758	3/20/20	Prince Edward Island	2.0	0.0	0.0
-759	3/21/20	Prince Edward Island	2.0	0.0	0.0
-760	3/22/20	Prince Edward Island	3.0	0.0	0.0
-761	3/23/20	Prince Edward Island	3.0	0.0	0.0
-762	3/24/20	Prince Edward Island	3.0	0.0	0.0
-763	3/25/20	Prince Edward Island	5.0	0.0	0.0
-764	3/26/20	Prince Edward Island	5.0	0.0	0.0
-765	3/27/20	Prince Edward Island	9.0	0.0	0.0
-766	3/28/20	Prince Edward Island	11.0	0.0	0.0
-767	3/29/20	Prince Edward Island	11.0	0.0	0.0
-768	3/30/20	Prince Edward Island	18.0	0.0	0.0
-769	3/31/20	Prince Edward Island	21.0	0.0	0.0
-770	1/22/20	Quebec	0.0	0.0	0.0
-771	1/23/20	Quebec	0.0	0.0	0.0
-772	1/24/20	Quebec	0.0	0.0	0.0
-773	1/25/20	Quebec	0.0	0.0	0.0
-774	1/26/20	Quebec	0.0	0.0	0.0
-775	1/27/20	Quebec	0.0	0.0	0.0
-776	1/28/20	Quebec	0.0	0.0	0.0
-777	1/29/20	Quebec	0.0	0.0	0.0
-778	1/30/20	Quebec	0.0	0.0	0.0
-779	1/31/20	Quebec	0.0	0.0	0.0
-780	2/1/20	Quebec	0.0	0.0	0.0
-781	2/2/20	Quebec	0.0	0.0	0.0
-782	2/3/20	Quebec	0.0	0.0	0.0
-783	2/4/20	Quebec	0.0	0.0	0.0
-784	2/5/20	Quebec	0.0	0.0	0.0
-785	2/6/20	Quebec	0.0	0.0	0.0
-786	2/7/20	Quebec	0.0	0.0	0.0
-787	2/8/20	Quebec	0.0	0.0	0.0
-788	2/9/20	Quebec	0.0	0.0	0.0
-789	2/10/20	Quebec	0.0	0.0	0.0
-790	2/11/20	Quebec	0.0	0.0	0.0
-791	2/12/20	Quebec	0.0	0.0	0.0
-792	2/13/20	Quebec	0.0	0.0	0.0
-793	2/14/20	Quebec	0.0	0.0	0.0
-794	2/15/20	Quebec	0.0	0.0	0.0
-795	2/16/20	Quebec	0.0	0.0	0.0
-796	2/17/20	Quebec	0.0	0.0	0.0
-797	2/18/20	Quebec	0.0	0.0	0.0
-798	2/19/20	Quebec	0.0	0.0	0.0
-799	2/20/20	Quebec	0.0	0.0	0.0
-800	2/21/20	Quebec	0.0	0.0	0.0
-801	2/22/20	Quebec	0.0	0.0	0.0
-802	2/23/20	Quebec	0.0	0.0	0.0
-803	2/24/20	Quebec	0.0	0.0	0.0
-804	2/25/20	Quebec	0.0	0.0	0.0
-805	2/26/20	Quebec	0.0	0.0	0.0
-806	2/27/20	Quebec	0.0	0.0	0.0
-807	2/28/20	Quebec	1.0	0.0	0.0
-808	2/29/20	Quebec	1.0	0.0	0.0
-809	3/1/20	Quebec	1.0	0.0	0.0
-810	3/2/20	Quebec	1.0	0.0	0.0
-811	3/3/20	Quebec	1.0	0.0	0.0
-812	3/4/20	Quebec	1.0	0.0	0.0
-813	3/5/20	Quebec	2.0	0.0	0.0
-814	3/6/20	Quebec	2.0	0.0	0.0
-815	3/7/20	Quebec	3.0	0.0	0.0
-816	3/8/20	Quebec	4.0	0.0	0.0
-817	3/9/20	Quebec	4.0	0.0	0.0
-818	3/10/20	Quebec	4.0	0.0	0.0
-819	3/11/20	Quebec	8.0	0.0	0.0
-820	3/12/20	Quebec	9.0	0.0	0.0
-821	3/13/20	Quebec	17.0	0.0	0.0
-822	3/14/20	Quebec	17.0	0.0	0.0
-823	3/15/20	Quebec	24.0	0.0	0.0
-824	3/16/20	Quebec	50.0	0.0	0.0
-825	3/17/20	Quebec	74.0	0.0	0.0
-826	3/18/20	Quebec	94.0	0.0	0.0
-827	3/19/20	Quebec	121.0	1.0	0.0
-828	3/20/20	Quebec	139.0	1.0	0.0
-829	3/21/20	Quebec	181.0	5.0	0.0
-830	3/22/20	Quebec	219.0	4.0	0.0
-831	3/23/20	Quebec	628.0	4.0	0.0
-832	3/24/20	Quebec	1013.0	4.0	0.0
-833	3/25/20	Quebec	1342.0	6.0	0.0
-834	3/26/20	Quebec	1632.0	8.0	0.0
-835	3/27/20	Quebec	2024.0	18.0	0.0
-836	3/28/20	Quebec	2498.0	22.0	0.0
-837	3/29/20	Quebec	2840.0	22.0	0.0
-838	3/30/20	Quebec	3430.0	22.0	0.0
-839	3/31/20	Quebec	4162.0	31.0	0.0
-840	1/22/20	Recovered	0.0	0.0	0.0
-841	1/23/20	Recovered	0.0	0.0	0.0
-842	1/24/20	Recovered	0.0	0.0	0.0
-843	1/25/20	Recovered	0.0	0.0	0.0
-844	1/26/20	Recovered	0.0	0.0	0.0
-845	1/27/20	Recovered	0.0	0.0	0.0
-846	1/28/20	Recovered	0.0	0.0	0.0
-847	1/29/20	Recovered	0.0	0.0	0.0
-848	1/30/20	Recovered	0.0	0.0	0.0
-849	1/31/20	Recovered	0.0	0.0	0.0
-850	2/1/20	Recovered	0.0	0.0	0.0
-851	2/2/20	Recovered	0.0	0.0	0.0
-852	2/3/20	Recovered	0.0	0.0	0.0
-853	2/4/20	Recovered	0.0	0.0	0.0
-854	2/5/20	Recovered	0.0	0.0	0.0
-855	2/6/20	Recovered	0.0	0.0	0.0
-856	2/7/20	Recovered	0.0	0.0	0.0
-857	2/8/20	Recovered	0.0	0.0	0.0
-858	2/9/20	Recovered	0.0	0.0	0.0
-859	2/10/20	Recovered	0.0	0.0	0.0
-860	2/11/20	Recovered	0.0	0.0	0.0
-861	2/12/20	Recovered	0.0	0.0	0.0
-862	2/13/20	Recovered	0.0	0.0	0.0
-863	2/14/20	Recovered	0.0	0.0	0.0
-864	2/15/20	Recovered	0.0	0.0	0.0
-865	2/16/20	Recovered	0.0	0.0	0.0
-866	2/17/20	Recovered	0.0	0.0	0.0
-867	2/18/20	Recovered	0.0	0.0	0.0
-868	2/19/20	Recovered	0.0	0.0	0.0
-869	2/20/20	Recovered	0.0	0.0	0.0
-870	2/21/20	Recovered	0.0	0.0	0.0
-871	2/22/20	Recovered	0.0	0.0	0.0
-872	2/23/20	Recovered	0.0	0.0	0.0
-873	2/24/20	Recovered	0.0	0.0	0.0
-874	2/25/20	Recovered	0.0	0.0	0.0
-875	2/26/20	Recovered	0.0	0.0	0.0
-876	2/27/20	Recovered	0.0	0.0	0.0
-877	2/28/20	Recovered	0.0	0.0	0.0
-878	2/29/20	Recovered	0.0	0.0	0.0
-879	3/1/20	Recovered	0.0	0.0	0.0
-880	3/2/20	Recovered	0.0	0.0	0.0
-881	3/3/20	Recovered	0.0	0.0	0.0
-882	3/4/20	Recovered	0.0	0.0	0.0
-883	3/5/20	Recovered	0.0	0.0	0.0
-884	3/6/20	Recovered	0.0	0.0	0.0
-885	3/7/20	Recovered	0.0	0.0	0.0
-886	3/8/20	Recovered	0.0	0.0	0.0
-887	3/9/20	Recovered	0.0	0.0	0.0
-888	3/10/20	Recovered	0.0	0.0	0.0
-889	3/11/20	Recovered	0.0	0.0	0.0
-890	3/12/20	Recovered	0.0	0.0	0.0
-891	3/13/20	Recovered	0.0	0.0	0.0
-892	3/14/20	Recovered	0.0	0.0	0.0
-893	3/15/20	Recovered	0.0	0.0	0.0
-894	3/16/20	Recovered	0.0	0.0	0.0
-895	3/17/20	Recovered	0.0	0.0	0.0
-896	3/18/20	Recovered	0.0	0.0	0.0
-897	3/19/20	Recovered	0.0	0.0	0.0
-898	3/20/20	Recovered	0.0	0.0	0.0
-899	3/21/20	Recovered	0.0	0.0	0.0
-900	3/22/20	Recovered	0.0	0.0	0.0
-901	3/23/20	Recovered	0.0	0.0	0.0
-902	3/24/20	Recovered	0.0	0.0	0.0
-903	3/25/20	Recovered	0.0	0.0	0.0
-904	3/26/20	Recovered	0.0	0.0	0.0
-905	3/27/20	Recovered	0.0	0.0	0.0
-906	3/28/20	Recovered	0.0	0.0	0.0
-907	3/29/20	Recovered	0.0	0.0	0.0
-908	3/30/20	Recovered	0.0	0.0	0.0
-909	3/31/20	Recovered	0.0	0.0	0.0
-910	1/22/20	Saskatchewan	0.0	0.0	0.0
-911	1/23/20	Saskatchewan	0.0	0.0	0.0
-912	1/24/20	Saskatchewan	0.0	0.0	0.0
-913	1/25/20	Saskatchewan	0.0	0.0	0.0
-914	1/26/20	Saskatchewan	0.0	0.0	0.0
-915	1/27/20	Saskatchewan	0.0	0.0	0.0
-916	1/28/20	Saskatchewan	0.0	0.0	0.0
-917	1/29/20	Saskatchewan	0.0	0.0	0.0
-918	1/30/20	Saskatchewan	0.0	0.0	0.0
-919	1/31/20	Saskatchewan	0.0	0.0	0.0
-920	2/1/20	Saskatchewan	0.0	0.0	0.0
-921	2/2/20	Saskatchewan	0.0	0.0	0.0
-922	2/3/20	Saskatchewan	0.0	0.0	0.0
-923	2/4/20	Saskatchewan	0.0	0.0	0.0
-924	2/5/20	Saskatchewan	0.0	0.0	0.0
-925	2/6/20	Saskatchewan	0.0	0.0	0.0
-926	2/7/20	Saskatchewan	0.0	0.0	0.0
-927	2/8/20	Saskatchewan	0.0	0.0	0.0
-928	2/9/20	Saskatchewan	0.0	0.0	0.0
-929	2/10/20	Saskatchewan	0.0	0.0	0.0
-930	2/11/20	Saskatchewan	0.0	0.0	0.0
-931	2/12/20	Saskatchewan	0.0	0.0	0.0
-932	2/13/20	Saskatchewan	0.0	0.0	0.0
-933	2/14/20	Saskatchewan	0.0	0.0	0.0
-934	2/15/20	Saskatchewan	0.0	0.0	0.0
-935	2/16/20	Saskatchewan	0.0	0.0	0.0
-936	2/17/20	Saskatchewan	0.0	0.0	0.0
-937	2/18/20	Saskatchewan	0.0	0.0	0.0
-938	2/19/20	Saskatchewan	0.0	0.0	0.0
-939	2/20/20	Saskatchewan	0.0	0.0	0.0
-940	2/21/20	Saskatchewan	0.0	0.0	0.0
-941	2/22/20	Saskatchewan	0.0	0.0	0.0
-942	2/23/20	Saskatchewan	0.0	0.0	0.0
-943	2/24/20	Saskatchewan	0.0	0.0	0.0
-944	2/25/20	Saskatchewan	0.0	0.0	0.0
-945	2/26/20	Saskatchewan	0.0	0.0	0.0
-946	2/27/20	Saskatchewan	0.0	0.0	0.0
-947	2/28/20	Saskatchewan	0.0	0.0	0.0
-948	2/29/20	Saskatchewan	0.0	0.0	0.0
-949	3/1/20	Saskatchewan	0.0	0.0	0.0
-950	3/2/20	Saskatchewan	0.0	0.0	0.0
-951	3/3/20	Saskatchewan	0.0	0.0	0.0
-952	3/4/20	Saskatchewan	0.0	0.0	0.0
-953	3/5/20	Saskatchewan	0.0	0.0	0.0
-954	3/6/20	Saskatchewan	0.0	0.0	0.0
-955	3/7/20	Saskatchewan	0.0	0.0	0.0
-956	3/8/20	Saskatchewan	0.0	0.0	0.0
-957	3/9/20	Saskatchewan	0.0	0.0	0.0
-958	3/10/20	Saskatchewan	0.0	0.0	0.0
-959	3/11/20	Saskatchewan	0.0	0.0	0.0
-960	3/12/20	Saskatchewan	0.0	0.0	0.0
-961	3/13/20	Saskatchewan	2.0	0.0	0.0
-962	3/14/20	Saskatchewan	2.0	0.0	0.0
-963	3/15/20	Saskatchewan	2.0	0.0	0.0
-964	3/16/20	Saskatchewan	7.0	0.0	0.0
-965	3/17/20	Saskatchewan	7.0	0.0	0.0
-966	3/18/20	Saskatchewan	8.0	0.0	0.0
-967	3/19/20	Saskatchewan	16.0	0.0	0.0
-968	3/20/20	Saskatchewan	20.0	0.0	0.0
-969	3/21/20	Saskatchewan	26.0	0.0	0.0
-970	3/22/20	Saskatchewan	52.0	0.0	0.0
-971	3/23/20	Saskatchewan	66.0	0.0	0.0
-972	3/24/20	Saskatchewan	72.0	0.0	0.0
-973	3/25/20	Saskatchewan	72.0	0.0	0.0
-974	3/26/20	Saskatchewan	95.0	0.0	0.0
-975	3/27/20	Saskatchewan	95.0	0.0	0.0
-976	3/28/20	Saskatchewan	134.0	0.0	0.0
-977	3/29/20	Saskatchewan	156.0	0.0	0.0
-978	3/30/20	Saskatchewan	156.0	2.0	0.0
-979	3/31/20	Saskatchewan	184.0	2.0	0.0
-980	1/22/20	Yukon	0.0	0.0	0.0
-981	1/23/20	Yukon	0.0	0.0	0.0
-982	1/24/20	Yukon	0.0	0.0	0.0
-983	1/25/20	Yukon	0.0	0.0	0.0
-984	1/26/20	Yukon	0.0	0.0	0.0
-985	1/27/20	Yukon	0.0	0.0	0.0
-986	1/28/20	Yukon	0.0	0.0	0.0
-987	1/29/20	Yukon	0.0	0.0	0.0
-988	1/30/20	Yukon	0.0	0.0	0.0
-989	1/31/20	Yukon	0.0	0.0	0.0
-990	2/1/20	Yukon	0.0	0.0	0.0
-991	2/2/20	Yukon	0.0	0.0	0.0
-992	2/3/20	Yukon	0.0	0.0	0.0
-993	2/4/20	Yukon	0.0	0.0	0.0
-994	2/5/20	Yukon	0.0	0.0	0.0
-995	2/6/20	Yukon	0.0	0.0	0.0
-996	2/7/20	Yukon	0.0	0.0	0.0
-997	2/8/20	Yukon	0.0	0.0	0.0
-998	2/9/20	Yukon	0.0	0.0	0.0
-999	2/10/20	Yukon	0.0	0.0	0.0
-1000	2/11/20	Yukon	0.0	0.0	0.0
-1001	2/12/20	Yukon	0.0	0.0	0.0
-1002	2/13/20	Yukon	0.0	0.0	0.0
-1003	2/14/20	Yukon	0.0	0.0	0.0
-1004	2/15/20	Yukon	0.0	0.0	0.0
-1005	2/16/20	Yukon	0.0	0.0	0.0
-1006	2/17/20	Yukon	0.0	0.0	0.0
-1007	2/18/20	Yukon	0.0	0.0	0.0
-1008	2/19/20	Yukon	0.0	0.0	0.0
-1009	2/20/20	Yukon	0.0	0.0	0.0
-1010	2/21/20	Yukon	0.0	0.0	0.0
-1011	2/22/20	Yukon	0.0	0.0	0.0
-1012	2/23/20	Yukon	0.0	0.0	0.0
-1013	2/24/20	Yukon	0.0	0.0	0.0
-1014	2/25/20	Yukon	0.0	0.0	0.0
-1015	2/26/20	Yukon	0.0	0.0	0.0
-1016	2/27/20	Yukon	0.0	0.0	0.0
-1017	2/28/20	Yukon	0.0	0.0	0.0
-1018	2/29/20	Yukon	0.0	0.0	0.0
-1019	3/1/20	Yukon	0.0	0.0	0.0
-1020	3/2/20	Yukon	0.0	0.0	0.0
-1021	3/3/20	Yukon	0.0	0.0	0.0
-1022	3/4/20	Yukon	0.0	0.0	0.0
-1023	3/5/20	Yukon	0.0	0.0	0.0
-1024	3/6/20	Yukon	0.0	0.0	0.0
-1025	3/7/20	Yukon	0.0	0.0	0.0
-1026	3/8/20	Yukon	0.0	0.0	0.0
-1027	3/9/20	Yukon	0.0	0.0	0.0
-1028	3/10/20	Yukon	0.0	0.0	0.0
-1029	3/11/20	Yukon	0.0	0.0	0.0
-1030	3/12/20	Yukon	0.0	0.0	0.0
-1031	3/13/20	Yukon	0.0	0.0	0.0
-1032	3/14/20	Yukon	0.0	0.0	0.0
-1033	3/15/20	Yukon	0.0	0.0	0.0
-1034	3/16/20	Yukon	0.0	0.0	0.0
-1035	3/17/20	Yukon	0.0	0.0	0.0
-1036	3/18/20	Yukon	0.0	0.0	0.0
-1037	3/19/20	Yukon	0.0	0.0	0.0
-1038	3/20/20	Yukon	0.0	0.0	0.0
-1039	3/21/20	Yukon	0.0	0.0	0.0
-1040	3/22/20	Yukon	0.0	0.0	0.0
-1041	3/23/20	Yukon	0.0	0.0	0.0
-1042	3/24/20	Yukon	0.0	0.0	0.0
-1043	3/25/20	Yukon	0.0	0.0	0.0
-1044	3/26/20	Yukon	3.0	0.0	0.0
-1045	3/27/20	Yukon	3.0	0.0	0.0
-1046	3/28/20	Yukon	4.0	0.0	0.0
-1047	3/29/20	Yukon	4.0	0.0	0.0
-1048	3/30/20	Yukon	4.0	0.0	0.0
-1049	3/31/20	Yukon	5.0	0.0	0.0
+70	4/1/20	Alberta	754.0	9.0	0.0
+71	4/2/20	Alberta	969.0	13.0	0.0
+72	4/3/20	Alberta	969.0	13.0	0.0
+73	4/4/20	Alberta	1075.0	18.0	0.0
+74	4/5/20	Alberta	1181.0	20.0	0.0
+75	4/6/20	Alberta	1250.0	23.0	0.0
+76	4/7/20	Alberta	1373.0	24.0	0.0
+77	4/8/20	Alberta	1373.0	26.0	0.0
+78	4/9/20	Alberta	1423.0	29.0	0.0
+79	1/22/20	British Columbia	0.0	0.0	0.0
+80	1/23/20	British Columbia	0.0	0.0	0.0
+81	1/24/20	British Columbia	0.0	0.0	0.0
+82	1/25/20	British Columbia	0.0	0.0	0.0
+83	1/26/20	British Columbia	0.0	0.0	0.0
+84	1/27/20	British Columbia	0.0	0.0	0.0
+85	1/28/20	British Columbia	1.0	0.0	0.0
+86	1/29/20	British Columbia	1.0	0.0	0.0
+87	1/30/20	British Columbia	1.0	0.0	0.0
+88	1/31/20	British Columbia	1.0	0.0	0.0
+89	2/1/20	British Columbia	1.0	0.0	0.0
+90	2/2/20	British Columbia	1.0	0.0	0.0
+91	2/3/20	British Columbia	1.0	0.0	0.0
+92	2/4/20	British Columbia	1.0	0.0	0.0
+93	2/5/20	British Columbia	2.0	0.0	0.0
+94	2/6/20	British Columbia	2.0	0.0	0.0
+95	2/7/20	British Columbia	4.0	0.0	0.0
+96	2/8/20	British Columbia	4.0	0.0	0.0
+97	2/9/20	British Columbia	4.0	0.0	0.0
+98	2/10/20	British Columbia	4.0	0.0	0.0
+99	2/11/20	British Columbia	4.0	0.0	0.0
+100	2/12/20	British Columbia	4.0	0.0	0.0
+101	2/13/20	British Columbia	4.0	0.0	0.0
+102	2/14/20	British Columbia	4.0	0.0	0.0
+103	2/15/20	British Columbia	4.0	0.0	0.0
+104	2/16/20	British Columbia	4.0	0.0	0.0
+105	2/17/20	British Columbia	5.0	0.0	0.0
+106	2/18/20	British Columbia	5.0	0.0	0.0
+107	2/19/20	British Columbia	5.0	0.0	0.0
+108	2/20/20	British Columbia	5.0	0.0	0.0
+109	2/21/20	British Columbia	6.0	0.0	0.0
+110	2/22/20	British Columbia	6.0	0.0	0.0
+111	2/23/20	British Columbia	6.0	0.0	0.0
+112	2/24/20	British Columbia	6.0	0.0	0.0
+113	2/25/20	British Columbia	7.0	0.0	0.0
+114	2/26/20	British Columbia	7.0	0.0	0.0
+115	2/27/20	British Columbia	7.0	0.0	0.0
+116	2/28/20	British Columbia	7.0	0.0	0.0
+117	2/29/20	British Columbia	8.0	0.0	0.0
+118	3/1/20	British Columbia	8.0	0.0	0.0
+119	3/2/20	British Columbia	8.0	0.0	0.0
+120	3/3/20	British Columbia	9.0	0.0	0.0
+121	3/4/20	British Columbia	12.0	0.0	0.0
+122	3/5/20	British Columbia	13.0	0.0	0.0
+123	3/6/20	British Columbia	21.0	0.0	0.0
+124	3/7/20	British Columbia	21.0	0.0	0.0
+125	3/8/20	British Columbia	27.0	0.0	0.0
+126	3/9/20	British Columbia	32.0	1.0	0.0
+127	3/10/20	British Columbia	32.0	1.0	0.0
+128	3/11/20	British Columbia	39.0	1.0	0.0
+129	3/12/20	British Columbia	46.0	1.0	0.0
+130	3/13/20	British Columbia	64.0	1.0	0.0
+131	3/14/20	British Columbia	64.0	1.0	0.0
+132	3/15/20	British Columbia	73.0	1.0	0.0
+133	3/16/20	British Columbia	103.0	4.0	0.0
+134	3/17/20	British Columbia	103.0	4.0	0.0
+135	3/18/20	British Columbia	186.0	7.0	0.0
+136	3/19/20	British Columbia	231.0	7.0	0.0
+137	3/20/20	British Columbia	271.0	8.0	0.0
+138	3/21/20	British Columbia	424.0	10.0	0.0
+139	3/22/20	British Columbia	424.0	10.0	0.0
+140	3/23/20	British Columbia	472.0	13.0	0.0
+141	3/24/20	British Columbia	617.0	13.0	0.0
+142	3/25/20	British Columbia	617.0	13.0	0.0
+143	3/26/20	British Columbia	725.0	14.0	0.0
+144	3/27/20	British Columbia	725.0	14.0	0.0
+145	3/28/20	British Columbia	884.0	17.0	0.0
+146	3/29/20	British Columbia	884.0	17.0	0.0
+147	3/30/20	British Columbia	970.0	19.0	0.0
+148	3/31/20	British Columbia	1013.0	24.0	0.0
+149	4/1/20	British Columbia	1013.0	24.0	0.0
+150	4/2/20	British Columbia	1121.0	31.0	0.0
+151	4/3/20	British Columbia	1174.0	31.0	0.0
+152	4/4/20	British Columbia	1203.0	38.0	0.0
+153	4/5/20	British Columbia	1203.0	38.0	0.0
+154	4/6/20	British Columbia	1266.0	38.0	0.0
+155	4/7/20	British Columbia	1266.0	39.0	0.0
+156	4/8/20	British Columbia	1291.0	43.0	0.0
+157	4/9/20	British Columbia	1336.0	48.0	0.0
+158	1/22/20	Diamond Princess	0.0	0.0	0.0
+159	1/23/20	Diamond Princess	0.0	0.0	0.0
+160	1/24/20	Diamond Princess	0.0	0.0	0.0
+161	1/25/20	Diamond Princess	0.0	0.0	0.0
+162	1/26/20	Diamond Princess	0.0	0.0	0.0
+163	1/27/20	Diamond Princess	0.0	0.0	0.0
+164	1/28/20	Diamond Princess	0.0	0.0	0.0
+165	1/29/20	Diamond Princess	0.0	0.0	0.0
+166	1/30/20	Diamond Princess	0.0	0.0	0.0
+167	1/31/20	Diamond Princess	0.0	0.0	0.0
+168	2/1/20	Diamond Princess	0.0	0.0	0.0
+169	2/2/20	Diamond Princess	0.0	0.0	0.0
+170	2/3/20	Diamond Princess	0.0	0.0	0.0
+171	2/4/20	Diamond Princess	0.0	0.0	0.0
+172	2/5/20	Diamond Princess	0.0	0.0	0.0
+173	2/6/20	Diamond Princess	0.0	0.0	0.0
+174	2/7/20	Diamond Princess	0.0	0.0	0.0
+175	2/8/20	Diamond Princess	0.0	0.0	0.0
+176	2/9/20	Diamond Princess	0.0	0.0	0.0
+177	2/10/20	Diamond Princess	0.0	0.0	0.0
+178	2/11/20	Diamond Princess	0.0	0.0	0.0
+179	2/12/20	Diamond Princess	0.0	0.0	0.0
+180	2/13/20	Diamond Princess	0.0	0.0	0.0
+181	2/14/20	Diamond Princess	0.0	0.0	0.0
+182	2/15/20	Diamond Princess	0.0	0.0	0.0
+183	2/16/20	Diamond Princess	0.0	0.0	0.0
+184	2/17/20	Diamond Princess	0.0	0.0	0.0
+185	2/18/20	Diamond Princess	0.0	0.0	0.0
+186	2/19/20	Diamond Princess	0.0	0.0	0.0
+187	2/20/20	Diamond Princess	0.0	0.0	0.0
+188	2/21/20	Diamond Princess	0.0	0.0	0.0
+189	2/22/20	Diamond Princess	0.0	0.0	0.0
+190	2/23/20	Diamond Princess	0.0	0.0	0.0
+191	2/24/20	Diamond Princess	0.0	0.0	0.0
+192	2/25/20	Diamond Princess	0.0	0.0	0.0
+193	2/26/20	Diamond Princess	0.0	0.0	0.0
+194	2/27/20	Diamond Princess	0.0	0.0	0.0
+195	2/28/20	Diamond Princess	0.0	0.0	0.0
+196	2/29/20	Diamond Princess	0.0	0.0	0.0
+197	3/1/20	Diamond Princess	0.0	0.0	0.0
+198	3/2/20	Diamond Princess	0.0	0.0	0.0
+199	3/3/20	Diamond Princess	0.0	0.0	0.0
+200	3/4/20	Diamond Princess	0.0	0.0	0.0
+201	3/5/20	Diamond Princess	0.0	0.0	0.0
+202	3/6/20	Diamond Princess	0.0	0.0	0.0
+203	3/7/20	Diamond Princess	0.0	0.0	0.0
+204	3/8/20	Diamond Princess	0.0	0.0	0.0
+205	3/9/20	Diamond Princess	0.0	0.0	0.0
+206	3/10/20	Diamond Princess	0.0	0.0	0.0
+207	3/11/20	Diamond Princess	0.0	0.0	0.0
+208	3/12/20	Diamond Princess	0.0	0.0	0.0
+209	3/13/20	Diamond Princess	0.0	0.0	0.0
+210	3/14/20	Diamond Princess	0.0	0.0	0.0
+211	3/15/20	Diamond Princess	0.0	0.0	0.0
+212	3/16/20	Diamond Princess	0.0	0.0	0.0
+213	3/17/20	Diamond Princess	0.0	0.0	0.0
+214	3/18/20	Diamond Princess	0.0	0.0	0.0
+215	3/19/20	Diamond Princess	0.0	0.0	0.0
+216	3/20/20	Diamond Princess	0.0	0.0	0.0
+217	3/21/20	Diamond Princess	0.0	0.0	0.0
+218	3/22/20	Diamond Princess	0.0	1.0	0.0
+219	3/23/20	Diamond Princess	0.0	1.0	0.0
+220	3/24/20	Diamond Princess	0.0	1.0	0.0
+221	3/25/20	Diamond Princess	0.0	1.0	0.0
+222	3/26/20	Diamond Princess	0.0	1.0	0.0
+223	3/27/20	Diamond Princess	0.0	1.0	0.0
+224	3/28/20	Diamond Princess	0.0	1.0	0.0
+225	3/29/20	Diamond Princess	0.0	1.0	0.0
+226	3/30/20	Diamond Princess	0.0	1.0	0.0
+227	3/31/20	Diamond Princess	0.0	1.0	0.0
+228	4/1/20	Diamond Princess	0.0	1.0	0.0
+229	4/2/20	Diamond Princess	0.0	1.0	0.0
+230	4/3/20	Diamond Princess	0.0	1.0	0.0
+231	4/4/20	Diamond Princess	0.0	1.0	0.0
+232	4/5/20	Diamond Princess	0.0	1.0	0.0
+233	4/6/20	Diamond Princess	0.0	1.0	0.0
+234	4/7/20	Diamond Princess	0.0	1.0	0.0
+235	4/8/20	Diamond Princess	0.0	1.0	0.0
+236	4/9/20	Diamond Princess	0.0	1.0	0.0
+237	1/22/20	Grand Princess	0.0	0.0	0.0
+238	1/23/20	Grand Princess	0.0	0.0	0.0
+239	1/24/20	Grand Princess	0.0	0.0	0.0
+240	1/25/20	Grand Princess	0.0	0.0	0.0
+241	1/26/20	Grand Princess	0.0	0.0	0.0
+242	1/27/20	Grand Princess	0.0	0.0	0.0
+243	1/28/20	Grand Princess	0.0	0.0	0.0
+244	1/29/20	Grand Princess	0.0	0.0	0.0
+245	1/30/20	Grand Princess	0.0	0.0	0.0
+246	1/31/20	Grand Princess	0.0	0.0	0.0
+247	2/1/20	Grand Princess	0.0	0.0	0.0
+248	2/2/20	Grand Princess	0.0	0.0	0.0
+249	2/3/20	Grand Princess	0.0	0.0	0.0
+250	2/4/20	Grand Princess	0.0	0.0	0.0
+251	2/5/20	Grand Princess	0.0	0.0	0.0
+252	2/6/20	Grand Princess	0.0	0.0	0.0
+253	2/7/20	Grand Princess	0.0	0.0	0.0
+254	2/8/20	Grand Princess	0.0	0.0	0.0
+255	2/9/20	Grand Princess	0.0	0.0	0.0
+256	2/10/20	Grand Princess	0.0	0.0	0.0
+257	2/11/20	Grand Princess	0.0	0.0	0.0
+258	2/12/20	Grand Princess	0.0	0.0	0.0
+259	2/13/20	Grand Princess	0.0	0.0	0.0
+260	2/14/20	Grand Princess	0.0	0.0	0.0
+261	2/15/20	Grand Princess	0.0	0.0	0.0
+262	2/16/20	Grand Princess	0.0	0.0	0.0
+263	2/17/20	Grand Princess	0.0	0.0	0.0
+264	2/18/20	Grand Princess	0.0	0.0	0.0
+265	2/19/20	Grand Princess	0.0	0.0	0.0
+266	2/20/20	Grand Princess	0.0	0.0	0.0
+267	2/21/20	Grand Princess	0.0	0.0	0.0
+268	2/22/20	Grand Princess	0.0	0.0	0.0
+269	2/23/20	Grand Princess	0.0	0.0	0.0
+270	2/24/20	Grand Princess	0.0	0.0	0.0
+271	2/25/20	Grand Princess	0.0	0.0	0.0
+272	2/26/20	Grand Princess	0.0	0.0	0.0
+273	2/27/20	Grand Princess	0.0	0.0	0.0
+274	2/28/20	Grand Princess	0.0	0.0	0.0
+275	2/29/20	Grand Princess	0.0	0.0	0.0
+276	3/1/20	Grand Princess	0.0	0.0	0.0
+277	3/2/20	Grand Princess	0.0	0.0	0.0
+278	3/3/20	Grand Princess	0.0	0.0	0.0
+279	3/4/20	Grand Princess	0.0	0.0	0.0
+280	3/5/20	Grand Princess	0.0	0.0	0.0
+281	3/6/20	Grand Princess	0.0	0.0	0.0
+282	3/7/20	Grand Princess	0.0	0.0	0.0
+283	3/8/20	Grand Princess	0.0	0.0	0.0
+284	3/9/20	Grand Princess	0.0	0.0	0.0
+285	3/10/20	Grand Princess	0.0	0.0	0.0
+286	3/11/20	Grand Princess	0.0	0.0	0.0
+287	3/12/20	Grand Princess	0.0	0.0	0.0
+288	3/13/20	Grand Princess	2.0	0.0	0.0
+289	3/14/20	Grand Princess	2.0	0.0	0.0
+290	3/15/20	Grand Princess	2.0	0.0	0.0
+291	3/16/20	Grand Princess	2.0	0.0	0.0
+292	3/17/20	Grand Princess	8.0	0.0	0.0
+293	3/18/20	Grand Princess	9.0	0.0	0.0
+294	3/19/20	Grand Princess	9.0	0.0	0.0
+295	3/20/20	Grand Princess	10.0	0.0	0.0
+296	3/21/20	Grand Princess	10.0	0.0	0.0
+297	3/22/20	Grand Princess	13.0	0.0	0.0
+298	3/23/20	Grand Princess	13.0	0.0	0.0
+299	3/24/20	Grand Princess	13.0	0.0	0.0
+300	3/25/20	Grand Princess	13.0	0.0	0.0
+301	3/26/20	Grand Princess	13.0	0.0	0.0
+302	3/27/20	Grand Princess	13.0	0.0	0.0
+303	3/28/20	Grand Princess	13.0	0.0	0.0
+304	3/29/20	Grand Princess	13.0	0.0	0.0
+305	3/30/20	Grand Princess	13.0	0.0	0.0
+306	3/31/20	Grand Princess	13.0	0.0	0.0
+307	4/1/20	Grand Princess	13.0	0.0	0.0
+308	4/2/20	Grand Princess	13.0	0.0	0.0
+309	4/3/20	Grand Princess	13.0	0.0	0.0
+310	4/4/20	Grand Princess	13.0	0.0	0.0
+311	4/5/20	Grand Princess	13.0	0.0	0.0
+312	4/6/20	Grand Princess	13.0	0.0	0.0
+313	4/7/20	Grand Princess	13.0	0.0	0.0
+314	4/8/20	Grand Princess	13.0	0.0	0.0
+315	4/9/20	Grand Princess	13.0	0.0	0.0
+316	1/22/20	Manitoba	0.0	0.0	0.0
+317	1/23/20	Manitoba	0.0	0.0	0.0
+318	1/24/20	Manitoba	0.0	0.0	0.0
+319	1/25/20	Manitoba	0.0	0.0	0.0
+320	1/26/20	Manitoba	0.0	0.0	0.0
+321	1/27/20	Manitoba	0.0	0.0	0.0
+322	1/28/20	Manitoba	0.0	0.0	0.0
+323	1/29/20	Manitoba	0.0	0.0	0.0
+324	1/30/20	Manitoba	0.0	0.0	0.0
+325	1/31/20	Manitoba	0.0	0.0	0.0
+326	2/1/20	Manitoba	0.0	0.0	0.0
+327	2/2/20	Manitoba	0.0	0.0	0.0
+328	2/3/20	Manitoba	0.0	0.0	0.0
+329	2/4/20	Manitoba	0.0	0.0	0.0
+330	2/5/20	Manitoba	0.0	0.0	0.0
+331	2/6/20	Manitoba	0.0	0.0	0.0
+332	2/7/20	Manitoba	0.0	0.0	0.0
+333	2/8/20	Manitoba	0.0	0.0	0.0
+334	2/9/20	Manitoba	0.0	0.0	0.0
+335	2/10/20	Manitoba	0.0	0.0	0.0
+336	2/11/20	Manitoba	0.0	0.0	0.0
+337	2/12/20	Manitoba	0.0	0.0	0.0
+338	2/13/20	Manitoba	0.0	0.0	0.0
+339	2/14/20	Manitoba	0.0	0.0	0.0
+340	2/15/20	Manitoba	0.0	0.0	0.0
+341	2/16/20	Manitoba	0.0	0.0	0.0
+342	2/17/20	Manitoba	0.0	0.0	0.0
+343	2/18/20	Manitoba	0.0	0.0	0.0
+344	2/19/20	Manitoba	0.0	0.0	0.0
+345	2/20/20	Manitoba	0.0	0.0	0.0
+346	2/21/20	Manitoba	0.0	0.0	0.0
+347	2/22/20	Manitoba	0.0	0.0	0.0
+348	2/23/20	Manitoba	0.0	0.0	0.0
+349	2/24/20	Manitoba	0.0	0.0	0.0
+350	2/25/20	Manitoba	0.0	0.0	0.0
+351	2/26/20	Manitoba	0.0	0.0	0.0
+352	2/27/20	Manitoba	0.0	0.0	0.0
+353	2/28/20	Manitoba	0.0	0.0	0.0
+354	2/29/20	Manitoba	0.0	0.0	0.0
+355	3/1/20	Manitoba	0.0	0.0	0.0
+356	3/2/20	Manitoba	0.0	0.0	0.0
+357	3/3/20	Manitoba	0.0	0.0	0.0
+358	3/4/20	Manitoba	0.0	0.0	0.0
+359	3/5/20	Manitoba	0.0	0.0	0.0
+360	3/6/20	Manitoba	0.0	0.0	0.0
+361	3/7/20	Manitoba	0.0	0.0	0.0
+362	3/8/20	Manitoba	0.0	0.0	0.0
+363	3/9/20	Manitoba	0.0	0.0	0.0
+364	3/10/20	Manitoba	0.0	0.0	0.0
+365	3/11/20	Manitoba	0.0	0.0	0.0
+366	3/12/20	Manitoba	0.0	0.0	0.0
+367	3/13/20	Manitoba	4.0	0.0	0.0
+368	3/14/20	Manitoba	4.0	0.0	0.0
+369	3/15/20	Manitoba	4.0	0.0	0.0
+370	3/16/20	Manitoba	7.0	0.0	0.0
+371	3/17/20	Manitoba	8.0	0.0	0.0
+372	3/18/20	Manitoba	15.0	0.0	0.0
+373	3/19/20	Manitoba	17.0	0.0	0.0
+374	3/20/20	Manitoba	17.0	0.0	0.0
+375	3/21/20	Manitoba	18.0	0.0	0.0
+376	3/22/20	Manitoba	20.0	0.0	0.0
+377	3/23/20	Manitoba	20.0	0.0	0.0
+378	3/24/20	Manitoba	21.0	0.0	0.0
+379	3/25/20	Manitoba	35.0	0.0	0.0
+380	3/26/20	Manitoba	36.0	0.0	0.0
+381	3/27/20	Manitoba	39.0	1.0	0.0
+382	3/28/20	Manitoba	64.0	1.0	0.0
+383	3/29/20	Manitoba	72.0	1.0	0.0
+384	3/30/20	Manitoba	96.0	1.0	0.0
+385	3/31/20	Manitoba	103.0	1.0	0.0
+386	4/1/20	Manitoba	127.0	1.0	0.0
+387	4/2/20	Manitoba	167.0	1.0	0.0
+388	4/3/20	Manitoba	182.0	2.0	0.0
+389	4/4/20	Manitoba	182.0	2.0	0.0
+390	4/5/20	Manitoba	203.0	2.0	0.0
+391	4/6/20	Manitoba	203.0	2.0	0.0
+392	4/7/20	Manitoba	217.0	3.0	0.0
+393	4/8/20	Manitoba	217.0	3.0	0.0
+394	4/9/20	Manitoba	221.0	3.0	0.0
+395	1/22/20	New Brunswick	0.0	0.0	0.0
+396	1/23/20	New Brunswick	0.0	0.0	0.0
+397	1/24/20	New Brunswick	0.0	0.0	0.0
+398	1/25/20	New Brunswick	0.0	0.0	0.0
+399	1/26/20	New Brunswick	0.0	0.0	0.0
+400	1/27/20	New Brunswick	0.0	0.0	0.0
+401	1/28/20	New Brunswick	0.0	0.0	0.0
+402	1/29/20	New Brunswick	0.0	0.0	0.0
+403	1/30/20	New Brunswick	0.0	0.0	0.0
+404	1/31/20	New Brunswick	0.0	0.0	0.0
+405	2/1/20	New Brunswick	0.0	0.0	0.0
+406	2/2/20	New Brunswick	0.0	0.0	0.0
+407	2/3/20	New Brunswick	0.0	0.0	0.0
+408	2/4/20	New Brunswick	0.0	0.0	0.0
+409	2/5/20	New Brunswick	0.0	0.0	0.0
+410	2/6/20	New Brunswick	0.0	0.0	0.0
+411	2/7/20	New Brunswick	0.0	0.0	0.0
+412	2/8/20	New Brunswick	0.0	0.0	0.0
+413	2/9/20	New Brunswick	0.0	0.0	0.0
+414	2/10/20	New Brunswick	0.0	0.0	0.0
+415	2/11/20	New Brunswick	0.0	0.0	0.0
+416	2/12/20	New Brunswick	0.0	0.0	0.0
+417	2/13/20	New Brunswick	0.0	0.0	0.0
+418	2/14/20	New Brunswick	0.0	0.0	0.0
+419	2/15/20	New Brunswick	0.0	0.0	0.0
+420	2/16/20	New Brunswick	0.0	0.0	0.0
+421	2/17/20	New Brunswick	0.0	0.0	0.0
+422	2/18/20	New Brunswick	0.0	0.0	0.0
+423	2/19/20	New Brunswick	0.0	0.0	0.0
+424	2/20/20	New Brunswick	0.0	0.0	0.0
+425	2/21/20	New Brunswick	0.0	0.0	0.0
+426	2/22/20	New Brunswick	0.0	0.0	0.0
+427	2/23/20	New Brunswick	0.0	0.0	0.0
+428	2/24/20	New Brunswick	0.0	0.0	0.0
+429	2/25/20	New Brunswick	0.0	0.0	0.0
+430	2/26/20	New Brunswick	0.0	0.0	0.0
+431	2/27/20	New Brunswick	0.0	0.0	0.0
+432	2/28/20	New Brunswick	0.0	0.0	0.0
+433	2/29/20	New Brunswick	0.0	0.0	0.0
+434	3/1/20	New Brunswick	0.0	0.0	0.0
+435	3/2/20	New Brunswick	0.0	0.0	0.0
+436	3/3/20	New Brunswick	0.0	0.0	0.0
+437	3/4/20	New Brunswick	0.0	0.0	0.0
+438	3/5/20	New Brunswick	0.0	0.0	0.0
+439	3/6/20	New Brunswick	0.0	0.0	0.0
+440	3/7/20	New Brunswick	0.0	0.0	0.0
+441	3/8/20	New Brunswick	0.0	0.0	0.0
+442	3/9/20	New Brunswick	0.0	0.0	0.0
+443	3/10/20	New Brunswick	0.0	0.0	0.0
+444	3/11/20	New Brunswick	1.0	0.0	0.0
+445	3/12/20	New Brunswick	1.0	0.0	0.0
+446	3/13/20	New Brunswick	1.0	0.0	0.0
+447	3/14/20	New Brunswick	1.0	0.0	0.0
+448	3/15/20	New Brunswick	2.0	0.0	0.0
+449	3/16/20	New Brunswick	6.0	0.0	0.0
+450	3/17/20	New Brunswick	8.0	0.0	0.0
+451	3/18/20	New Brunswick	11.0	0.0	0.0
+452	3/19/20	New Brunswick	11.0	0.0	0.0
+453	3/20/20	New Brunswick	11.0	0.0	0.0
+454	3/21/20	New Brunswick	17.0	0.0	0.0
+455	3/22/20	New Brunswick	17.0	0.0	0.0
+456	3/23/20	New Brunswick	17.0	0.0	0.0
+457	3/24/20	New Brunswick	18.0	0.0	0.0
+458	3/25/20	New Brunswick	18.0	0.0	0.0
+459	3/26/20	New Brunswick	33.0	0.0	0.0
+460	3/27/20	New Brunswick	45.0	0.0	0.0
+461	3/28/20	New Brunswick	51.0	0.0	0.0
+462	3/29/20	New Brunswick	66.0	0.0	0.0
+463	3/30/20	New Brunswick	68.0	0.0	0.0
+464	3/31/20	New Brunswick	70.0	0.0	0.0
+465	4/1/20	New Brunswick	81.0	0.0	0.0
+466	4/2/20	New Brunswick	91.0	0.0	0.0
+467	4/3/20	New Brunswick	91.0	0.0	0.0
+468	4/4/20	New Brunswick	91.0	0.0	0.0
+469	4/5/20	New Brunswick	98.0	0.0	0.0
+470	4/6/20	New Brunswick	103.0	0.0	0.0
+471	4/7/20	New Brunswick	105.0	0.0	0.0
+472	4/8/20	New Brunswick	105.0	0.0	0.0
+473	4/9/20	New Brunswick	108.0	0.0	0.0
+474	1/22/20	Newfoundland and Labrador	0.0	0.0	0.0
+475	1/23/20	Newfoundland and Labrador	0.0	0.0	0.0
+476	1/24/20	Newfoundland and Labrador	0.0	0.0	0.0
+477	1/25/20	Newfoundland and Labrador	0.0	0.0	0.0
+478	1/26/20	Newfoundland and Labrador	0.0	0.0	0.0
+479	1/27/20	Newfoundland and Labrador	0.0	0.0	0.0
+480	1/28/20	Newfoundland and Labrador	0.0	0.0	0.0
+481	1/29/20	Newfoundland and Labrador	0.0	0.0	0.0
+482	1/30/20	Newfoundland and Labrador	0.0	0.0	0.0
+483	1/31/20	Newfoundland and Labrador	0.0	0.0	0.0
+484	2/1/20	Newfoundland and Labrador	0.0	0.0	0.0
+485	2/2/20	Newfoundland and Labrador	0.0	0.0	0.0
+486	2/3/20	Newfoundland and Labrador	0.0	0.0	0.0
+487	2/4/20	Newfoundland and Labrador	0.0	0.0	0.0
+488	2/5/20	Newfoundland and Labrador	0.0	0.0	0.0
+489	2/6/20	Newfoundland and Labrador	0.0	0.0	0.0
+490	2/7/20	Newfoundland and Labrador	0.0	0.0	0.0
+491	2/8/20	Newfoundland and Labrador	0.0	0.0	0.0
+492	2/9/20	Newfoundland and Labrador	0.0	0.0	0.0
+493	2/10/20	Newfoundland and Labrador	0.0	0.0	0.0
+494	2/11/20	Newfoundland and Labrador	0.0	0.0	0.0
+495	2/12/20	Newfoundland and Labrador	0.0	0.0	0.0
+496	2/13/20	Newfoundland and Labrador	0.0	0.0	0.0
+497	2/14/20	Newfoundland and Labrador	0.0	0.0	0.0
+498	2/15/20	Newfoundland and Labrador	0.0	0.0	0.0
+499	2/16/20	Newfoundland and Labrador	0.0	0.0	0.0
+500	2/17/20	Newfoundland and Labrador	0.0	0.0	0.0
+501	2/18/20	Newfoundland and Labrador	0.0	0.0	0.0
+502	2/19/20	Newfoundland and Labrador	0.0	0.0	0.0
+503	2/20/20	Newfoundland and Labrador	0.0	0.0	0.0
+504	2/21/20	Newfoundland and Labrador	0.0	0.0	0.0
+505	2/22/20	Newfoundland and Labrador	0.0	0.0	0.0
+506	2/23/20	Newfoundland and Labrador	0.0	0.0	0.0
+507	2/24/20	Newfoundland and Labrador	0.0	0.0	0.0
+508	2/25/20	Newfoundland and Labrador	0.0	0.0	0.0
+509	2/26/20	Newfoundland and Labrador	0.0	0.0	0.0
+510	2/27/20	Newfoundland and Labrador	0.0	0.0	0.0
+511	2/28/20	Newfoundland and Labrador	0.0	0.0	0.0
+512	2/29/20	Newfoundland and Labrador	0.0	0.0	0.0
+513	3/1/20	Newfoundland and Labrador	0.0	0.0	0.0
+514	3/2/20	Newfoundland and Labrador	0.0	0.0	0.0
+515	3/3/20	Newfoundland and Labrador	0.0	0.0	0.0
+516	3/4/20	Newfoundland and Labrador	0.0	0.0	0.0
+517	3/5/20	Newfoundland and Labrador	0.0	0.0	0.0
+518	3/6/20	Newfoundland and Labrador	0.0	0.0	0.0
+519	3/7/20	Newfoundland and Labrador	0.0	0.0	0.0
+520	3/8/20	Newfoundland and Labrador	0.0	0.0	0.0
+521	3/9/20	Newfoundland and Labrador	0.0	0.0	0.0
+522	3/10/20	Newfoundland and Labrador	0.0	0.0	0.0
+523	3/11/20	Newfoundland and Labrador	0.0	0.0	0.0
+524	3/12/20	Newfoundland and Labrador	0.0	0.0	0.0
+525	3/13/20	Newfoundland and Labrador	0.0	0.0	0.0
+526	3/14/20	Newfoundland and Labrador	0.0	0.0	0.0
+527	3/15/20	Newfoundland and Labrador	1.0	0.0	0.0
+528	3/16/20	Newfoundland and Labrador	1.0	0.0	0.0
+529	3/17/20	Newfoundland and Labrador	3.0	0.0	0.0
+530	3/18/20	Newfoundland and Labrador	3.0	0.0	0.0
+531	3/19/20	Newfoundland and Labrador	3.0	0.0	0.0
+532	3/20/20	Newfoundland and Labrador	4.0	0.0	0.0
+533	3/21/20	Newfoundland and Labrador	6.0	0.0	0.0
+534	3/22/20	Newfoundland and Labrador	9.0	0.0	0.0
+535	3/23/20	Newfoundland and Labrador	24.0	0.0	0.0
+536	3/24/20	Newfoundland and Labrador	35.0	0.0	0.0
+537	3/25/20	Newfoundland and Labrador	35.0	0.0	0.0
+538	3/26/20	Newfoundland and Labrador	82.0	0.0	0.0
+539	3/27/20	Newfoundland and Labrador	102.0	0.0	0.0
+540	3/28/20	Newfoundland and Labrador	120.0	0.0	0.0
+541	3/29/20	Newfoundland and Labrador	135.0	0.0	0.0
+542	3/30/20	Newfoundland and Labrador	148.0	1.0	0.0
+543	3/31/20	Newfoundland and Labrador	152.0	1.0	0.0
+544	4/1/20	Newfoundland and Labrador	175.0	1.0	0.0
+545	4/2/20	Newfoundland and Labrador	183.0	1.0	0.0
+546	4/3/20	Newfoundland and Labrador	195.0	1.0	0.0
+547	4/4/20	Newfoundland and Labrador	195.0	1.0	0.0
+548	4/5/20	Newfoundland and Labrador	217.0	1.0	0.0
+549	4/6/20	Newfoundland and Labrador	226.0	1.0	0.0
+550	4/7/20	Newfoundland and Labrador	228.0	1.0	0.0
+551	4/8/20	Newfoundland and Labrador	228.0	1.0	0.0
+552	4/9/20	Newfoundland and Labrador	232.0	2.0	0.0
+553	1/22/20	Northwest Territories	0.0	0.0	0.0
+554	1/23/20	Northwest Territories	0.0	0.0	0.0
+555	1/24/20	Northwest Territories	0.0	0.0	0.0
+556	1/25/20	Northwest Territories	0.0	0.0	0.0
+557	1/26/20	Northwest Territories	0.0	0.0	0.0
+558	1/27/20	Northwest Territories	0.0	0.0	0.0
+559	1/28/20	Northwest Territories	0.0	0.0	0.0
+560	1/29/20	Northwest Territories	0.0	0.0	0.0
+561	1/30/20	Northwest Territories	0.0	0.0	0.0
+562	1/31/20	Northwest Territories	0.0	0.0	0.0
+563	2/1/20	Northwest Territories	0.0	0.0	0.0
+564	2/2/20	Northwest Territories	0.0	0.0	0.0
+565	2/3/20	Northwest Territories	0.0	0.0	0.0
+566	2/4/20	Northwest Territories	0.0	0.0	0.0
+567	2/5/20	Northwest Territories	0.0	0.0	0.0
+568	2/6/20	Northwest Territories	0.0	0.0	0.0
+569	2/7/20	Northwest Territories	0.0	0.0	0.0
+570	2/8/20	Northwest Territories	0.0	0.0	0.0
+571	2/9/20	Northwest Territories	0.0	0.0	0.0
+572	2/10/20	Northwest Territories	0.0	0.0	0.0
+573	2/11/20	Northwest Territories	0.0	0.0	0.0
+574	2/12/20	Northwest Territories	0.0	0.0	0.0
+575	2/13/20	Northwest Territories	0.0	0.0	0.0
+576	2/14/20	Northwest Territories	0.0	0.0	0.0
+577	2/15/20	Northwest Territories	0.0	0.0	0.0
+578	2/16/20	Northwest Territories	0.0	0.0	0.0
+579	2/17/20	Northwest Territories	0.0	0.0	0.0
+580	2/18/20	Northwest Territories	0.0	0.0	0.0
+581	2/19/20	Northwest Territories	0.0	0.0	0.0
+582	2/20/20	Northwest Territories	0.0	0.0	0.0
+583	2/21/20	Northwest Territories	0.0	0.0	0.0
+584	2/22/20	Northwest Territories	0.0	0.0	0.0
+585	2/23/20	Northwest Territories	0.0	0.0	0.0
+586	2/24/20	Northwest Territories	0.0	0.0	0.0
+587	2/25/20	Northwest Territories	0.0	0.0	0.0
+588	2/26/20	Northwest Territories	0.0	0.0	0.0
+589	2/27/20	Northwest Territories	0.0	0.0	0.0
+590	2/28/20	Northwest Territories	0.0	0.0	0.0
+591	2/29/20	Northwest Territories	0.0	0.0	0.0
+592	3/1/20	Northwest Territories	0.0	0.0	0.0
+593	3/2/20	Northwest Territories	0.0	0.0	0.0
+594	3/3/20	Northwest Territories	0.0	0.0	0.0
+595	3/4/20	Northwest Territories	0.0	0.0	0.0
+596	3/5/20	Northwest Territories	0.0	0.0	0.0
+597	3/6/20	Northwest Territories	0.0	0.0	0.0
+598	3/7/20	Northwest Territories	0.0	0.0	0.0
+599	3/8/20	Northwest Territories	0.0	0.0	0.0
+600	3/9/20	Northwest Territories	0.0	0.0	0.0
+601	3/10/20	Northwest Territories	0.0	0.0	0.0
+602	3/11/20	Northwest Territories	0.0	0.0	0.0
+603	3/12/20	Northwest Territories	0.0	0.0	0.0
+604	3/13/20	Northwest Territories	0.0	0.0	0.0
+605	3/14/20	Northwest Territories	0.0	0.0	0.0
+606	3/15/20	Northwest Territories	0.0	0.0	0.0
+607	3/16/20	Northwest Territories	0.0	0.0	0.0
+608	3/17/20	Northwest Territories	0.0	0.0	0.0
+609	3/18/20	Northwest Territories	0.0	0.0	0.0
+610	3/19/20	Northwest Territories	0.0	0.0	0.0
+611	3/20/20	Northwest Territories	0.0	0.0	0.0
+612	3/21/20	Northwest Territories	0.0	0.0	0.0
+613	3/22/20	Northwest Territories	0.0	0.0	0.0
+614	3/23/20	Northwest Territories	0.0	0.0	0.0
+615	3/24/20	Northwest Territories	0.0	0.0	0.0
+616	3/25/20	Northwest Territories	0.0	0.0	0.0
+617	3/26/20	Northwest Territories	1.0	0.0	0.0
+618	3/27/20	Northwest Territories	1.0	0.0	0.0
+619	3/28/20	Northwest Territories	1.0	0.0	0.0
+620	3/29/20	Northwest Territories	1.0	0.0	0.0
+621	3/30/20	Northwest Territories	1.0	0.0	0.0
+622	3/31/20	Northwest Territories	1.0	0.0	0.0
+623	4/1/20	Northwest Territories	2.0	0.0	0.0
+624	4/2/20	Northwest Territories	2.0	0.0	0.0
+625	4/3/20	Northwest Territories	2.0	0.0	0.0
+626	4/4/20	Northwest Territories	4.0	0.0	0.0
+627	4/5/20	Northwest Territories	4.0	0.0	0.0
+628	4/6/20	Northwest Territories	5.0	0.0	0.0
+629	4/7/20	Northwest Territories	5.0	0.0	0.0
+630	4/8/20	Northwest Territories	5.0	0.0	0.0
+631	4/9/20	Northwest Territories	5.0	0.0	0.0
+632	1/22/20	Nova Scotia	0.0	0.0	0.0
+633	1/23/20	Nova Scotia	0.0	0.0	0.0
+634	1/24/20	Nova Scotia	0.0	0.0	0.0
+635	1/25/20	Nova Scotia	0.0	0.0	0.0
+636	1/26/20	Nova Scotia	0.0	0.0	0.0
+637	1/27/20	Nova Scotia	0.0	0.0	0.0
+638	1/28/20	Nova Scotia	0.0	0.0	0.0
+639	1/29/20	Nova Scotia	0.0	0.0	0.0
+640	1/30/20	Nova Scotia	0.0	0.0	0.0
+641	1/31/20	Nova Scotia	0.0	0.0	0.0
+642	2/1/20	Nova Scotia	0.0	0.0	0.0
+643	2/2/20	Nova Scotia	0.0	0.0	0.0
+644	2/3/20	Nova Scotia	0.0	0.0	0.0
+645	2/4/20	Nova Scotia	0.0	0.0	0.0
+646	2/5/20	Nova Scotia	0.0	0.0	0.0
+647	2/6/20	Nova Scotia	0.0	0.0	0.0
+648	2/7/20	Nova Scotia	0.0	0.0	0.0
+649	2/8/20	Nova Scotia	0.0	0.0	0.0
+650	2/9/20	Nova Scotia	0.0	0.0	0.0
+651	2/10/20	Nova Scotia	0.0	0.0	0.0
+652	2/11/20	Nova Scotia	0.0	0.0	0.0
+653	2/12/20	Nova Scotia	0.0	0.0	0.0
+654	2/13/20	Nova Scotia	0.0	0.0	0.0
+655	2/14/20	Nova Scotia	0.0	0.0	0.0
+656	2/15/20	Nova Scotia	0.0	0.0	0.0
+657	2/16/20	Nova Scotia	0.0	0.0	0.0
+658	2/17/20	Nova Scotia	0.0	0.0	0.0
+659	2/18/20	Nova Scotia	0.0	0.0	0.0
+660	2/19/20	Nova Scotia	0.0	0.0	0.0
+661	2/20/20	Nova Scotia	0.0	0.0	0.0
+662	2/21/20	Nova Scotia	0.0	0.0	0.0
+663	2/22/20	Nova Scotia	0.0	0.0	0.0
+664	2/23/20	Nova Scotia	0.0	0.0	0.0
+665	2/24/20	Nova Scotia	0.0	0.0	0.0
+666	2/25/20	Nova Scotia	0.0	0.0	0.0
+667	2/26/20	Nova Scotia	0.0	0.0	0.0
+668	2/27/20	Nova Scotia	0.0	0.0	0.0
+669	2/28/20	Nova Scotia	0.0	0.0	0.0
+670	2/29/20	Nova Scotia	0.0	0.0	0.0
+671	3/1/20	Nova Scotia	0.0	0.0	0.0
+672	3/2/20	Nova Scotia	0.0	0.0	0.0
+673	3/3/20	Nova Scotia	0.0	0.0	0.0
+674	3/4/20	Nova Scotia	0.0	0.0	0.0
+675	3/5/20	Nova Scotia	0.0	0.0	0.0
+676	3/6/20	Nova Scotia	0.0	0.0	0.0
+677	3/7/20	Nova Scotia	0.0	0.0	0.0
+678	3/8/20	Nova Scotia	0.0	0.0	0.0
+679	3/9/20	Nova Scotia	0.0	0.0	0.0
+680	3/10/20	Nova Scotia	0.0	0.0	0.0
+681	3/11/20	Nova Scotia	0.0	0.0	0.0
+682	3/12/20	Nova Scotia	0.0	0.0	0.0
+683	3/13/20	Nova Scotia	0.0	0.0	0.0
+684	3/14/20	Nova Scotia	0.0	0.0	0.0
+685	3/15/20	Nova Scotia	0.0	0.0	0.0
+686	3/16/20	Nova Scotia	5.0	0.0	0.0
+687	3/17/20	Nova Scotia	7.0	0.0	0.0
+688	3/18/20	Nova Scotia	12.0	0.0	0.0
+689	3/19/20	Nova Scotia	14.0	0.0	0.0
+690	3/20/20	Nova Scotia	15.0	0.0	0.0
+691	3/21/20	Nova Scotia	21.0	0.0	0.0
+692	3/22/20	Nova Scotia	28.0	0.0	0.0
+693	3/23/20	Nova Scotia	41.0	0.0	0.0
+694	3/24/20	Nova Scotia	51.0	0.0	0.0
+695	3/25/20	Nova Scotia	68.0	0.0	0.0
+696	3/26/20	Nova Scotia	73.0	0.0	0.0
+697	3/27/20	Nova Scotia	90.0	0.0	0.0
+698	3/28/20	Nova Scotia	110.0	0.0	0.0
+699	3/29/20	Nova Scotia	122.0	0.0	0.0
+700	3/30/20	Nova Scotia	127.0	0.0	0.0
+701	3/31/20	Nova Scotia	147.0	0.0	0.0
+702	4/1/20	Nova Scotia	173.0	0.0	0.0
+703	4/2/20	Nova Scotia	193.0	0.0	0.0
+704	4/3/20	Nova Scotia	207.0	0.0	0.0
+705	4/4/20	Nova Scotia	236.0	0.0	0.0
+706	4/5/20	Nova Scotia	262.0	0.0	0.0
+707	4/6/20	Nova Scotia	293.0	0.0	0.0
+708	4/7/20	Nova Scotia	310.0	1.0	0.0
+709	4/8/20	Nova Scotia	310.0	1.0	0.0
+710	4/9/20	Nova Scotia	342.0	1.0	0.0
+711	1/22/20	Ontario	0.0	0.0	0.0
+712	1/23/20	Ontario	0.0	0.0	0.0
+713	1/24/20	Ontario	0.0	0.0	0.0
+714	1/25/20	Ontario	0.0	0.0	0.0
+715	1/26/20	Ontario	1.0	0.0	0.0
+716	1/27/20	Ontario	1.0	0.0	0.0
+717	1/28/20	Ontario	1.0	0.0	0.0
+718	1/29/20	Ontario	1.0	0.0	0.0
+719	1/30/20	Ontario	1.0	0.0	0.0
+720	1/31/20	Ontario	3.0	0.0	0.0
+721	2/1/20	Ontario	3.0	0.0	0.0
+722	2/2/20	Ontario	3.0	0.0	0.0
+723	2/3/20	Ontario	3.0	0.0	0.0
+724	2/4/20	Ontario	3.0	0.0	0.0
+725	2/5/20	Ontario	3.0	0.0	0.0
+726	2/6/20	Ontario	3.0	0.0	0.0
+727	2/7/20	Ontario	3.0	0.0	0.0
+728	2/8/20	Ontario	3.0	0.0	0.0
+729	2/9/20	Ontario	3.0	0.0	0.0
+730	2/10/20	Ontario	3.0	0.0	0.0
+731	2/11/20	Ontario	3.0	0.0	0.0
+732	2/12/20	Ontario	3.0	0.0	0.0
+733	2/13/20	Ontario	3.0	0.0	0.0
+734	2/14/20	Ontario	3.0	0.0	0.0
+735	2/15/20	Ontario	3.0	0.0	0.0
+736	2/16/20	Ontario	3.0	0.0	0.0
+737	2/17/20	Ontario	3.0	0.0	0.0
+738	2/18/20	Ontario	3.0	0.0	0.0
+739	2/19/20	Ontario	3.0	0.0	0.0
+740	2/20/20	Ontario	3.0	0.0	0.0
+741	2/21/20	Ontario	3.0	0.0	0.0
+742	2/22/20	Ontario	3.0	0.0	0.0
+743	2/23/20	Ontario	3.0	0.0	0.0
+744	2/24/20	Ontario	4.0	0.0	0.0
+745	2/25/20	Ontario	4.0	0.0	0.0
+746	2/26/20	Ontario	4.0	0.0	0.0
+747	2/27/20	Ontario	6.0	0.0	0.0
+748	2/28/20	Ontario	6.0	0.0	0.0
+749	2/29/20	Ontario	11.0	0.0	0.0
+750	3/1/20	Ontario	15.0	0.0	0.0
+751	3/2/20	Ontario	18.0	0.0	0.0
+752	3/3/20	Ontario	20.0	0.0	0.0
+753	3/4/20	Ontario	20.0	0.0	0.0
+754	3/5/20	Ontario	22.0	0.0	0.0
+755	3/6/20	Ontario	25.0	0.0	0.0
+756	3/7/20	Ontario	28.0	0.0	0.0
+757	3/8/20	Ontario	29.0	0.0	0.0
+758	3/9/20	Ontario	34.0	0.0	0.0
+759	3/10/20	Ontario	36.0	0.0	0.0
+760	3/11/20	Ontario	41.0	0.0	0.0
+761	3/12/20	Ontario	42.0	0.0	0.0
+762	3/13/20	Ontario	74.0	0.0	0.0
+763	3/14/20	Ontario	79.0	0.0	0.0
+764	3/15/20	Ontario	104.0	0.0	0.0
+765	3/16/20	Ontario	177.0	0.0	0.0
+766	3/17/20	Ontario	185.0	1.0	0.0
+767	3/18/20	Ontario	221.0	1.0	0.0
+768	3/19/20	Ontario	257.0	1.0	0.0
+769	3/20/20	Ontario	308.0	2.0	0.0
+770	3/21/20	Ontario	377.0	3.0	0.0
+771	3/22/20	Ontario	425.0	5.0	0.0
+772	3/23/20	Ontario	503.0	6.0	0.0
+773	3/24/20	Ontario	588.0	7.0	0.0
+774	3/25/20	Ontario	688.0	8.0	0.0
+775	3/26/20	Ontario	858.0	13.0	0.0
+776	3/27/20	Ontario	994.0	18.0	0.0
+777	3/28/20	Ontario	1144.0	18.0	0.0
+778	3/29/20	Ontario	1355.0	21.0	0.0
+779	3/30/20	Ontario	1706.0	31.0	0.0
+780	3/31/20	Ontario	1966.0	33.0	0.0
+781	4/1/20	Ontario	2392.0	37.0	0.0
+782	4/2/20	Ontario	2793.0	53.0	0.0
+783	4/3/20	Ontario	3255.0	67.0	0.0
+784	4/4/20	Ontario	3630.0	94.0	0.0
+785	4/5/20	Ontario	4354.0	119.0	0.0
+786	4/6/20	Ontario	4347.0	150.0	0.0
+787	4/7/20	Ontario	4726.0	153.0	0.0
+788	4/8/20	Ontario	5276.0	153.0	0.0
+789	4/9/20	Ontario	5759.0	200.0	0.0
+790	1/22/20	Prince Edward Island	0.0	0.0	0.0
+791	1/23/20	Prince Edward Island	0.0	0.0	0.0
+792	1/24/20	Prince Edward Island	0.0	0.0	0.0
+793	1/25/20	Prince Edward Island	0.0	0.0	0.0
+794	1/26/20	Prince Edward Island	0.0	0.0	0.0
+795	1/27/20	Prince Edward Island	0.0	0.0	0.0
+796	1/28/20	Prince Edward Island	0.0	0.0	0.0
+797	1/29/20	Prince Edward Island	0.0	0.0	0.0
+798	1/30/20	Prince Edward Island	0.0	0.0	0.0
+799	1/31/20	Prince Edward Island	0.0	0.0	0.0
+800	2/1/20	Prince Edward Island	0.0	0.0	0.0
+801	2/2/20	Prince Edward Island	0.0	0.0	0.0
+802	2/3/20	Prince Edward Island	0.0	0.0	0.0
+803	2/4/20	Prince Edward Island	0.0	0.0	0.0
+804	2/5/20	Prince Edward Island	0.0	0.0	0.0
+805	2/6/20	Prince Edward Island	0.0	0.0	0.0
+806	2/7/20	Prince Edward Island	0.0	0.0	0.0
+807	2/8/20	Prince Edward Island	0.0	0.0	0.0
+808	2/9/20	Prince Edward Island	0.0	0.0	0.0
+809	2/10/20	Prince Edward Island	0.0	0.0	0.0
+810	2/11/20	Prince Edward Island	0.0	0.0	0.0
+811	2/12/20	Prince Edward Island	0.0	0.0	0.0
+812	2/13/20	Prince Edward Island	0.0	0.0	0.0
+813	2/14/20	Prince Edward Island	0.0	0.0	0.0
+814	2/15/20	Prince Edward Island	0.0	0.0	0.0
+815	2/16/20	Prince Edward Island	0.0	0.0	0.0
+816	2/17/20	Prince Edward Island	0.0	0.0	0.0
+817	2/18/20	Prince Edward Island	0.0	0.0	0.0
+818	2/19/20	Prince Edward Island	0.0	0.0	0.0
+819	2/20/20	Prince Edward Island	0.0	0.0	0.0
+820	2/21/20	Prince Edward Island	0.0	0.0	0.0
+821	2/22/20	Prince Edward Island	0.0	0.0	0.0
+822	2/23/20	Prince Edward Island	0.0	0.0	0.0
+823	2/24/20	Prince Edward Island	0.0	0.0	0.0
+824	2/25/20	Prince Edward Island	0.0	0.0	0.0
+825	2/26/20	Prince Edward Island	0.0	0.0	0.0
+826	2/27/20	Prince Edward Island	0.0	0.0	0.0
+827	2/28/20	Prince Edward Island	0.0	0.0	0.0
+828	2/29/20	Prince Edward Island	0.0	0.0	0.0
+829	3/1/20	Prince Edward Island	0.0	0.0	0.0
+830	3/2/20	Prince Edward Island	0.0	0.0	0.0
+831	3/3/20	Prince Edward Island	0.0	0.0	0.0
+832	3/4/20	Prince Edward Island	0.0	0.0	0.0
+833	3/5/20	Prince Edward Island	0.0	0.0	0.0
+834	3/6/20	Prince Edward Island	0.0	0.0	0.0
+835	3/7/20	Prince Edward Island	0.0	0.0	0.0
+836	3/8/20	Prince Edward Island	0.0	0.0	0.0
+837	3/9/20	Prince Edward Island	0.0	0.0	0.0
+838	3/10/20	Prince Edward Island	0.0	0.0	0.0
+839	3/11/20	Prince Edward Island	0.0	0.0	0.0
+840	3/12/20	Prince Edward Island	0.0	0.0	0.0
+841	3/13/20	Prince Edward Island	0.0	0.0	0.0
+842	3/14/20	Prince Edward Island	0.0	0.0	0.0
+843	3/15/20	Prince Edward Island	1.0	0.0	0.0
+844	3/16/20	Prince Edward Island	1.0	0.0	0.0
+845	3/17/20	Prince Edward Island	1.0	0.0	0.0
+846	3/18/20	Prince Edward Island	1.0	0.0	0.0
+847	3/19/20	Prince Edward Island	2.0	0.0	0.0
+848	3/20/20	Prince Edward Island	2.0	0.0	0.0
+849	3/21/20	Prince Edward Island	2.0	0.0	0.0
+850	3/22/20	Prince Edward Island	3.0	0.0	0.0
+851	3/23/20	Prince Edward Island	3.0	0.0	0.0
+852	3/24/20	Prince Edward Island	3.0	0.0	0.0
+853	3/25/20	Prince Edward Island	5.0	0.0	0.0
+854	3/26/20	Prince Edward Island	5.0	0.0	0.0
+855	3/27/20	Prince Edward Island	9.0	0.0	0.0
+856	3/28/20	Prince Edward Island	11.0	0.0	0.0
+857	3/29/20	Prince Edward Island	11.0	0.0	0.0
+858	3/30/20	Prince Edward Island	18.0	0.0	0.0
+859	3/31/20	Prince Edward Island	21.0	0.0	0.0
+860	4/1/20	Prince Edward Island	21.0	0.0	0.0
+861	4/2/20	Prince Edward Island	22.0	0.0	0.0
+862	4/3/20	Prince Edward Island	22.0	0.0	0.0
+863	4/4/20	Prince Edward Island	22.0	0.0	0.0
+864	4/5/20	Prince Edward Island	22.0	0.0	0.0
+865	4/6/20	Prince Edward Island	22.0	0.0	0.0
+866	4/7/20	Prince Edward Island	22.0	0.0	0.0
+867	4/8/20	Prince Edward Island	25.0	1.0	0.0
+868	4/9/20	Prince Edward Island	25.0	0.0	0.0
+869	1/22/20	Quebec	0.0	0.0	0.0
+870	1/23/20	Quebec	0.0	0.0	0.0
+871	1/24/20	Quebec	0.0	0.0	0.0
+872	1/25/20	Quebec	0.0	0.0	0.0
+873	1/26/20	Quebec	0.0	0.0	0.0
+874	1/27/20	Quebec	0.0	0.0	0.0
+875	1/28/20	Quebec	0.0	0.0	0.0
+876	1/29/20	Quebec	0.0	0.0	0.0
+877	1/30/20	Quebec	0.0	0.0	0.0
+878	1/31/20	Quebec	0.0	0.0	0.0
+879	2/1/20	Quebec	0.0	0.0	0.0
+880	2/2/20	Quebec	0.0	0.0	0.0
+881	2/3/20	Quebec	0.0	0.0	0.0
+882	2/4/20	Quebec	0.0	0.0	0.0
+883	2/5/20	Quebec	0.0	0.0	0.0
+884	2/6/20	Quebec	0.0	0.0	0.0
+885	2/7/20	Quebec	0.0	0.0	0.0
+886	2/8/20	Quebec	0.0	0.0	0.0
+887	2/9/20	Quebec	0.0	0.0	0.0
+888	2/10/20	Quebec	0.0	0.0	0.0
+889	2/11/20	Quebec	0.0	0.0	0.0
+890	2/12/20	Quebec	0.0	0.0	0.0
+891	2/13/20	Quebec	0.0	0.0	0.0
+892	2/14/20	Quebec	0.0	0.0	0.0
+893	2/15/20	Quebec	0.0	0.0	0.0
+894	2/16/20	Quebec	0.0	0.0	0.0
+895	2/17/20	Quebec	0.0	0.0	0.0
+896	2/18/20	Quebec	0.0	0.0	0.0
+897	2/19/20	Quebec	0.0	0.0	0.0
+898	2/20/20	Quebec	0.0	0.0	0.0
+899	2/21/20	Quebec	0.0	0.0	0.0
+900	2/22/20	Quebec	0.0	0.0	0.0
+901	2/23/20	Quebec	0.0	0.0	0.0
+902	2/24/20	Quebec	0.0	0.0	0.0
+903	2/25/20	Quebec	0.0	0.0	0.0
+904	2/26/20	Quebec	0.0	0.0	0.0
+905	2/27/20	Quebec	0.0	0.0	0.0
+906	2/28/20	Quebec	1.0	0.0	0.0
+907	2/29/20	Quebec	1.0	0.0	0.0
+908	3/1/20	Quebec	1.0	0.0	0.0
+909	3/2/20	Quebec	1.0	0.0	0.0
+910	3/3/20	Quebec	1.0	0.0	0.0
+911	3/4/20	Quebec	1.0	0.0	0.0
+912	3/5/20	Quebec	2.0	0.0	0.0
+913	3/6/20	Quebec	2.0	0.0	0.0
+914	3/7/20	Quebec	3.0	0.0	0.0
+915	3/8/20	Quebec	4.0	0.0	0.0
+916	3/9/20	Quebec	4.0	0.0	0.0
+917	3/10/20	Quebec	4.0	0.0	0.0
+918	3/11/20	Quebec	8.0	0.0	0.0
+919	3/12/20	Quebec	9.0	0.0	0.0
+920	3/13/20	Quebec	17.0	0.0	0.0
+921	3/14/20	Quebec	17.0	0.0	0.0
+922	3/15/20	Quebec	24.0	0.0	0.0
+923	3/16/20	Quebec	50.0	0.0	0.0
+924	3/17/20	Quebec	74.0	0.0	0.0
+925	3/18/20	Quebec	94.0	0.0	0.0
+926	3/19/20	Quebec	121.0	1.0	0.0
+927	3/20/20	Quebec	139.0	1.0	0.0
+928	3/21/20	Quebec	181.0	5.0	0.0
+929	3/22/20	Quebec	219.0	4.0	0.0
+930	3/23/20	Quebec	628.0	4.0	0.0
+931	3/24/20	Quebec	1013.0	4.0	0.0
+932	3/25/20	Quebec	1342.0	6.0	0.0
+933	3/26/20	Quebec	1632.0	8.0	0.0
+934	3/27/20	Quebec	2024.0	18.0	0.0
+935	3/28/20	Quebec	2498.0	22.0	0.0
+936	3/29/20	Quebec	2840.0	22.0	0.0
+937	3/30/20	Quebec	3430.0	22.0	0.0
+938	3/31/20	Quebec	4162.0	31.0	0.0
+939	4/1/20	Quebec	4611.0	33.0	0.0
+940	4/2/20	Quebec	5518.0	36.0	0.0
+941	4/3/20	Quebec	6101.0	61.0	0.0
+942	4/4/20	Quebec	6101.0	61.0	0.0
+943	4/5/20	Quebec	7944.0	75.0	0.0
+944	4/6/20	Quebec	8580.0	121.0	0.0
+945	4/7/20	Quebec	9340.0	150.0	0.0
+946	4/8/20	Quebec	10031.0	175.0	0.0
+947	4/9/20	Quebec	10912.0	216.0	0.0
+948	1/22/20	Recovered	0.0	0.0	0.0
+949	1/23/20	Recovered	0.0	0.0	0.0
+950	1/24/20	Recovered	0.0	0.0	0.0
+951	1/25/20	Recovered	0.0	0.0	0.0
+952	1/26/20	Recovered	0.0	0.0	0.0
+953	1/27/20	Recovered	0.0	0.0	0.0
+954	1/28/20	Recovered	0.0	0.0	0.0
+955	1/29/20	Recovered	0.0	0.0	0.0
+956	1/30/20	Recovered	0.0	0.0	0.0
+957	1/31/20	Recovered	0.0	0.0	0.0
+958	2/1/20	Recovered	0.0	0.0	0.0
+959	2/2/20	Recovered	0.0	0.0	0.0
+960	2/3/20	Recovered	0.0	0.0	0.0
+961	2/4/20	Recovered	0.0	0.0	0.0
+962	2/5/20	Recovered	0.0	0.0	0.0
+963	2/6/20	Recovered	0.0	0.0	0.0
+964	2/7/20	Recovered	0.0	0.0	0.0
+965	2/8/20	Recovered	0.0	0.0	0.0
+966	2/9/20	Recovered	0.0	0.0	0.0
+967	2/10/20	Recovered	0.0	0.0	0.0
+968	2/11/20	Recovered	0.0	0.0	0.0
+969	2/12/20	Recovered	0.0	0.0	0.0
+970	2/13/20	Recovered	0.0	0.0	0.0
+971	2/14/20	Recovered	0.0	0.0	0.0
+972	2/15/20	Recovered	0.0	0.0	0.0
+973	2/16/20	Recovered	0.0	0.0	0.0
+974	2/17/20	Recovered	0.0	0.0	0.0
+975	2/18/20	Recovered	0.0	0.0	0.0
+976	2/19/20	Recovered	0.0	0.0	0.0
+977	2/20/20	Recovered	0.0	0.0	0.0
+978	2/21/20	Recovered	0.0	0.0	0.0
+979	2/22/20	Recovered	0.0	0.0	0.0
+980	2/23/20	Recovered	0.0	0.0	0.0
+981	2/24/20	Recovered	0.0	0.0	0.0
+982	2/25/20	Recovered	0.0	0.0	0.0
+983	2/26/20	Recovered	0.0	0.0	0.0
+984	2/27/20	Recovered	0.0	0.0	0.0
+985	2/28/20	Recovered	0.0	0.0	0.0
+986	2/29/20	Recovered	0.0	0.0	0.0
+987	3/1/20	Recovered	0.0	0.0	0.0
+988	3/2/20	Recovered	0.0	0.0	0.0
+989	3/3/20	Recovered	0.0	0.0	0.0
+990	3/4/20	Recovered	0.0	0.0	0.0
+991	3/5/20	Recovered	0.0	0.0	0.0
+992	3/6/20	Recovered	0.0	0.0	0.0
+993	3/7/20	Recovered	0.0	0.0	0.0
+994	3/8/20	Recovered	0.0	0.0	0.0
+995	3/9/20	Recovered	0.0	0.0	0.0
+996	3/10/20	Recovered	0.0	0.0	0.0
+997	3/11/20	Recovered	0.0	0.0	0.0
+998	3/12/20	Recovered	0.0	0.0	0.0
+999	3/13/20	Recovered	0.0	0.0	0.0
+1000	3/14/20	Recovered	0.0	0.0	0.0
+1001	3/15/20	Recovered	0.0	0.0	0.0
+1002	3/16/20	Recovered	0.0	0.0	0.0
+1003	3/17/20	Recovered	0.0	0.0	0.0
+1004	3/18/20	Recovered	0.0	0.0	0.0
+1005	3/19/20	Recovered	0.0	0.0	0.0
+1006	3/20/20	Recovered	0.0	0.0	0.0
+1007	3/21/20	Recovered	0.0	0.0	0.0
+1008	3/22/20	Recovered	0.0	0.0	0.0
+1009	3/23/20	Recovered	0.0	0.0	0.0
+1010	3/24/20	Recovered	0.0	0.0	0.0
+1011	3/25/20	Recovered	0.0	0.0	0.0
+1012	3/26/20	Recovered	0.0	0.0	0.0
+1013	3/27/20	Recovered	0.0	0.0	0.0
+1014	3/28/20	Recovered	0.0	0.0	0.0
+1015	3/29/20	Recovered	0.0	0.0	0.0
+1016	3/30/20	Recovered	0.0	0.0	0.0
+1017	3/31/20	Recovered	0.0	0.0	0.0
+1018	4/1/20	Recovered	0.0	0.0	0.0
+1019	4/2/20	Recovered	0.0	0.0	0.0
+1020	4/3/20	Recovered	0.0	0.0	0.0
+1021	4/4/20	Recovered	0.0	0.0	0.0
+1022	4/5/20	Recovered	0.0	0.0	0.0
+1023	4/6/20	Recovered	0.0	0.0	0.0
+1024	4/7/20	Recovered	0.0	0.0	0.0
+1025	4/8/20	Recovered	0.0	0.0	0.0
+1026	4/9/20	Recovered	0.0	0.0	0.0
+1027	1/22/20	Saskatchewan	0.0	0.0	0.0
+1028	1/23/20	Saskatchewan	0.0	0.0	0.0
+1029	1/24/20	Saskatchewan	0.0	0.0	0.0
+1030	1/25/20	Saskatchewan	0.0	0.0	0.0
+1031	1/26/20	Saskatchewan	0.0	0.0	0.0
+1032	1/27/20	Saskatchewan	0.0	0.0	0.0
+1033	1/28/20	Saskatchewan	0.0	0.0	0.0
+1034	1/29/20	Saskatchewan	0.0	0.0	0.0
+1035	1/30/20	Saskatchewan	0.0	0.0	0.0
+1036	1/31/20	Saskatchewan	0.0	0.0	0.0
+1037	2/1/20	Saskatchewan	0.0	0.0	0.0
+1038	2/2/20	Saskatchewan	0.0	0.0	0.0
+1039	2/3/20	Saskatchewan	0.0	0.0	0.0
+1040	2/4/20	Saskatchewan	0.0	0.0	0.0
+1041	2/5/20	Saskatchewan	0.0	0.0	0.0
+1042	2/6/20	Saskatchewan	0.0	0.0	0.0
+1043	2/7/20	Saskatchewan	0.0	0.0	0.0
+1044	2/8/20	Saskatchewan	0.0	0.0	0.0
+1045	2/9/20	Saskatchewan	0.0	0.0	0.0
+1046	2/10/20	Saskatchewan	0.0	0.0	0.0
+1047	2/11/20	Saskatchewan	0.0	0.0	0.0
+1048	2/12/20	Saskatchewan	0.0	0.0	0.0
+1049	2/13/20	Saskatchewan	0.0	0.0	0.0
+1050	2/14/20	Saskatchewan	0.0	0.0	0.0
+1051	2/15/20	Saskatchewan	0.0	0.0	0.0
+1052	2/16/20	Saskatchewan	0.0	0.0	0.0
+1053	2/17/20	Saskatchewan	0.0	0.0	0.0
+1054	2/18/20	Saskatchewan	0.0	0.0	0.0
+1055	2/19/20	Saskatchewan	0.0	0.0	0.0
+1056	2/20/20	Saskatchewan	0.0	0.0	0.0
+1057	2/21/20	Saskatchewan	0.0	0.0	0.0
+1058	2/22/20	Saskatchewan	0.0	0.0	0.0
+1059	2/23/20	Saskatchewan	0.0	0.0	0.0
+1060	2/24/20	Saskatchewan	0.0	0.0	0.0
+1061	2/25/20	Saskatchewan	0.0	0.0	0.0
+1062	2/26/20	Saskatchewan	0.0	0.0	0.0
+1063	2/27/20	Saskatchewan	0.0	0.0	0.0
+1064	2/28/20	Saskatchewan	0.0	0.0	0.0
+1065	2/29/20	Saskatchewan	0.0	0.0	0.0
+1066	3/1/20	Saskatchewan	0.0	0.0	0.0
+1067	3/2/20	Saskatchewan	0.0	0.0	0.0
+1068	3/3/20	Saskatchewan	0.0	0.0	0.0
+1069	3/4/20	Saskatchewan	0.0	0.0	0.0
+1070	3/5/20	Saskatchewan	0.0	0.0	0.0
+1071	3/6/20	Saskatchewan	0.0	0.0	0.0
+1072	3/7/20	Saskatchewan	0.0	0.0	0.0
+1073	3/8/20	Saskatchewan	0.0	0.0	0.0
+1074	3/9/20	Saskatchewan	0.0	0.0	0.0
+1075	3/10/20	Saskatchewan	0.0	0.0	0.0
+1076	3/11/20	Saskatchewan	0.0	0.0	0.0
+1077	3/12/20	Saskatchewan	0.0	0.0	0.0
+1078	3/13/20	Saskatchewan	2.0	0.0	0.0
+1079	3/14/20	Saskatchewan	2.0	0.0	0.0
+1080	3/15/20	Saskatchewan	2.0	0.0	0.0
+1081	3/16/20	Saskatchewan	7.0	0.0	0.0
+1082	3/17/20	Saskatchewan	7.0	0.0	0.0
+1083	3/18/20	Saskatchewan	8.0	0.0	0.0
+1084	3/19/20	Saskatchewan	16.0	0.0	0.0
+1085	3/20/20	Saskatchewan	20.0	0.0	0.0
+1086	3/21/20	Saskatchewan	26.0	0.0	0.0
+1087	3/22/20	Saskatchewan	52.0	0.0	0.0
+1088	3/23/20	Saskatchewan	66.0	0.0	0.0
+1089	3/24/20	Saskatchewan	72.0	0.0	0.0
+1090	3/25/20	Saskatchewan	72.0	0.0	0.0
+1091	3/26/20	Saskatchewan	95.0	0.0	0.0
+1092	3/27/20	Saskatchewan	95.0	0.0	0.0
+1093	3/28/20	Saskatchewan	134.0	0.0	0.0
+1094	3/29/20	Saskatchewan	156.0	0.0	0.0
+1095	3/30/20	Saskatchewan	156.0	2.0	0.0
+1096	3/31/20	Saskatchewan	184.0	2.0	0.0
+1097	4/1/20	Saskatchewan	193.0	3.0	0.0
+1098	4/2/20	Saskatchewan	206.0	3.0	0.0
+1099	4/3/20	Saskatchewan	220.0	3.0	0.0
+1100	4/4/20	Saskatchewan	220.0	3.0	0.0
+1101	4/5/20	Saskatchewan	249.0	3.0	0.0
+1102	4/6/20	Saskatchewan	249.0	3.0	0.0
+1103	4/7/20	Saskatchewan	260.0	3.0	0.0
+1104	4/8/20	Saskatchewan	260.0	3.0	0.0
+1105	4/9/20	Saskatchewan	271.0	3.0	0.0
+1106	1/22/20	Yukon	0.0	0.0	0.0
+1107	1/23/20	Yukon	0.0	0.0	0.0
+1108	1/24/20	Yukon	0.0	0.0	0.0
+1109	1/25/20	Yukon	0.0	0.0	0.0
+1110	1/26/20	Yukon	0.0	0.0	0.0
+1111	1/27/20	Yukon	0.0	0.0	0.0
+1112	1/28/20	Yukon	0.0	0.0	0.0
+1113	1/29/20	Yukon	0.0	0.0	0.0
+1114	1/30/20	Yukon	0.0	0.0	0.0
+1115	1/31/20	Yukon	0.0	0.0	0.0
+1116	2/1/20	Yukon	0.0	0.0	0.0
+1117	2/2/20	Yukon	0.0	0.0	0.0
+1118	2/3/20	Yukon	0.0	0.0	0.0
+1119	2/4/20	Yukon	0.0	0.0	0.0
+1120	2/5/20	Yukon	0.0	0.0	0.0
+1121	2/6/20	Yukon	0.0	0.0	0.0
+1122	2/7/20	Yukon	0.0	0.0	0.0
+1123	2/8/20	Yukon	0.0	0.0	0.0
+1124	2/9/20	Yukon	0.0	0.0	0.0
+1125	2/10/20	Yukon	0.0	0.0	0.0
+1126	2/11/20	Yukon	0.0	0.0	0.0
+1127	2/12/20	Yukon	0.0	0.0	0.0
+1128	2/13/20	Yukon	0.0	0.0	0.0
+1129	2/14/20	Yukon	0.0	0.0	0.0
+1130	2/15/20	Yukon	0.0	0.0	0.0
+1131	2/16/20	Yukon	0.0	0.0	0.0
+1132	2/17/20	Yukon	0.0	0.0	0.0
+1133	2/18/20	Yukon	0.0	0.0	0.0
+1134	2/19/20	Yukon	0.0	0.0	0.0
+1135	2/20/20	Yukon	0.0	0.0	0.0
+1136	2/21/20	Yukon	0.0	0.0	0.0
+1137	2/22/20	Yukon	0.0	0.0	0.0
+1138	2/23/20	Yukon	0.0	0.0	0.0
+1139	2/24/20	Yukon	0.0	0.0	0.0
+1140	2/25/20	Yukon	0.0	0.0	0.0
+1141	2/26/20	Yukon	0.0	0.0	0.0
+1142	2/27/20	Yukon	0.0	0.0	0.0
+1143	2/28/20	Yukon	0.0	0.0	0.0
+1144	2/29/20	Yukon	0.0	0.0	0.0
+1145	3/1/20	Yukon	0.0	0.0	0.0
+1146	3/2/20	Yukon	0.0	0.0	0.0
+1147	3/3/20	Yukon	0.0	0.0	0.0
+1148	3/4/20	Yukon	0.0	0.0	0.0
+1149	3/5/20	Yukon	0.0	0.0	0.0
+1150	3/6/20	Yukon	0.0	0.0	0.0
+1151	3/7/20	Yukon	0.0	0.0	0.0
+1152	3/8/20	Yukon	0.0	0.0	0.0
+1153	3/9/20	Yukon	0.0	0.0	0.0
+1154	3/10/20	Yukon	0.0	0.0	0.0
+1155	3/11/20	Yukon	0.0	0.0	0.0
+1156	3/12/20	Yukon	0.0	0.0	0.0
+1157	3/13/20	Yukon	0.0	0.0	0.0
+1158	3/14/20	Yukon	0.0	0.0	0.0
+1159	3/15/20	Yukon	0.0	0.0	0.0
+1160	3/16/20	Yukon	0.0	0.0	0.0
+1161	3/17/20	Yukon	0.0	0.0	0.0
+1162	3/18/20	Yukon	0.0	0.0	0.0
+1163	3/19/20	Yukon	0.0	0.0	0.0
+1164	3/20/20	Yukon	0.0	0.0	0.0
+1165	3/21/20	Yukon	0.0	0.0	0.0
+1166	3/22/20	Yukon	0.0	0.0	0.0
+1167	3/23/20	Yukon	0.0	0.0	0.0
+1168	3/24/20	Yukon	0.0	0.0	0.0
+1169	3/25/20	Yukon	0.0	0.0	0.0
+1170	3/26/20	Yukon	3.0	0.0	0.0
+1171	3/27/20	Yukon	3.0	0.0	0.0
+1172	3/28/20	Yukon	4.0	0.0	0.0
+1173	3/29/20	Yukon	4.0	0.0	0.0
+1174	3/30/20	Yukon	4.0	0.0	0.0
+1175	3/31/20	Yukon	5.0	0.0	0.0
+1176	4/1/20	Yukon	5.0	0.0	0.0
+1177	4/2/20	Yukon	6.0	0.0	0.0
+1178	4/3/20	Yukon	6.0	0.0	0.0
+1179	4/4/20	Yukon	6.0	0.0	0.0
+1180	4/5/20	Yukon	6.0	0.0	0.0
+1181	4/6/20	Yukon	6.0	0.0	0.0
+1182	4/7/20	Yukon	7.0	0.0	0.0
+1183	4/8/20	Yukon	7.0	0.0	0.0
+1184	4/9/20	Yukon	7.0	0.0	0.0
