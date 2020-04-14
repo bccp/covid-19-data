@@ -10,7 +10,9 @@ nyearbin = 10
 #regions = ['Emilia-Romagna', 'Lazio', 'Liguria', 'Lombardia', 'Marche', 'Molise', 'Piemonte', 'Puglia', 'Sardegna', 'Sicilia', 'Toscana', 'Umbria', 'Veneto']
 df = pd.read_excel('../data/Italy/march28_total_deaths_2015-2020/raw_data/comuni-settimana/comuni_settimana.xlsx')
 regions = np.unique(df['NOME_REGIONE'].values)
-print("Regions : ", regions)
+regions = np.append(regions, 'Bergamo')
+
+print('Regions: ', regions)
 
 ages = np.arange(101) # last year is 100+
 age_bins = np.arange(100//nyearbin + 1)*nyearbin 
@@ -34,8 +36,8 @@ print('\nbinned into columns: ', colnames)
 
 # save as csv
 df = pd.DataFrame.from_dict(binned_pop, orient='index',columns=colnames)
-df = dfsave.replace('Friuli-Venezia Giulia', 'Friuli Venezia Giulia')
-df = dfsave.replace("Valle d'Aosta/Vallée d'Aoste", "Valle d'Aosta")
+df = df.replace('Friuli-Venezia Giulia', 'Friuli Venezia Giulia')
+df = df.replace("Valle d'Aosta/Vallée d'Aoste", "Valle d'Aosta")
 
 df.index.name='region'
 
