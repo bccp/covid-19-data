@@ -55,7 +55,7 @@ def regional():
     
 def province_new():
     #df = pd.read_excel('/home/chirag/Research/Projects/covid-19-data/data/Italy/new_total_deaths_2015_2020/raw_mortality_data/dati-comunali-settimanali-ANPR-1/comuni_settimana.xlsx')
-    df = pd.read_excel('/home/chirag/Research/Projects/covid-19-data/data/Italy/march28_total_deaths_2015-2020/raw_mortality_data/dati-comunali-settimanali-ANPR-1/comuni_settimana.xlsx') 
+    df = pd.read_excel('/home/chirag/Research/Projects/covid-19-data/data/Italy/april4_total_deaths_2015-2020/raw_mortality_data/dati-comunali-settimanali-ANPR-1/comuni_settimana.xlsx') 
     weeks = df['SETTIMANA'][:11]
     ages = np.unique(df['CLASSE_DI_ETA'])
     provinces = np.unique(df['NOME_PROVINCIA'].values)
@@ -83,14 +83,14 @@ def province_new():
     dfsave = dfsave.replace('Friuli-Venezia Giulia', 'Friuli Venezia Giulia')
     dfsave = dfsave.replace("Valle d'Aosta/Vallée d'Aoste", "Valle d'Aosta")
 
-    dfsave.to_csv('../data/Italy/march28_total_deaths_2015-2020/province_historic_mortality.tsv', sep='\t', encoding='utf-8')
+    dfsave.to_csv('../data/Italy/april4_total_deaths_2015-2020/province_historic_mortality.tsv', sep='\t', encoding='utf-8')
     #dfsave.to_csv('../data/Italy/new_total_deaths_2015_2020/province_historic_mortality.tsv', sep='\t', encoding='utf-8')
 
 
     
 def regional_new():
     #df = pd.read_excel('/home/chirag/Research/Projects/covid-19-data/data/Italy/new_total_deaths_2015_2020/raw_mortality_data/dati-comunali-settimanali-ANPR-1/comuni_settimana.xlsx')
-    df = pd.read_excel('../data/Italy/march28_total_deaths_2015-2020/raw_data/comuni-settimana/comuni_settimana.xlsx')
+    df = pd.read_excel('../data/Italy/april4_total_deaths_2015-2020/raw_data/comuni-settimana/comuni_settimana.xlsx')
     weeks = df['SETTIMANA'][:12]
     ages = np.unique(df['CLASSE_DI_ETA'])
     regions = np.unique(df['NOME_REGIONE'].values)
@@ -120,22 +120,22 @@ def regional_new():
     dfsave = dfsave.replace("Valle d'Aosta/Vallée d'Aoste", "Valle d'Aosta")
 
     #dfsave.to_csv('../data/Italy/new_total_deaths_2015_2020/regional_historic_mortality.tsv', sep='\t', encoding='utf-8')
-    dfsave.to_csv('../data/Italy/march28_total_deaths_2015-2020/regional_historic_mortality.tsv', sep='\t', encoding='utf-8')
+    dfsave.to_csv('../data/Italy/april4_total_deaths_2015-2020/regional_historic_mortality.tsv', sep='\t', encoding='utf-8')
 
 
 def regional_fine():
     #df = pd.read_excel('/home/chirag/Research/Projects/covid-19-data/data/Italy/new_total_deaths_2015_2020/raw_mortality_data/dati-comunali-settimanali-ANPR-1/comuni_settimana.xlsx')
-    df = pd.read_excel('../data/Italy/march28_total_deaths_2015-2020/raw_data/comuni-settimana/comuni_settimana.xlsx')
+    df = pd.read_excel('../data/Italy/april4_total_deaths_2015-2020/raw_data/comuni-settimana/comuni_settimana.xlsx')
     weeks = ['01/01/2015-11/01/2015', '12/01/2015-18/01/2015',
              '19/01/2015-25/01/2015', '26/01/2015-01/02/2015',
              '02/02/2015-08/02/2015', '09/02/2015-15/02/2015',
             '16/02/2015-22/02/2015', '23/02/2015-29/02/2015',
              '01/03/2015-07/03/2015', '08/03/2015-14/03/2015',
-             '15/03/2015-21/03/2015', '22/03/2015-28/03/2015']
+             '15/03/2015-21/03/2015', '22/03/2015-28/03/2015'] #, '28/03/2015-04/04/2015']
 
-    df = pd.read_csv('../data/Italy/march28_total_deaths_2015-2020/raw_data/comune-giorno/comune_giorno.csv', encoding='latin1')
+    df = pd.read_csv('../data/Italy/april4_total_deaths_2015-2020/raw_data/comune-giorno/comune_giorno.csv', encoding='latin1')
     df = df.rename(columns={'NOME_COMUNE':'town', 'NOME_REGIONE':'region', 'NOME_PROVINCIA':'province', 'CL_ETA':'ages', 'GE':'dates'})
-    df = df[df['dates'] <=328]
+    df = df[df['dates'] <=404]
     dfwaste = df[(df['TOTALE_20'] == 9999)]
     dfcut = df[~(df['TOTALE_20'] == 9999).values]
 
@@ -145,13 +145,14 @@ def regional_fine():
     ages = np.arange(22)
     years = [15, 16, 17, 18, 19, 20]
     dates = [[101, 111], [112, 118], [119, 125], [126, 201], [202, 208], [209, 215], [216, 222], [223, 229],
-        [301, 307], [308, 314], [315, 321], [322, 328]]
+        [301, 307], [308, 314], [315, 321], [322, 328]]#, [328, 404]]
     
     regions = np.unique(df['region'].values)
-    for region in regions:
+    for region in regions: 
+    #for region in ['Abruzzo']: 
         print(region)
         tmp = dfcut[dfcut['region'] == region]
-
+        
         for ia, age in enumerate(ages):
             tmpa = tmp[(tmp['ages'] == age)]
             for year in years:
@@ -172,14 +173,14 @@ def regional_fine():
     dfsave = dfsave.replace('Friuli-Venezia Giulia', 'Friuli Venezia Giulia')
     dfsave = dfsave.replace("Valle d'Aosta/Vallée d'Aoste", "Valle d'Aosta")
     #dfsave.to_csv('/home/chirag/Research/Projects/covid-19-data/data/Italy/new_total_deaths_2015_2020/regional_historic_mortality_fine.tsv', sep='\t', encoding='utf-8')
-    dfsave.to_csv('../data//Italy/march28_total_deaths_2015-2020/regional_historic_mortality_fine.tsv', sep='\t', encoding='utf-8')
+    dfsave.to_csv('../data//Italy/april4_total_deaths_2015-2020/regional_historic_mortality_fine.tsv', sep='\t', encoding='utf-8')
 
 
 def regional_daily():
 
-    df = pd.read_csv('/home/chirag/Research/Projects/covid-19-data/data/Italy/march28_total_deaths_2015-2020/raw_data/comune-giorno/comune_giorno.csv', encoding='latin1')
+    df = pd.read_csv('/home/chirag/Research/Projects/covid-19-data/data/Italy/april4_total_deaths_2015-2020/raw_data/comune-giorno/comune_giorno.csv', encoding='latin1')
     df = df.rename(columns={'NOME_COMUNE':'town', 'NOME_REGIONE':'region', 'NOME_PROVINCIA':'province', 'CL_ETA':'ages', 'GE':'dates'})
-    df = df[df['dates'] <=328]
+    df = df[df['dates'] <=404]
     dfwaste = df[(df['TOTALE_20'] == 9999)]
     dfcut = df[~(df['TOTALE_20'] == 9999).values]
 
@@ -218,7 +219,7 @@ def regional_daily():
     dfsave = dfsave.replace('Friuli-Venezia Giulia', 'Friuli Venezia Giulia')
     dfsave = dfsave.replace("Valle d'Aosta/Vallée d'Aoste", "Valle d'Aosta")
     #dfsave.to_csv('/home/chirag/Research/Projects/covid-19-data/data/Italy/new_total_deaths_2015_2020/regional_historic_mortality_fine.tsv', sep='\t', encoding='utf-8')
-    dfsave.to_csv('../data//Italy/march28_total_deaths_2015-2020/regional_historic_mortality_fine_daily.tsv', sep='\t', encoding='utf-8')
+    dfsave.to_csv('../data//Italy/april4_total_deaths_2015-2020/regional_historic_mortality_fine_daily.tsv', sep='\t', encoding='utf-8')
 
 
 
@@ -243,7 +244,7 @@ def region_deaths():
 
 def pop_ratio():
     #df = pd.read_excel('/home/chirag/Research/Projects/covid-19-data/data/Italy/new_total_deaths_2015_2020/raw_mortality_data/dati-comunali-settimanali-ANPR-1/comuni_settimana.xlsx', encoding='latin1')
-    df = pd.read_excel('../data/Italy/march28_total_deaths_2015-2020/raw_data/comuni-settimana/comuni_settimana.xlsx')
+    df = pd.read_excel('../data/Italy/april4_total_deaths_2015-2020/raw_data/comuni-settimana/comuni_settimana.xlsx')
     df2 = pd.read_excel('/home/chirag/Research/Projects/covid-19-data/data/Italy/Elenco-comuni-italiani.xls', encoding='latin1')
     df2 = df2.rename(columns={'Popolazione legale 2011 (09/10/2011)':'population'})
     df2 = df2.rename(columns={'Codice Comune formato alfanumerico':'commune_code'})
@@ -274,7 +275,7 @@ def pop_ratio():
     dfsave = dfsave.replace('Friuli-Venezia Giulia', 'Friuli Venezia Giulia')
     dfsave = dfsave.replace("Valle d'Aosta/Vallée d'Aoste", "Valle d'Aosta")
     #dfsave.to_csv('../data/Italy/new_total_deaths_2015_2020/regional_population_fraction.tsv', sep='\t', encoding='utf-8')
-    dfsave.to_csv('../data/Italy/march28_total_deaths_2015-2020/regional_population_fraction.tsv', sep='\t', encoding='utf-8')
+    dfsave.to_csv('../data/Italy/april4_total_deaths_2015-2020/regional_population_fraction.tsv', sep='\t', encoding='utf-8')
 
 
 def pop_dist():
@@ -304,13 +305,14 @@ def pop_dist():
 
 if __name__=="__main__":
 
+    #pop_dist()
     #province()
     #regional()
     #regional_new()
     #province_new()
     #region_deaths()
+    #
     #pop_ratio()
-    #pop_dist()
-    #regional_fine()
-    regional_daily()
+    regional_fine()
+    #regional_daily()
     
