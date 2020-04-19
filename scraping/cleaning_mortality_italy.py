@@ -177,6 +177,60 @@ def regional_fine():
     dfsave.to_csv('../data//Italy/april4_total_deaths_2015-2020/regional_historic_mortality_fine.tsv', sep='\t', encoding='utf-8')
 
 
+
+def regional_fine_all():
+    #df = pd.read_excel('/home/chirag/Research/Projects/covid-19-data/data/Italy/new_total_deaths_2015_2020/raw_mortality_data/dati-comunali-settimanali-ANPR-1/comuni_settimana.xlsx')
+    df = pd.read_excel('../data/Italy/april4_total_deaths_2015-2020/raw_data/comuni-settimana/comuni_settimana.xlsx')
+    weeks = ['01/01/2015-11/01/2015', '12/01/2015-18/01/2015',
+             '19/01/2015-25/01/2015', '26/01/2015-01/02/2015',
+             '02/02/2015-08/02/2015', '09/02/2015-15/02/2015',
+            '16/02/2015-22/02/2015', '23/02/2015-29/02/2015',
+             '01/03/2015-07/03/2015', '08/03/2015-14/03/2015',
+             '15/03/2015-21/03/2015', '22/03/2015-28/03/2015', '28/03/2015-04/04/2015']
+
+    df = pd.read_csv('../data/Italy/april4_total_deaths_2015-2020/raw_data/comune-giorno/comune_giorno.csv', encoding='latin1')
+    df = df.rename(columns={'NOME_COMUNE':'town', 'NOME_REGIONE':'region', 'NOME_PROVINCIA':'province', 'CL_ETA':'ages', 'GE':'dates'})
+    df = df[df['dates'] <=404]
+    dfwaste = df[(df['TOTALE_20'] == 9999)]
+    dfcut = df[~(df['TOTALE_20'] == 9999).values]
+
+
+    colsave = ['week', 'region', 'age_group', 'male', 'female', 'total']
+    dfsave = pd.DataFrame(columns=colsave, dtype=None)
+    ages = np.arange(22)
+    years = [15, 16, 17, 18, 19, 20]
+    dates = [[101, 111], [112, 118], [119, 125], [126, 201], [202, 208], [209, 215], [216, 222], [223, 229],
+        [301, 307], [308, 314], [315, 321], [322, 328], [328, 404]]
+    
+    regions = np.unique(df['region'].values)
+    for region in regions: 
+    #for region in ['Abruzzo']: 
+        print(region)
+        tmp = dfcut[dfcut['region'] == region]
+        
+        for ia, age in enumerate(ages):
+            tmpa = tmp[(tmp['ages'] == age)]
+            for year in years:
+                cols = ['MASCHI_%d'%year, 'FEMMINE_%d'%year, 'TOTALE_%d'%year]
+                weeklabel = [i[:8] + '%d'%year + i[10:-2]+ '%d'%year for i in weeks]
+                
+                for iw, week in enumerate(weeks):
+                    tmpw = tmpa[(tmpa['dates'] >= dates[iw][0]) & (tmpa['dates'] <= dates[iw][1])]
+                    deaths = tmpw[cols].sum().astype(float).tolist()
+                    entry = np.array([weeklabel[iw], region, ia] + deaths).reshape(1, -1)
+                    dfsave = dfsave.append(pd.DataFrame(entry, columns=colsave), ignore_index=True)
+                    
+    dfsave['age_group'] = dfsave['age_group'].astype(int) 
+    dfsave['male'] = dfsave['male'].astype(float) 
+    dfsave['female'] = dfsave['female'].astype(float) 
+    dfsave['total'] = dfsave['total'].astype(float)     
+
+    dfsave = dfsave.replace('Friuli-Venezia Giulia', 'Friuli Venezia Giulia')
+    dfsave = dfsave.replace("Valle d'Aosta/Vallée d'Aoste", "Valle d'Aosta")
+    #dfsave.to_csv('/home/chirag/Research/Projects/covid-19-data/data/Italy/new_total_deaths_2015_2020/regional_historic_mortality_fine.tsv', sep='\t', encoding='utf-8')
+    dfsave.to_csv('../data//Italy/april4_total_deaths_2015-2020/regional_historic_mortality_fine_all.tsv', sep='\t', encoding='utf-8')
+
+
 def regional_daily():
 
     df = pd.read_csv('/home/chirag/Research/Projects/covid-19-data/data/Italy/april4_total_deaths_2015-2020/raw_data/comune-giorno/comune_giorno.csv', encoding='latin1')
@@ -243,7 +297,7 @@ def region_deaths():
     df.to_csv('../data/Italy/regional_deaths_2018.tsv', sep='\t', encoding='utf-8')
 
 
-def pop_ratio_2011():
+def pop_ratio():
     #df = pd.read_excel('/home/chirag/Research/Projects/covid-19-data/data/Italy/new_total_deaths_2015_2020/raw_mortality_data/dati-comunali-settimanali-ANPR-1/comuni_settimana.xlsx', encoding='latin1')
     df = pd.read_excel('../data/Italy/april4_total_deaths_2015-2020/raw_data/comuni-settimana/comuni_settimana.xlsx')
     df2 = pd.read_excel('/home/chirag/Research/Projects/covid-19-data/data/Italy/Elenco-comuni-italiani.xls', encoding='latin1')
@@ -276,88 +330,8 @@ def pop_ratio_2011():
     dfsave = dfsave.replace('Friuli-Venezia Giulia', 'Friuli Venezia Giulia')
     dfsave = dfsave.replace("Valle d'Aosta/Vallée d'Aoste", "Valle d'Aosta")
     #dfsave.to_csv('../data/Italy/new_total_deaths_2015_2020/regional_population_fraction.tsv', sep='\t', encoding='utf-8')
-    dfsave.to_csv('../data/Italy/april4_total_deaths_2015-2020/regional_population_fraction_2011.tsv', sep='\t', encoding='utf-8')
+    dfsave.to_csv('../data/Italy/april4_total_deaths_2015-2020/regional_population_fraction.tsv', sep='\t', encoding='utf-8')
 
-
-def pop_ratio_2019():
-    df = pd.read_excel('../data/Italy/april4_total_deaths_2015-2020/raw_data/comuni-settimana/comuni_settimana.xlsx')
-
-    df2 = pd.read_excel('../data/Italy/Elenco-comuni-italiani.xls', encoding='latin1')
-    df2 = df2.rename(columns={'Popolazione legale 2011 (09/10/2011)':'population'})
-    df2 = df2.rename(columns={'Codice Comune formato alfanumerico':'commune_code'})
-    regions = np.unique(df['NOME_REGIONE'].values)
-    
-    savecols = ['REG', 'region', 'total_commune', 'mortality_commune', 'total_population', 'mortality_population']
-    dfsave = pd.DataFrame(columns=savecols)
-
-    regcodes = {}
-    for i in range(1, 21): regcodes[df[df['REG'] == i]['NOME_REGIONE'].values[0]] = i
-
-    # 2019 istat data:
-    # this is in english, makes encodings a bit annoying. Few lines to fix things follow
-    df3 = pd.read_csv('../data/Italy/istat_town_population_by_age_01012019.csv', encoding='utf-8') 
-    df3 = df3[df3['Age'] == 'total']
-    
-    df3 = df3.replace('Trentino Alto Adige / S\xc3\xbcdtirol'.encode('latin1').decode('utf-8'),
-                      'Trentino-Alto Adige/S\xc3\xbcdtirol'.encode('latin1').decode('utf-8')) 
-    df3 = df3.replace("Valle d'Aosta / Vall\xc3\xa9e d'Aoste".encode('latin1').decode('utf-8'),
-                      "Valle d'Aosta/Vall\xc3\xa9e d'Aoste".encode('latin1').decode('utf-8'))
-
-    # name changed in 2018
-    df3 = df3.replace('San Giorgio di Mantova','San Giorgio Bigarello') 
-    
-    #Lu and Cuccaro Monferrato joined together
-    pop_Lu = 1101
-    df3.loc[df3['Territory'] == 'Cuccaro Monferrato', 'Value'] += pop_Lu
-    df3 = df3.replace('Cuccaro Monferrato','Lu e Cuccaro Monferrato') 
-    
-    # Valbrenta = 'Campolongo sul Brenta' 'Cismon del Grappa', 'San Nazario' 'Valstagna'
-    pop_valbrenta = 5070
-    df3 = df3.replace('Campolongo sul Brenta', 'Valbrenta') 
-    df3.loc[df3['Territory'] == 'Valbrenta', 'Value'] = pop_valbrenta
-    
-    # 'San Giovanni di Fassa' is new
-    pop_sg = 3528
-    df3 = df3.replace('Cismon del Grappa', 'San Giovanni di Fassa') 
-    df3.loc[df3['Territory'] == 'San Giovanni di Fassa', 'Value'] = pop_sg
-    
-
-    verbose = False
-    for _, region in enumerate(regions):
-        if verbose: print('Region:', region.encode('utf-8'))
-
-        ir = regcodes[region]
-        tmp = df[df['REG'] == ir]
-        
-        ccode = sorted(np.unique(tmp['NOME_COMUNE'].values))    
-        
-        tmp3 = df3[df3['Territory'].isin(ccode)]
-        # some regions/provinces/towns have same name. If so, keep smaller populations (town)
-        tmp3 = tmp3.sort_values('Value').drop_duplicates('Territory', keep='first')#.sort_values('Territory')
-    
-        tdiff = list(set(ccode) - set(tmp3['Territory']))
-        if len(tdiff) > 0:
-            print('missing territories:', tdiff)
-            
-        # population of towns with data
-        pop = tmp3['Value'].values.sum()
-        if verbose: print('Weekly population:', pop)
-    
-        # population of region
-        # some regions/provinces/towns have same name. If so, keep smaller populations (town)
-        total_pop = df3[df3['Territory'] == region]['Value'].values.max() 
-        if verbose: print('Total population:', total_pop)
-
-        # get total number of regions
-        tmp2 = df2[df2['Codice Regione'] == ir]
-        ccode2 = np.unique(tmp2['commune_code'].values)
-
-        tosave = np.array([ir+1, region, len(ccode2), len(ccode), total_pop, pop]).reshape(1, -1)
-        dfsave = dfsave.append(pd.DataFrame(tosave, columns=savecols))
-
-    dfsave = dfsave.replace('Friuli-Venezia Giulia', 'Friuli Venezia Giulia')
-    dfsave = dfsave.replace("Valle d'Aosta/Vall?e d'Aoste", "Valle d'Aosta")
-    dfsave.to_csv('../data/Italy/april4_total_deaths_2015-2020/regional_population_fraction_01012019.tsv', sep='\t', encoding='utf-8')
 
 def pop_dist():
     dfpopage = pd.read_excel('../../covid-19-data/data/Italy/covid-19-data/population-in-by-age-group.xlsx', sheet_name='Data')
@@ -393,8 +367,8 @@ if __name__=="__main__":
     #province_new()
     #region_deaths()
     #
-#    pop_ratio_2011()
-    pop_ratio_2019()
+    #pop_ratio()
     #regional_fine()
+    regional_fine_all()
     #regional_daily()
     
