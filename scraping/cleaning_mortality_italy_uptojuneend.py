@@ -65,8 +65,8 @@ def regional(cls=1):
             dfcut[cc] = dfcut[cc].astype(int)
 
     regions = np.unique(df['region'].values)
-    for region in regions: 
-    #for region in ['Abruzzo']: 
+    #for region in regions: 
+    for region in ['Abruzzo']: 
         print(region)
         tmp = dfcut[dfcut['region'] == region]
         
@@ -90,7 +90,89 @@ def regional(cls=1):
 
     dfsave = dfsave.replace('Friuli-Venezia Giulia', 'Friuli Venezia Giulia')
     dfsave = dfsave.replace("Valle d'Aosta/Vallée d'Aoste", "Valle d'Aosta")
-    dfsave.to_csv('../data//Italy/upto_june_end/regional_historic_mortality.tsv', sep='\t', encoding='utf-8')
+    #dfsave.to_csv('../data//Italy/upto_june_end/regional_historic_mortality.tsv', sep='\t', encoding='utf-8')
+
+
+def regional_daily():
+
+    df = pd.read_csv('../data/Italy/upto_june_end/comuni_giornaliero_30giugno.csv', encoding='latin1')
+    df = df.rename(columns={'NOME_COMUNE':'town', 'NOME_REGIONE':'region', 'NOME_PROVINCIA':'province', 'CL_ETA':'ages', 'GE':'dates'})
+    df = df[df['dates'] <=631]
+    dfcut = df[df['T_20'] != 'n.d.']
+
+
+    colsave = ['dateindex', 'date', 'region', 'age_group', 'male', 'female', 'total']
+    #colsave = ['week', 'region', 'age_group', 'male', 'female', 'total']
+    dfsave = pd.DataFrame(columns=colsave, dtype=None)
+    ages = np.arange(22)
+    years = [15, 16, 17, 18, 19, 20]
+    dates = [[101, 111], [112, 118], [119, 125], [126, 201], [202, 208], [209, 215], [216, 222], [223, 229],
+             [301, 307], [308, 314], [315, 321], [322, 328], [329, 404], [405, 411],  [412, 418],
+             [419, 425],
+             [426, 502],
+             [503, 509],
+             [510, 516],
+             [517, 523],
+             [524, 530],
+             [531, 606],
+             [607, 613],
+             [614, 620],
+             [621, 627]]
+    dates = np.concatenate([np.arange(101, 132), np.arange(201, 230), np.arange(301, 332), np.arange(401, 431), np.arange(501, 532), np.arange(601, 628)])
+    datelabel = ['%s/%s'%(str(i)[0], str(i)[1:]) for i in dates]
+    
+
+    for year in years:
+        cols = ['M_%d'%year, 'F_%d'%year, 'T_%d'%year]
+        for cc in cols:
+            dfcut[cc] = dfcut[cc].astype(int)
+
+
+    dfsave = pd.DataFrame(columns=colsave, dtype=None)
+
+
+
+    regions = np.unique(df['region'].values)
+    for region in regions: 
+    #for region in ['Abruzzo']: 
+        print(region)
+        tmp = dfcut[dfcut['region'] == region]
+        
+        for ia, age in enumerate(ages):
+            tmpa = tmp[(tmp['ages'] == age)]
+
+            yrentries = []
+            for year in years:
+                cols = ['M_%d'%year, 'F_%d'%year, 'T_%d'%year]
+                datelabelyr = [d + '/20%d'%year for d in datelabel]
+                entries = []
+                for idd, date in enumerate(dates):
+                    deaths = tmpa[tmpa['dates'] == date][cols].sum().astype(float).tolist()
+                    entries.append([date, datelabelyr[idd], region, ia] + deaths)
+                dfsave = dfsave.append(pd.DataFrame(np.array(entries), columns=colsave), ignore_index=True)
+
+##
+##            for year in years:
+##                cols = ['M_%d'%year, 'F_%d'%year, 'T_%d'%year]
+##                weeklabel = [i[:8] + '%d'%year + i[10:-2]+ '%d'%year for i in weeks]
+##                
+##                for iw, week in enumerate(weeks):
+##                    #if (cls == 2) & (week.split('/')[3] == '04'): continue                    
+##                    tmpw = tmpa[(tmpa['dates'] >= dates[iw][0]) & (tmpa['dates'] <= dates[iw][1])]
+##                    deaths = tmpw[cols].sum().astype(float).tolist()
+##                    entry = np.array([weeklabel[iw], region, ia] + deaths).reshape(1, -1)
+##                    dfsave = dfsave.append(pd.DataFrame(entry, columns=colsave), ignore_index=True)
+##                    
+    dfsave['age_group'] = dfsave['age_group'].astype(int) 
+    dfsave['male'] = dfsave['male'].astype(float) 
+    dfsave['female'] = dfsave['female'].astype(float) 
+    dfsave['total'] = dfsave['total'].astype(float)     
+
+    dfsave = dfsave.replace('Friuli-Venezia Giulia', 'Friuli Venezia Giulia')
+    dfsave = dfsave.replace("Valle d'Aosta/Vallée d'Aoste", "Valle d'Aosta")
+    dfsave.to_csv('../data//Italy/upto_june_end/regional_historic_mortality_daily.tsv', sep='\t', encoding='utf-8')
+
+
 
     
 
@@ -148,6 +230,7 @@ def pop_ratio(cls=1, poplim = None):
 
 if __name__=="__main__":
 
-    pop_ratio()
+    #pop_ratio()
+    regional_daily()
     #regional()
     
